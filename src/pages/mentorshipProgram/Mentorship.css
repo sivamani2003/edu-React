@@ -18,3 +18,8 @@
         border-top-left-radius: 100px !important;
         border-bottom-right-radius: 100px !important;
 } */
+
+.footer-bg{
+        background-image: url('../../assets/footer-bg.png');
+        /* color: #161616; */
+}
