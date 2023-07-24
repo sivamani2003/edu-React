@@ -1,14 +1,14 @@
 import React from 'react';
 import '../Mentorship.css'
-import refer_img from '../../../assets/Refer_img.png'
+import learn from '../../../assets/learn.svg'
 
 const Banner = () => {
         return (
                 <div className='pt-24 px-4'>
-                        <h1 className='text-3xl md:text-[70px] text-blue font-bold'>Learn,<span className='text-gradient'>Teach</span>,Earn</h1>
+                        <h1 className='text-3xl md:text-[70px] text-blue font-bold'>Learn,<span className='text-pink'>Teach</span>,Earn</h1>
                         <div className='flex flex-col md:flex-row-reverse mt-8'>
                                 <div className='md:w-1/2 relative md:-top-24 flex justify-center'>
-                                        <img className='w-[80%]' src={refer_img} alt="" />
+                                        <img className='w-[80%]' src={learn} alt="" />
                                 </div>
                                 <div className='md:w-1/2'>
                                         <h1 className='text-blue md:text-3xl mt-8 font-bold'>MENTORSHIP Program revolutionizes internships.</h1>
@@ -19,7 +19,7 @@ const Banner = () => {
                                                                 <input className='outline-none text-xl' type="email" name="" placeholder='Enter Email' />
                                                         </div>
                                                         <div className="pr-2 text-center">
-                                                                <button className='bg-gradient px-3 md:px-5 py-1 md:py-3 rounded-lg md:rounded-2xl relative hover:-top-3 hover:transition'>BECOME A TRAINER</button>
+                                                                <button className='bg-color px-3 md:px-5 py-1 md:py-3 rounded-lg md:rounded-2xl relative hover:-top-3 hover:transition'>BECOME A TRAINER</button>
                                                         </div>
                                                 </div>
                                         </form>

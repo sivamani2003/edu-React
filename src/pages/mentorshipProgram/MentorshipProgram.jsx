@@ -4,6 +4,7 @@ import Questions from './components/Questions';
 import WhyMentorship from './components/WhyMentorship';
 import HowWorks from './components/HowWorks';
 import Banner from './components/Banner';
+import LearnCode from './components/LearnCode';
 
 const MentorshipProgram = () => {
         return (
@@ -14,6 +15,10 @@ const MentorshipProgram = () => {
 
                         <div>
                                 <HowWorks></HowWorks>
+                        </div>
+
+                        <div className='mt-16'>
+                                <LearnCode></LearnCode>
                         </div>
 
                         <div className='my-20'>

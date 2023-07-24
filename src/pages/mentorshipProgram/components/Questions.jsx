@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../Mentorship.css'
-import FAQ from '../../../assets/FAQs-amico.png'
+import faq from '../../../assets/faq.svg'
 
 const Questions = () => {
 
@@ -21,17 +21,17 @@ const Questions = () => {
         return (
                 <div className='md:flex items-center'>
                         <div className='md:w-1/2 hidden md:block'>
-                                <img className='w-[80%]' src={FAQ} alt="" />
+                                <img className='w-[80%]' src={faq} alt="" />
                         </div>
                         <div className='md:w-1/2'>
                                 <div>
-                                        <h1 className='text-xl md:text-5xl text-blue font-bold flex justify-center mb-6'>Frequently Asked <span className='text-gradient ml-2'>Questions</span></h1>
+                                        <h1 className='text-xl md:text-5xl text-blue font-bold flex justify-center mb-6'>Frequently Asked <span className='text-pink ml-2'>Questions</span></h1>
                                 </div>
                                 <div>
                                         <details className="collapse bg-base-200">
                                                 <summary onClick={() => setToggle(!toggle)} className="collapse-title text-xl font-medium">
-                                                        <div className='flex justify-between hover:text-[#fb5021] px-4'>
-                                                                <p>Q1. I am not a student of BAOIAM. Can I still participate?</p>
+                                                        <div className='flex justify-between hover:text-[#ee4962] px-4'>
+                                                                <p>Q1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, doloremque??</p>
                                                                 {
                                                                         toggle ? <>{minus}</> : <>{plus}</>
                                                                 }
@@ -43,8 +43,8 @@ const Questions = () => {
                                         </details>
                                         <details className="collapse bg-base-200 my-4">
                                                 <summary onClick={() => setToggleOne(!toggleOne)} className="collapse-title text-xl font-medium">
-                                                        <div className='flex justify-between hover:text-[#fb5021] px-4'>
-                                                                <p>Q2. How can I track the status of my earning?</p>
+                                                        <div className='flex justify-between hover:text-[#ee4962] px-4'>
+                                                                <p>Q2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error, cupiditate??</p>
                                                                 {
                                                                         toggleOne ? <>{minus}</> : <>{plus}</>
                                                                 }
@@ -56,8 +56,8 @@ const Questions = () => {
                                         </details>
                                         <details className="collapse bg-base-200">
                                                 <summary onClick={() => setToggleTwo(!toggleTwo)} className="collapse-title text-xl font-medium">
-                                                        <div className='flex justify-between hover:text-[#fb5021] px-4'>
-                                                                <p>Q3. Who all can participate?</p>
+                                                        <div className='flex justify-between hover:text-[#ee4962] px-4'>
+                                                                <p>Q3. Lorem ipsum dolor sit amet consectetur.?</p>
                                                                 {
                                                                         toggleTwo ? <>{minus}</> : <>{plus}</>
                                                                 }

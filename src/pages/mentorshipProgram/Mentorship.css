@@ -1,18 +1,9 @@
-.text-gradient {
-        background: -webkit-linear-gradient(45deg, #fa2424, #fb8721);
-        -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;
-        border-bottom: 2px solid red;
+.text-pink {
+        color: #ee4962;
 }
 
-.bg-gradient {
-        background: -webkit-linear-gradient(45deg, #fa2424, #fb8721);
-        color: white;
-}
-
-.bg-gradient:hover {
-        background: -webkit-linear-gradient(45deg, #fb8721, #fa2424);
-        color: white;
+.bg-color {
+        background: #1ab79d
 }
 
 .text-blue {
@@ -23,7 +14,7 @@
         color: gray;
 }
 
-.myBorder{
+/* .myBorder{
         border-top-left-radius: 100px !important;
         border-bottom-right-radius: 100px !important;
-}
+} */
