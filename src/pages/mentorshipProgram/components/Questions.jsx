@@ -52,7 +52,7 @@ const Questions = () => {
                                 <div>
                                         <h1 className='text-xl md:text-5xl text-blue font-bold flex justify-center mb-6'>Frequently Asked <span className='text-pink ml-2'>Questions</span></h1>
                                 </div>
-                                <div>
+                                <div className='mx-5 md:mx-auto'>
                                         <div className='collapseContainer'>
                                                 <h1
                                                         className='flex p-2 items-center justify-between cursor-pointer'
@@ -67,7 +67,7 @@ const Questions = () => {
                                                         </article>
                                                 </div>
                                         </div>
-                                        <div className='collapseContainer my-8'>
+                                        <div className='collapseContainer my-4 md:my-8'>
                                                 <h1
                                                         className='flex p-2 items-center justify-between cursor-pointer'
                                                         onClick={toggleHandle2}>

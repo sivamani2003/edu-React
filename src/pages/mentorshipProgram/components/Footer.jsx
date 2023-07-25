@@ -5,7 +5,7 @@ import { FaArrowUp, FaFacebook, FaInstagramSquare, FaLinkedin, FaTwitter, FaYout
 const Footer = () => {
         return (
                 <div className='bg-[#161616]'>
-                        <footer className='md:flex md:py-28 md:px-10 footer-bg'>
+                        <footer className='md:flex md:py-28 p-4 md:px-10 footer-bg'>
                                 <div className='md:w-1/3 px-2 text-gray'>
                                         <div className='flex items-center mb-4'>
                                                 <img src={logo} alt="" />
