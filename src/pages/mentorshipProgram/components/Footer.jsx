@@ -6,7 +6,7 @@ const Footer = () => {
         return (
                 <div className='bg-[#161616]'>
                         <footer className='md:flex md:py-28 md:px-10 footer-bg'>
-                                <div className='md:w-1/4 mx-auto px-2 text-gray-400'>
+                                <div className='md:w-1/3 px-2 text-gray'>
                                         <div className='flex items-center mb-4'>
                                                 <img src={logo} alt="" />
                                         </div>
@@ -16,35 +16,36 @@ const Footer = () => {
                                         <p><span className='font-semibold'>Email:</span> info@eduweb.com</p>
                                 </div>
 
-                                <div className='md:w-1/4 mx-auto px-2 text-gray-400'>
-                                        <h1 className='text-lg md:text-3xl font-bold text-white mb-4'>Online Platform</h1>
-                                        <p>About</p>
-                                        <p>Courses</p>
-                                        <p>Instructor</p>
-                                        <p>Events</p>
-                                        <p>Instructor Profile</p>
-                                        <p>Purchase Guid</p>
+                                <div className='md:flex md:w-1/3 mx-auto'>
+                                        <div className='mx-auto px-2 text-gray'>
+                                                <h1 className='text-lg md:text-2xl font-bold text-white mb-4'>Online Platform</h1>
+                                                <p>About</p>
+                                                <p>Courses</p>
+                                                <p>Instructor</p>
+                                                <p>Events</p>
+                                                <p>Instructor Profile</p>
+                                                <p>Purchase Guid</p>
+                                        </div>
+
+                                        <div className='mx-auto px-2 text-gray'>
+                                                <h1 className='text-lg md:text-2xl font-bold text-white mb-4'>Links</h1>
+                                                <p>Contact Us</p>
+                                                <p>Gallery</p>
+                                                <p>News and Articles</p>
+                                                <p>FAQ's</p>
+                                                <p>Sign in/Register</p>
+                                                <p>Coming soon</p>
+                                        </div>
                                 </div>
 
-                                <div className='md:w-1/4 mx-auto px-2 text-gray-400'>
-                                        <h1 className='text-lg md:text-3xl font-bold text-white mb-4'>Links</h1>
-                                        <p>Contact Us</p>
-                                        <p>Gallery</p>
-                                        <p>News and Articles</p>
-                                        <p>FAQ's</p>
-                                        <p>Sign in/Register</p>
-                                        <p>Coming soon</p>
-                                </div>
-
-                                <div className='md:w-1/4 mx-auto px-2 text-gray-400'>
-                                        <h1 className='text-lg md:text-3xl font-bold text-white mb-4'>Contacts</h1>
+                                <div className='md:w-1/3 mx-auto px-2 text-gray'>
+                                        <h1 className='text-lg md:text-2xl font-bold text-white mb-4'>Contacts</h1>
                                         <p className='my-2'>Enter your email address to register to our newsletter subscription</p>
                                         <div className='md:flex gap-x-4'>
-                                                <input type="email" placeholder="Type here" className="input w-full max-w-xs" />
-                                                <button className='btn bg-transparent border-0 text-white hover:bg-[#1ab79d] flex items-center'>
-                                                        Subscribe
-                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-                                                                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                                <input type="email" placeholder="Your email" className="input w-full md:w-[350px]" />
+                                                <button className='allBtn px-[30px] bg-transparent py-[11px] rounded-[5px]'>Subscribe
+                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                                                <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
                                                         </svg>
                                                 </button>
                                         </div>

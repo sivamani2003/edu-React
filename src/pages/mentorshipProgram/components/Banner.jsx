@@ -14,12 +14,16 @@ const Banner = () => {
                                         <h1 className='text-blue md:text-3xl mt-8 font-bold'>MENTORSHIP Program revolutionizes internships.</h1>
                                         <h1 className='text-gray md:text-2xl mt-3'>We aim to empower learners to share their expertise and earn simultaneously.</h1>
                                         <form className='mt-12'>
-                                                <div className="rounded-2xl shadow-xl md:inline-flex md:items-center">
-                                                        <div className='px-7 py-5'>
-                                                                <input className='outline-none text-xl' type="email" name="" placeholder='Enter Email' />
+                                                <div className="inputAndBtn md:inline-flex items-center text-center">
+                                                        <div>
+                                                                <input className='px-[20px] py-[10px] outline-none text-xl text-center md:text-left' type="email" name="" placeholder='Enter Email' />
                                                         </div>
-                                                        <div className="pr-2 text-center">
-                                                                <button className='bg-color px-3 md:px-5 py-1 md:py-3 rounded-lg md:rounded-2xl relative hover:-top-3 hover:transition'>BECOME A TRAINER</button>
+                                                        <div className="email-btn">
+                                                                <button className='form-btn p-[12px] rounded-[10px]'>Become a trainer
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                                                                <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                                                                        </svg>
+                                                                </button>
                                                         </div>
                                                 </div>
                                         </form>
