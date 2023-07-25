@@ -11,15 +11,15 @@ const LearnCode = () => {
                                 <div className='relative'>
                                         <img className='w-[80%]' src={learnCode} alt="" />
                                         <div className='flex flex-col items-center absolute top-0 left-[30%]'>
-                                                <img className='h-12 w-12 hover:scale-[300%] transition' src={reactJS} alt="" />
+                                                <img className='h-12 w-12' src={reactJS} alt="" />
                                                 <span className='px-4 py-2 text-pink rounded-md shadow-2xl font-bold'>146+ Class</span>
                                         </div>
                                         <div className='flex flex-col items-center absolute top-[40%]'>
-                                                <img className='h-12 w-12 hover:scale-[300%] transition' src={JS} alt="" />
+                                                <img className='h-12 w-12' src={JS} alt="" />
                                                 <span className='px-4 py-2 text-pink rounded-md shadow-2xl font-bold'>146+ Class</span>
                                         </div>
                                         <div className='flex flex-col items-center absolute top-[40%] right-[20%]'>
-                                                <img className='h-12 w-12 hover:scale-[300%] transition' src={nodeJS} alt="" />
+                                                <img className='h-12 w-12' src={nodeJS} alt="" />
                                                 <span className='px-4 py-2 text-pink rounded-md shadow-2xl font-bold'>146+ Class</span>
                                         </div>
                                 </div>

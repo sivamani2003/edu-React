@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Mentorship.css'
-import thinking from '../../../assets/thinking.svg'
+import thinking from '../../../assets/Yes_or_no.png'
 
 const WhyMentorship = () => {
         return (

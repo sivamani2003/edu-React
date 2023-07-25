@@ -19,7 +19,7 @@
         background-image: url('../../assets/footer-bg.png');
 }
 
-.inputAndBtn {
+.inputAndBtn, .card-shadow {
         position: relative;
         box-shadow: 5px 5px 10px rgb(180, 174, 174);
         border-radius: 15px;

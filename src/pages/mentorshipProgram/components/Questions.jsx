@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../Mentorship.css'
-import faq from '../../../assets/faq.svg'
+import faq from '../../../assets/FAQs-amico.png'
 
 const Questions = () => {
 
