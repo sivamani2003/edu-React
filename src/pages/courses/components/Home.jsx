@@ -2,7 +2,7 @@ import React from 'react';
 import { FaSplotch } from "react-icons/fa";
 import '../Courses.css'
 import { BsArrowRight } from "react-icons/bs";
-import homeImg from '../../../assets/courses/home-img.jpg'
+import homeImg from '../../../assets/mentorship/first-section.svg'
 
 // #f5f2eb
 
@@ -21,7 +21,7 @@ const Home = () => {
                         <div className='animate-card triangle'></div>
                         <div className='md:flex'>
                                 <div className='md:w-1/2 z-10'>
-                                        <h1 className='text-xl md:text-4xl font-bold text-white'>Full Stack Web Development Course — MERN Stack</h1>
+                                        <h1 className='text-xl md:text-5xl font-bold text-white'>Full Stack Web Development Course — MERN Stack</h1>
                                         <p className='font-bold md:text-lg my-4 text-white'>for Beginners and Experienced Learners</p>
                                         <p className='text-gray'>Learn to build entire web applications from start to finish on one of the most versatile tech stacks : MongoDB, Express.js, React.js and Node.js (MERN stack)</p>
                                         <div className='flex items-center mt-3 gap-x-3'>
@@ -59,8 +59,8 @@ const Home = () => {
                                                 </div>
                                         </div>
                                 </div>
-                                <div className='hidden md:block md:w-1/2 blob-shape'>
-                                        <img src={homeImg} alt="" />
+                                <div className='hidden md:flex justify-center md:w-1/2 blob-shape'>
+                                        <img className='w-[70%]' src={homeImg} alt="" />
                                 </div>
                         </div>
                 </div>

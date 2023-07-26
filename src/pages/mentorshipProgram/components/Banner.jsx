@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../common.css'
 import { BsArrowRight } from "react-icons/bs";
-import learn from '../../../assets/Refer_img.png'
+import learn from '../../../assets/mentorship/Refer a friend-amico.png'
 
 const Banner = () => {
         return (

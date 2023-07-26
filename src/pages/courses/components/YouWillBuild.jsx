@@ -7,12 +7,12 @@ const YouWillBuild = () => {
                 <div className='project-section-bg mt-2'>
                         <div className='max-w-[1240px] mx-auto'>
                                 <div>
-                                        <div className='pt-8 px-3 text-pink'>
-                                                <h1 className='text-xl md:text-3xl font-bold'>MERN stack web development</h1>
-                                                <h1 className='mt-3 text-xl md:text-3xl font-bold'>Projects that you will build</h1>
+                                        <div className='pt-8 px-3 text-center'>
+                                                <h1 className='text-xl md:text-5xl font-bold'><span className='text-pink'>MERN stack</span> web development</h1>
+                                                <h1 className='mt-3 text-xl md:text-5xl font-bold'>Projects that you <span className='text-pink'>will build</span></h1>
                                         </div>
-                                        <div className='mt-2 grid md:grid-cols-3 gap-y-2 md:gap-y-8'>
-                                                <div className="card md:w-96 mx-4 md:px-0 card-shadow bg-[#fdf9fd]">
+                                        <div className='mt-4 grid md:grid-cols-3 gap-y-2 md:gap-y-8'>
+                                                <div className="card md:w-96 mx-6 md:px-0 card-shadow bg-[#fdf9fd]">
                                                         <figure className="px-6 pt-6">
                                                                 <img src="https://files.codingninjas.in/phone-26004.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
                                                         </figure>
@@ -24,7 +24,7 @@ const YouWillBuild = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div className="card md:w-96 mx-4 md:px-0 card-shadow bg-[#fdf9fd]">
+                                                <div className="card md:w-96 mx-6 md:px-0 card-shadow bg-[#fdf9fd]">
                                                         <figure className="px-6 pt-6">
                                                                 <img src="https://files.codingninjas.in/phone-26004.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
                                                         </figure>
@@ -36,7 +36,7 @@ const YouWillBuild = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div className="card md:w-96 mx-4 md:px-0 card-shadow bg-[#fdf9fd]">
+                                                <div className="card md:w-96 mx-6 md:px-0 card-shadow bg-[#fdf9fd]">
                                                         <figure className="px-6 pt-6">
                                                                 <img src="https://files.codingninjas.in/phone-26004.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
                                                         </figure>
@@ -48,7 +48,7 @@ const YouWillBuild = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div className="card md:w-96 mx-4 md:px-0 card-shadow bg-[#fdf9fd]">
+                                                <div className="card md:w-96 mx-6 md:px-0 card-shadow bg-[#fdf9fd]">
                                                         <figure className="px-6 pt-6">
                                                                 <img src="https://files.codingninjas.in/phone-26004.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
                                                         </figure>
@@ -60,7 +60,7 @@ const YouWillBuild = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div className="card md:w-96 mx-4 md:px-0 card-shadow bg-[#fdf9fd]">
+                                                <div className="card md:w-96 mx-6 md:px-0 card-shadow bg-[#fdf9fd]">
                                                         <figure className="px-6 pt-6">
                                                                 <img src="https://files.codingninjas.in/phone-26004.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
                                                         </figure>
@@ -72,7 +72,7 @@ const YouWillBuild = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div className="card md:w-96 mx-4 md:px-0 card-shadow bg-[#fdf9fd]">
+                                                <div className="card md:w-96 mx-6 md:px-0 card-shadow bg-[#fdf9fd]">
                                                         <figure className="px-6 pt-6">
                                                                 <img src="https://files.codingninjas.in/phone-26004.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
                                                         </figure>

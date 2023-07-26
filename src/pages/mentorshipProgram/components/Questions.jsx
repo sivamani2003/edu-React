@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import '../../common.css'
-import faq from '../../../assets/FAQs-amico.png'
+import faq from '../../../assets/mentorship/FAQ.png'
 
 const Questions = () => {
 

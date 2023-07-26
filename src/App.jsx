@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <Courses></Courses>
-      {/* <MentorshipProgram></MentorshipProgram> */}
+      <MentorshipProgram></MentorshipProgram>
     </div>
   );
 };
