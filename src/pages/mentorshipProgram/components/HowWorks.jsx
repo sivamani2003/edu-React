@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Mentorship.css'
+import '../../common.css'
 
 const HowWorks = () => {
         return (

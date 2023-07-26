@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Mentorship.css'
+import '../../common.css'
 import thinking from '../../../assets/Yes_or_no.png'
 
 const WhyMentorship = () => {

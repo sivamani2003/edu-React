@@ -1,5 +1,7 @@
 import React from 'react';
+import '../../common.css'
 import logo from '../../../assets/logo-light.svg'
+import { BsArrowRight } from "react-icons/bs";
 import { FaArrowUp, FaFacebook, FaInstagramSquare, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
@@ -43,10 +45,8 @@ const Footer = () => {
                                         <p className='my-2'>Enter your email address to register to our newsletter subscription</p>
                                         <div className='md:flex gap-x-4'>
                                                 <input type="email" placeholder="Your email" className="input w-full md:w-[350px]" />
-                                                <button className='allBtn px-[30px] bg-transparent py-[11px] rounded-[5px]'>Subscribe
-                                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                                                                <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
-                                                        </svg>
+                                                <button className='allBtn px-[30px] bg-transparent py-[11px]'>Subscribe
+                                                        <BsArrowRight></BsArrowRight>
                                                 </button>
                                         </div>
                                         <div className='flex items-center gap-x-8 mt-8'>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Mentorship.css'
+import '../common.css'
 import Questions from './components/Questions';
 import WhyMentorship from './components/WhyMentorship';
 import HowWorks from './components/HowWorks';

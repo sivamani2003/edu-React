@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import '../Mentorship.css'
+import '../../common.css'
 import faq from '../../../assets/FAQs-amico.png'
 
 const Questions = () => {

@@ -37,11 +37,13 @@ Button Hover
         font-weight: 400;
         overflow: hidden;
         display: flex;
+        padding: 13px 26px;
         align-items: center;
         column-gap: 5px;
         position: relative;
         background-color: #1ab79d;
         z-index: 1;
+        border-radius: 5px;
 }
 
 .form-btn {
