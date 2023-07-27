@@ -13,11 +13,11 @@ const Courses = () => {
                         <div>
                                 <YouWillBuild></YouWillBuild>
                         </div>
-                        <div className='max-w-[1240px] mx-auto'>
+                        <div className='max-w-[1400px] mx-auto'>
                                 <CourseHighlight></CourseHighlight>
                         </div>
 
-                        <div className='max-w-[1240px] mx-auto mt-12'>
+                        <div className='max-w-[1400px] mx-auto mt-12'>
                                 <WhyAndWhat></WhyAndWhat>
                         </div>
                 </div>
