@@ -89,6 +89,10 @@ Button Hover
         font-weight: 500;
 }
 
+.collapseContainer h1:hover{
+        color: #ee4962;
+}
+
 .collapseContainer article p{
         font-size: 16px;
         color: gray;

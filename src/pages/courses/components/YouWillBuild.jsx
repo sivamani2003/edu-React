@@ -6,7 +6,7 @@ import '../Courses.css'
 const YouWillBuild = () => {
         return (
                 <div className='project-section-bg mt-2'>
-                        <div className='max-w-[1240px] mx-auto'>
+                        <div>
                                 <div>
                                         <div className='pt-8 px-3 text-center'>
                                                 <h1 className='text-xl md:text-5xl font-bold'><span className='text-pink'>MERN stack</span> web development</h1>
