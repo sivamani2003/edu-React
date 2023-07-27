@@ -5,6 +5,7 @@ import YouWillBuild from './components/YouWillBuild';
 import WhyAndWhat from './components/WhyAndWhat';
 import TrainingWorks from './components/TrainingWorks';
 import Questions from './components/Questions';
+import MySwiper from './components/MySwiper';
 
 const Courses = () => {
         return (
@@ -29,6 +30,10 @@ const Courses = () => {
 
                         <div className='max-w-[1400px] mx-auto mt-12'>
                                 <Questions></Questions>
+                        </div>
+
+                        <div className='max-w-[1400px] mx-auto mt-12'>
+                                <MySwiper></MySwiper>
                         </div>
                 </div>
         );
