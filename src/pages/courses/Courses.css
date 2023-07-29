@@ -1,6 +1,6 @@
 .bg-animation {
         display: relative;
-        background-image: url(../../assets/courses/home-bg.svg);
+        background-image: url(../../assets/hero-bg.svg);
         height: 700px;
         background-size: cover;
         max-height: 100vh;
@@ -11,7 +11,7 @@
         border-radius: 5px;
         height: 40px;
         width: 40px;
-        background-color: #1ab79d;
+        background-color: rgb(250, 79, 250);
 }
 
 .bg-animation .triangle {
@@ -19,7 +19,7 @@
         width: 0;
         border-left: 20px solid transparent;
         border-right: 20px solid transparent;
-        border-bottom: 40px solid #1ab79d;
+        border-bottom: 40px solid rgb(245, 81, 245);
         background-color: transparent;
 }
 

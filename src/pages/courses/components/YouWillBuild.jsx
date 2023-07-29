@@ -13,7 +13,7 @@ const YouWillBuild = () => {
                                                 <h1 className='mt-3 text-xl md:text-5xl font-bold'>Projects that you <span className='text-pink'>will build</span></h1>
                                         </div>
                                         <div className='mt-4 grid md:grid-cols-3 gap-y-5 md:gap-y-8'>
-                                                <div className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
+                                                <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
                                                         <div className="pl-8 pt-4">
                                                                 <img src="https://files.codingninjas.in/phone-26004.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
                                                         </div>
@@ -25,7 +25,7 @@ const YouWillBuild = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
+                                                <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
                                                         <div className="pl-8 pt-4">
                                                                 <img src="https://files.codingninjas.in/ipod-project-9419.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
                                                         </div>
@@ -37,7 +37,7 @@ const YouWillBuild = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
+                                                <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
                                                         <div className="pl-8 pt-4">
                                                                 <img src="https://files.codingninjas.in/music-app-9425.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
                                                         </div>
@@ -49,7 +49,7 @@ const YouWillBuild = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
+                                                <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
                                                         <div className="pl-8 pt-4">
                                                                 <img src="https://files.codingninjas.in/cart2-1-26001.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
                                                         </div>
@@ -61,7 +61,7 @@ const YouWillBuild = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
+                                                <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
                                                         <div className="pl-8 pt-4">
                                                                 <img src="https://files.codingninjas.in/to-do-list-app-9421.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
                                                         </div>
@@ -73,7 +73,7 @@ const YouWillBuild = () => {
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
+                                                <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
                                                         <div className="pl-8 pt-4">
                                                                 <img src="https://files.codingninjas.in/ping-pong-game-26003.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
                                                         </div>
