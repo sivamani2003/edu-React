@@ -1,12 +1,14 @@
 import React from 'react';
 import MentorshipProgram from './pages/mentorshipProgram/MentorshipProgram';
 import Courses from './pages/courses/Courses';
+import Footer from './pages/footer/Footer'
 
 const App = () => {
   return (
     <div>
-      <Courses></Courses>
-      <MentorshipProgram></MentorshipProgram>
+      {/* <Courses></Courses>
+      <MentorshipProgram></MentorshipProgram> */}
+      <Footer></Footer>
     </div>
   );
 };

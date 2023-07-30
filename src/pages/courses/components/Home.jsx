@@ -21,7 +21,7 @@ const Home = () => {
                         <div className='animate-card triangle'></div>
                         <div className='md:flex items-center md:p-20'>
                                 <div className='md:w-1/2 z-10'>
-                                        <h1 className='text-2xl md:text-5xl font-bold text-black'>Full Stack Web Development Course — MERN Stack</h1>
+                                        <h1 className='text-2xl md:text-5xl font-bold text-black'>Full Stack Web Development Course — <span className='text-pink'>MERN Stack</span></h1>
                                         <p className='font-bold md:text-lg my-4 text-black'>for Beginners and Experienced Learners</p>
                                         <p className='text-black'>Learn to build entire web applications from start to finish on one of the most versatile tech stacks : MongoDB, Express.js, React.js and Node.js (MERN stack)</p>
                                         <div className='flex items-center mt-3 gap-x-3'>
