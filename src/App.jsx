@@ -1,4 +1,4 @@
-import React from 'react';
+
 import MentorshipProgram from './pages/mentorshipProgram/MentorshipProgram';
 import Courses from './pages/courses/Courses';
 
