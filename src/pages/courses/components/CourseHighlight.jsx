@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Courses.css'
 import { FaBusinessTime, FaCalendar, FaCertificate, FaGraduationCap, FaHandsHelping, FaLightbulb, FaPhoneAlt, FaProjectDiagram, FaUsers } from "react-icons/fa";
 
 const CourseHighlight = () => {

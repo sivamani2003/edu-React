@@ -4,15 +4,17 @@ import Courses from './pages/courses/Courses';
 import Footer from './pages/footer/Footer'
 import Hire from './pages/hire/components/Hire'
 import HireFromUs from './pages/hireFromUs/HireFromUs';
+import Skilled from './pages/Skilled/Skilled'
 
 const App = () => {
   return (
     <div>
-      {/* <Courses></Courses>
+      <Courses></Courses>
       <MentorshipProgram></MentorshipProgram>
       <Footer></Footer>
-      <Hire></Hire> */}
+      <Hire></Hire>
       <HireFromUs></HireFromUs>
+      <Skilled></Skilled>
     </div>
   );
 };

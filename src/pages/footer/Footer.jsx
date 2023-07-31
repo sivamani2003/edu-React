@@ -31,7 +31,7 @@ import {
                   <div className="input-field p-1 md:w-4/12">
                     <input type="text" placeholder="Enter Email" className="input w-full" />{" "}
                     <br />
-                    <button className="btn bg-[#13e27a] btn-form btn-md w-full">
+                    <button className="allBtn w-full flex justify-center">
                       Subscribe
                     </button>
                   </div>

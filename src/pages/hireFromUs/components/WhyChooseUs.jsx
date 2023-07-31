@@ -50,7 +50,7 @@ const WhyChooseUs = () => {
                                 </div>
                         </div>
 
-                        <div className='mt-12 mb-[600px]'>
+                        <div className='my-12'>
                                 <Swiper
                                         spaceBetween={30}
                                         centeredSlides={true}
