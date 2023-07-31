@@ -7,6 +7,10 @@ import 'swiper/css/navigation';
 import '../HireFromUs.css';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
+import one from '../../../assets/nodeJS.png'
+import two from '../../../assets/JS.png'
+import three from '../../../assets/reactJS.png'
+
 const WhyChooseUs = () => {
         return (
                 <div>
@@ -46,7 +50,7 @@ const WhyChooseUs = () => {
                                 </div>
                         </div>
 
-                        <div className='mt-12'>
+                        <div className='mt-12 mb-[600px]'>
                                 <Swiper
                                         spaceBetween={30}
                                         centeredSlides={true}
@@ -59,17 +63,47 @@ const WhyChooseUs = () => {
                                         }}
                                         navigation={true}
                                         modules={[Autoplay, Pagination, Navigation]}
-                                        className="mySwiper"
+                                        className="mySwiper card-shadow"
                                 >
-                                        <SwiperSlide>Slide 1</SwiperSlide>
-                                        <SwiperSlide>Slide 2</SwiperSlide>
-                                        <SwiperSlide>Slide 3</SwiperSlide>
-                                        <SwiperSlide>Slide 4</SwiperSlide>
-                                        <SwiperSlide>Slide 5</SwiperSlide>
-                                        <SwiperSlide>Slide 6</SwiperSlide>
-                                        <SwiperSlide>Slide 7</SwiperSlide>
-                                        <SwiperSlide>Slide 8</SwiperSlide>
-                                        <SwiperSlide>Slide 9</SwiperSlide>
+                                        <SwiperSlide>
+                                                <div className='md:flex md-p-8 items-center justify-center'>
+                                                        <div className='md:w-[20%] flex justify-center'>
+                                                                <div className='flex flex-col items-center justify-center'>
+                                                                        <img src={one} alt="" />
+                                                                        <p className='text-gray'>Senior Node.JS developer</p>
+                                                                </div>
+                                                        </div>
+                                                        <div className='md:w-[80%] mt-8 md:mt-0'>
+                                                                <p className='md:text-2xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, eum.</p>
+                                                        </div>
+                                                </div>
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                                <div className='md:flex md-p-8 items-center justify-center'>
+                                                        <div className='md:w-[20%] flex justify-center'>
+                                                                <div className='flex flex-col items-center justify-center'>
+                                                                        <img src={two} alt="" />
+                                                                        <p className='text-gray'>Senior JavaScript developer</p>
+                                                                </div>
+                                                        </div>
+                                                        <div className='md:w-[80%] mt-8 md:mt-0'>
+                                                                <p className='md:text-2xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, eum.</p>
+                                                        </div>
+                                                </div>
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                                <div className='md:flex md-p-8 items-center justify-center'>
+                                                        <div className='md:w-[20%] flex justify-center'>
+                                                                <div className='flex flex-col items-center justify-center'>
+                                                                        <img src={three} alt="" />
+                                                                        <p className='text-gray'>Senior React.JS developer</p>
+                                                                </div>
+                                                        </div>
+                                                        <div className='md:w-[80%] mt-8 md:mt-0'>
+                                                                <p className='md:text-2xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, eum.</p>
+                                                        </div>
+                                                </div>
+                                        </SwiperSlide>
                                 </Swiper>
                         </div>
 
