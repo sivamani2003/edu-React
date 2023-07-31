@@ -33,7 +33,7 @@ export default function Skilled() {
                 <p className="content">We are one of the leading UI/UX design, front-end development & backend development consultancy companies and are available for hire.</p>
                 <br />
                 <p className="content">Save at least <strong>40%</strong> of your cost than US & Europe.</p>
-                <button id="btn">Get a quote</button>
+                <button className="allBtn">Get a quote</button>
             </div>
         </div>
     </div>
