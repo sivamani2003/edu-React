@@ -111,12 +111,12 @@ import {
                     B Block Noida Sector 15 Uttar Pradesh
                   </a>
                 </div>
-                <div className="flex items-center gap-x-2">
+                <div className="flex items-center gap-x-2 my-3">
                   <FaRegEnvelope className="text-4xl p-2 bg-[#1ab79d] rounded-xl text-white"></FaRegEnvelope>
                   <a className="link link-hover">tutors@baoiam.com</a>
                 </div>
                 <div className="flex items-center gap-x-2">
-                  <FaPhoneAlt className="text-4xl p-2 mt-2 bg-[#1ab79d] rounded-xl text-white"></FaPhoneAlt>
+                  <FaPhoneAlt className="text-4xl p-2 bg-[#1ab79d] rounded-xl text-white"></FaPhoneAlt>
                   <a className="link link-hover">+91-9992754599</a>
                 </div>
                 <div className="flex text-4xl gap-x-4 relative mt-4">
