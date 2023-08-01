@@ -13,3 +13,91 @@
         height: 100px;
         object-fit: contain;
 }
+
+
+
+
+/* *
+Banner section
+*/
+
+.hire-circle {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color: #66fae1;
+        position: absolute;
+        top: 0;
+        left: 8%;
+}
+
+.hire-half-circle {
+        height: 80px;
+        width: 40px;
+        position: absolute;
+        background-color: #66fae1;
+        bottom: 10%;
+        left: 0;
+        border-radius: 0 40px 40px 0px;
+}
+
+
+.hire-img-shape {
+        background-image: url('../../assets/JS.png');
+        background-size: 60%;
+        background-position: center;
+        background-repeat: no-repeat;
+}
+
+.hire-imgOne {
+        height: 80px;
+        width: 80px;
+        background-color: #66fae1;
+        border-radius: 0 40px 0px 40px;
+}
+
+.hire-imgTwo {
+        height: 80px;
+        width: 40px;
+        background-color: #66fae1;
+        border-radius: 0 40px 40px 0px;
+}
+
+.hire-imgThree {
+        height: 80px;
+        width: 80px;
+        background-color: #66fae1;
+        border-radius: 40px 0px 0px 40px;
+}
+
+.hire-imgFour {
+        margin-top: 10px;
+        height: 80px;
+        width: 80px;
+        background-color: #66fae1;
+        border-radius: 40px 40px 40px 0px;
+}
+
+.hire-imgFive {
+        margin-top: 10px;
+        height: 80px;
+        width: 80px;
+        background-color: #66fae1;
+        border-radius: 40px 40px 0px 40px;
+}
+
+.hire-imgSix {
+        margin-top: 10px;
+        height: 80px;
+        width: 80px;
+        background-color: #66fae1;
+        border-radius: 0px 40px 40px 40px;
+}
+
+.hire-imgSeven {
+        margin-top: 10px;
+        height: 80px;
+        width: 80px;
+        background-color: #66fae1;
+        border-radius: 80px 0px 0px 0px;
+}

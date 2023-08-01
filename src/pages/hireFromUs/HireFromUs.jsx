@@ -1,10 +1,12 @@
 import React from 'react';
 import WhyChooseUs from './components/WhyChooseUs';
+import Banner from './components/Banner';
 
 const HireFromUs = () => {
         return (
-                <div className='max-w-7xl mx-auto'>
-                        <WhyChooseUs></WhyChooseUs>
+                <div>
+                        {/* <WhyChooseUs></WhyChooseUs> */}
+                        <Banner></Banner>
                 </div>
         );
 };
