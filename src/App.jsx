@@ -10,11 +10,11 @@ const App = () => {
   return (
     <div>
       <Courses></Courses>
-      {/* <MentorshipProgram></MentorshipProgram>
+      <MentorshipProgram></MentorshipProgram>
       <Footer></Footer>
       <Hire></Hire>
       <HireFromUs></HireFromUs>
-      <Skilled></Skilled> */}
+      <Skilled></Skilled>
     </div>
   );
 };
