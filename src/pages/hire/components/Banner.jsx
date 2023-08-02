@@ -28,15 +28,10 @@ const Banner = () => {
           <Reveal triggerOnce>
             <Bounce>
               <p className="pt-5 text-justify text-base lg:text-lg">
-                Discover top-notch product managers with extensive industry
-                experience, strategic vision, and a customer-centric approach.
-                Our agile leaders excel in cross-functional collaboration, using
-                data-driven insights for innovation. They ensure your products
-                outshine the competition, while passion for technology keeps you
-                ahead. Excellent communication skills guarantee seamless
-                coordination with stakeholders. Trust our experts to build your
-                dream product management team, driving unparalleled success in
-                today is competitive market. Contact us now to get started!
+                Get top-notch product managers with industry experience,
+                strategic vision, and a customer-centric approach. Agile leaders
+                skilled in cross-functional collaboration, data-driven insights,
+                and excellent communication. Contact us now!
               </p>
             </Bounce>
           </Reveal>
