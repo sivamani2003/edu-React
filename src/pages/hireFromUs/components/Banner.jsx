@@ -3,7 +3,7 @@ import '../HireFromUs.css'
 
 const Banner = () => {
     return (
-        <div className='max-w-[1800px] mx-auto bg-[#f5e4f5] relative z-0'>
+        <div className='max-w-[1800px] mx-auto bg-[#f7ebf7] relative z-0'>
             <div className='hire-circle md:top-[10%] md:left-[10%]'></div>
             <div className='hire-half-circle bottom-[50%] md:bottom-10'></div>
             

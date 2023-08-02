@@ -13,13 +13,13 @@ import three from '../../../assets/reactJS.png'
 
 const WhyChooseUs = () => {
         return (
-                <div>
+                <div className='max-w-7xl mx-auto'>
                         <div>
                                 <div className='text-center'>
                                         <h1 className='text-2xl md:text-5xl font-bold'>Why Choose Us</h1>
                                         <p className='text-xl mt-3'>Clients love our excellency & professionalism</p>
                                 </div>
-                                <div className='md:flex mt-8'>
+                                <div className='md:flex mt-8 md:mx-12'>
                                         <div className='card-shadow md:w-96 md:mx-0 mx-8 p-10'>
                                                 <div className='flex justify-between items-center mb-4'>
                                                         <FaUsers className='text-yellow-400 border-2 rounded-lg p-2 border-yellow-400' size={50}></FaUsers>

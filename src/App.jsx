@@ -9,7 +9,8 @@ import Skilled from './pages/skilled/Skilled'
 const App = () => {
   return (
     <div>
-      {/* <Courses></Courses>
+      {/* <Courses></Courses> */}
+      {/* 
       <MentorshipProgram></MentorshipProgram>
       <Footer></Footer>
       <Hire></Hire> */}
