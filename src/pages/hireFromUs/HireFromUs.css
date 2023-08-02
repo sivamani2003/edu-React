@@ -25,79 +25,150 @@ Banner section
         height: 80px;
         width: 80px;
         border-radius: 50%;
-        background-color: #66fae1;
+        background-color: #fadbf7;
         position: absolute;
-        top: 0;
-        left: 8%;
 }
 
 .hire-half-circle {
         height: 80px;
         width: 40px;
         position: absolute;
-        background-color: #66fae1;
-        bottom: 10%;
+        background-color: #fadbf7;
         left: 0;
         border-radius: 0 40px 40px 0px;
 }
 
 
 .hire-img-shape {
-        background-image: url('../../assets/JS.png');
         background-size: 60%;
         background-position: center;
         background-repeat: no-repeat;
 }
 
+
+/* same shape for four card */
+.sameOne {
+        height: 80px;
+        width: 80px;
+}
+
 .hire-imgOne {
-        height: 80px;
-        width: 80px;
-        background-color: #66fae1;
+        background-image: url('../../assets/react.svg');
+        background-color: rgb(199, 255, 255);
         border-radius: 0 40px 0px 40px;
-}
-
-.hire-imgTwo {
-        height: 80px;
-        width: 40px;
-        background-color: #66fae1;
-        border-radius: 0 40px 40px 0px;
-}
-
-.hire-imgThree {
-        height: 80px;
-        width: 80px;
-        background-color: #66fae1;
-        border-radius: 40px 0px 0px 40px;
-}
-
-.hire-imgFour {
-        margin-top: 10px;
-        height: 80px;
-        width: 80px;
-        background-color: #66fae1;
-        border-radius: 40px 40px 40px 0px;
 }
 
 .hire-imgFive {
         margin-top: 10px;
-        height: 80px;
-        width: 80px;
-        background-color: #66fae1;
+        background-color: #fadbf7;
         border-radius: 40px 40px 0px 40px;
 }
 
 .hire-imgSix {
         margin-top: 10px;
-        height: 80px;
-        width: 80px;
-        background-color: #66fae1;
+        background-color: #fadbf7;
         border-radius: 0px 40px 40px 40px;
 }
 
 .hire-imgSeven {
         margin-top: 10px;
-        height: 80px;
-        width: 80px;
-        background-color: #66fae1;
+        background-color: skyblue;
         border-radius: 80px 0px 0px 0px;
+}
+
+
+
+/* same shape for three card */
+.sameTwo {
+        height: 160px;
+        width: 160px;
+}
+
+.hire-imgTwo {
+        background-image: url('../../assets/react.svg');
+        width: 80px;
+        background-color: gray;
+        border-radius: 0 80px 80px 0px;
+}
+
+.hire-imgThree {
+        background-image: url('../../assets/react.svg');
+        background-color: rgb(203, 248, 248);
+        border-radius: 80px 0px 0px 80px;
+}
+
+.hire-imgFour {
+        background-image: url('../../assets/react.svg');
+        margin-top: 10px;
+        background-color: rgb(250, 131, 88);
+        border-radius: 80px 80px 80px 0px;
+}
+
+/* carousel */
+
+.swiper-slide {
+        text-align: center;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.swiper {
+        width: 100%;
+        height: 300px;
+        margin: 20px auto;
+}
+
+.swiper-button-next{
+        display: none !important;
+}
+.swiper-button-prev{
+        display: none !important;
+}
+
+
+@media (max-width: 768px) {
+
+        /* same shape for three card */
+        .sameTwo {
+                height: 120px;
+                width: 120px;
+        }
+
+        .hire-imgThree {
+                border-radius: 60px 0px 0px 60px;
+        }
+
+        .hire-imgFour {
+                margin-top: 10px;
+                border-radius: 60px 60px 60px 0px;
+        }
+
+        .hire-imgTwo {
+                width: 60px;
+                border-radius: 0 60px 60px 0px;
+        }
+
+        /* same shape for four card */
+        .sameOne {
+                height: 60px;
+                width: 60px;
+        }
+
+        .hire-imgOne {
+                border-radius: 0 30px 0px 30px;
+        }
+
+        .hire-imgFive {
+                border-radius: 30px 30px 0px 30px;
+        }
+
+        .hire-imgSix {
+                border-radius: 0px 30px 30px 30px;
+        }
+
+        .hire-imgSeven {
+                border-radius: 60px 0px 0px 0px;
+        }
 }
