@@ -120,10 +120,11 @@ Banner section
         margin: 20px auto;
 }
 
-.swiper-button-next{
+.swiper-button-next {
         display: none !important;
 }
-.swiper-button-prev{
+
+.swiper-button-prev {
         display: none !important;
 }
 
@@ -171,4 +172,123 @@ Banner section
         .hire-imgSeven {
                 border-radius: 60px 0px 0px 0px;
         }
+}
+
+
+
+/* Skilled section style */
+.h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+}
+
+.container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+
+.col-left {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 80px;
+}
+
+.cir {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: center;
+        padding: 20px 40px;
+}
+
+.cir2 {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 1px dotted grey;
+        border-radius: 360px;
+        padding: 20px 40px;
+        z-index: 1;
+}
+
+.cir-disc {
+        font-size: 16px;
+        font-weight: 400;
+        color: gray;
+}
+
+.col-right {
+        flex: 1;
+        margin-right: 205px;
+
+}
+
+.p {
+        font-size: 18px;
+}
+
+.circle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px;
+        height: 150px;
+        width: 150px;
+        border: 1px solid grey;
+        border-radius: 50%;
+        z-index: 2;
+        background-color: #fff;
+}
+
+
+
+.content {
+        font-size: 20px;
+        list-style: 0.5em;
+        font-weight: 400;
+        text-align: justify;
+}
+
+/* Meadia Quires */
+
+@media (max-width: 480px) {
+        .container {
+                flex-direction: column;
+        }
+
+        .col-left {
+                margin: 0;
+        }
+
+        .circle {
+                width: 120px;
+                height: 120px;
+        }
+
+        .cir2 {
+                width: 220px;
+                height: 220px;
+        }
+
+        h1 {
+                font-size: 1.5rem !important;
+                font-weight: 500 !important;
+        }
+
+        .col-right {
+                margin: 0;
+                padding: 50px;
+        }
+
+        .content {
+                font-size: 17px;
+        }
+
 }

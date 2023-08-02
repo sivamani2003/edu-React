@@ -1,14 +1,14 @@
 import React from 'react';
-import WhyChooseUs from './components/WhyChooseUs';
-import Banner from './components/Banner';
-import HiringPartners from './components/HiringPartners';
-import FAQS from './components/FAQS';
-import Partners from '../Partners/Partners'
-import NewsLetter from '../NewsLetter/NewsLetter'
-import Brands from '../../Najim/Brands'
-import Marketing from '../../Najim/Marketing'
-import Roles from '../../Najim/Roles'
-import Skilled from '../skilled/Skilled';
+import Banner from './components/Banner'
+import Partners from './components/Partners'
+import Brands from './components/Brands'
+import Marketing from './components/Marketing'
+import Roles from './components/Roles'
+import HiringPartners from './components/HiringPartners'
+import NewsLetter from './components/NewsLetter'
+import WhyChooseUs from './components/WhyChooseUs'
+import Skilled from './components/Skilled'
+import FAQS from './components/FAQS'
 
 const HireFromUs = () => {
         return (

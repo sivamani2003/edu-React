@@ -1,5 +1,5 @@
 import React from 'react'
-import './Skilled.css'
+import '../HireFromUs.css'
 
 export default function Skilled() {
   return (
@@ -27,7 +27,7 @@ export default function Skilled() {
                 </div>
             </div>
             <div className="col-right">
-                <h1 className="h1">Hire our <span className='text-pink'>experienced</span> & <span className='text-pink'>skilled</span> developers</h1>
+                <h1 className="text-lg md:text-5xl font-bold">Hire our <span className='text-pink'>experienced</span> & <span className='text-pink'>skilled</span> developers</h1>
                 <br />
                 <p className="content p">We are one of the leading UI/UX design, front-end development & backend development consultancy companies and are available for hire.</p>
                 <br />
