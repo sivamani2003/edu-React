@@ -84,16 +84,16 @@ Button Hover
         padding: 8px;
 }
 
-.collapseContainer h1{
+.collapseContainer h1 {
         font-size: 18px;
         font-weight: 500;
 }
 
-.collapseContainer h1:hover{
+.collapseContainer h1:hover {
         color: #ee4962;
 }
 
-.collapseContainer article p{
+.collapseContainer article p {
         font-size: 16px;
         color: gray;
 }

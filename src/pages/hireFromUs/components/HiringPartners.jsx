@@ -18,12 +18,18 @@ const HiringPartners = () => {
             <div>
                 <Swiper
                     onSwiper={setSwiperRef}
-                    slidesPerView={2}
+                    slidesPerView={1}
                     spaceBetween={30}
                     pagination={{ clickable: true, }}
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
+                    }}
+                    breakpoints={{
+                        768: {
+                            slidesPerView: 2,
+                            spaceBetween: 30,
+                        },
                     }}
                     loop={true}
                     speed={1000}

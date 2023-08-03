@@ -24,11 +24,11 @@ const Footer = () => {
                   <h1 className="text-4xl font-bold mb-2">
                     Subscribe us for the latest newsletter
                   </h1>
-                 
+
                   <p>
                     Expand your knowledge and skills by choosing the right mentor!
                   </p>
-                 
+
                 </div>
                 <div className="input-field p-1 md:w-4/12">
                   <input type="text" placeholder="Enter Email" className="input w-full" />{" "}
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
         {/* Form section end */}
 
-        <footer className="footer p-12  pt-36 text-base-content text-white bg-[#000] text-lg">
+        <footer className="footer p-12 flex justify-center pt-36 text-white bg-[#000] text-lg">
           <div className="grid gap-8 md:grid-cols-4">
             <div className="text-white">
               <span className="font-bold text-2xl">Quick Links</span>
@@ -113,12 +113,12 @@ const Footer = () => {
                   B Block Noida Sector 15 Uttar Pradesh
                 </a>
               </div>
-              <div className="flex items-center gap-x-2">
+              <div className="flex items-center gap-x-2 my-2">
                 <FaRegEnvelope className="text-4xl p-2 bg-[#1ab79d] rounded-xl text-white"></FaRegEnvelope>
                 <a className="link link-hover">tutors@baoiam.com</a>
               </div>
               <div className="flex items-center gap-x-2">
-                <FaPhoneAlt className="text-4xl p-2 mt-2 bg-[#1ab79d] rounded-xl text-white"></FaPhoneAlt>
+                <FaPhoneAlt className="text-4xl p-2 bg-[#1ab79d] rounded-xl text-white"></FaPhoneAlt>
                 <a className="link link-hover">+91-9992754599</a>
               </div>
               <div className="flex text-4xl gap-x-4 relative mt-4">
@@ -133,8 +133,8 @@ const Footer = () => {
         </footer>
       </div>
 
-      <div className="p-8 bg-gradient text-base-content">  
-          <p className="text-center text-white">Copyright © 2023 BAOIAM. All Rights Reserved</p>  
+      <div className="p-8 bg-gradient text-base-content">
+        <p className="text-center text-white">Copyright © 2023 BAOIAM. All Rights Reserved</p>
       </div>
 
     </div>

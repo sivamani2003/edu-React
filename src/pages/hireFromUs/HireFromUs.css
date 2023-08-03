@@ -17,15 +17,30 @@
 
 
 
-/* *
+/******
 Banner section
-*/
+******/
+.hire-banner-btn {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 0;
+        background-color: #1ab79d;
+        color: white;
+        padding: 4px 12px;
+}
+
+.hire-blur-text {
+        font-size: 32px;
+        color: transparent;
+        text-shadow: 0 0 8px #000;
+}
 
 .hire-circle {
         height: 80px;
         width: 80px;
         border-radius: 50%;
-        background-color: #fadbf7;
+        background-color: bisque;
         position: absolute;
 }
 
@@ -33,7 +48,7 @@ Banner section
         height: 80px;
         width: 40px;
         position: absolute;
-        background-color: #fadbf7;
+        background-color: bisque;
         left: 0;
         border-radius: 0 40px 40px 0px;
 }
@@ -104,7 +119,11 @@ Banner section
         border-radius: 80px 80px 80px 0px;
 }
 
-/* carousel */
+
+
+/* ***** 
+carousel style
+***** */
 
 .swiper-slide {
         text-align: center;
@@ -176,7 +195,9 @@ Banner section
 
 
 
-/* Skilled section style */
+/******
+Skilled section style
+ ******/
 .h1 {
         font-size: 2.5rem;
         font-weight: bold;

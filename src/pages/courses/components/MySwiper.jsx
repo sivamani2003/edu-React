@@ -24,7 +24,7 @@ const MySwiper = () => {
         };
 
         return (
-                <div className='md:mx-96 mx-5 md:mt-24'>
+                <div className='max-w-7xl md:mx-[25%] mx-5 md:mt-24'>
                         <h1 className='text-2xl md:text-5xl font-bold text-center'><span className='text-pink'>Reviews</span> From Students</h1>
                         <h3 className='text-xl md:text-3xl font-bold text-center mb-24 md:mb-12'>Average Rating : 4.5</h3>
                         <div>
@@ -63,7 +63,7 @@ const MySwiper = () => {
                                                         </div>
                                                 </SwiperSlide>
                                         </Swiper>
-                                        <div className='absolute -top-[80px] md:top-[8%] z-10 left-28 md:-left-36 shadow-2xl p-4 md:p-8 rounded-[15px]'>
+                                        <div className='absolute top-0 md:top-1/2 left-1/2 md:left-0  transform -translate-x-1/2 -translate-y-1/2 z-10 shadow-2xl p-4 md:p-8 rounded-[15px] flex items-center'>
                                                 <img
                                                         src={slideImages[currentSlide]}
                                                         alt={`Slide ${currentSlide + 1}`}

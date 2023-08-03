@@ -1,4 +1,5 @@
 import Banner from "./Banner";
+import { FaHandHoldingMedical } from "react-icons/fa";
 
 import Mindset from "./Mindset";
 import Verifying from "./Verifying";
