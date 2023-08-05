@@ -5,15 +5,17 @@ import Footer from './pages/footer/Footer'
 import Hire from './pages/hire/components/Hire'
 import HireFromUs from './pages/hireFromUs/HireFromUs';
 import Skilled from './pages/hireFromUs/components/Skilled'
+import OtherCourse from './pages/othersCourse/OtherCourse';
 
 const App = () => {
   return (
     <div>
-      <Courses></Courses>
+      {/* <Courses></Courses> */}
       {/* <MentorshipProgram></MentorshipProgram> */}
       {/* <Footer></Footer> */}
       {/* <Hire></Hire> */}
       {/* <HireFromUs></HireFromUs> */}
+      <OtherCourse></OtherCourse>
     </div>
   );
 };
