@@ -6,6 +6,7 @@ import logo from '../../assets/navbar/logo.svg'
 import mern from '../../assets/navbar/mern-stack.svg'
 import cProgram from '../../assets/navbar/c-language.svg'
 import './Navbar.css'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -70,7 +71,7 @@ const Navbar = () => {
                                                             <div className="flex items-center justify-between">
                                                                 <img src="https://files.codingninjas.com/Group-2.svg" alt=""></img>
                                                                 <p className="childdropbtn pl-4">Data structures and algorithms</p>
-                                                                <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img>
+                                                                {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">
                                                                 <p className="sub-heading">Data structures and algorithms</p>
@@ -101,7 +102,7 @@ const Navbar = () => {
                                                             <div className="flex items-center justify-between">
                                                                 <img src="https://files.codingninjas.com/Group%203738.svg" alt=""></img>
                                                                 <p className="childdropbtn pl-4">Competitive Programming</p>
-                                                                <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img>
+                                                                {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">
                                                                 <p className="sub-heading">Competitive Programming</p>
@@ -120,7 +121,7 @@ const Navbar = () => {
                                                             <div className="flex items-center justify-between">
                                                                 <img src="https://files.codingninjas.com/interview-prep-old-11731.svg" alt=""></img>
                                                                 <p className="childdropbtn pl-5">Interview Preparation</p>
-                                                                <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img>
+                                                                {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">
                                                                 <p className="sub-heading">Goal Based</p>
@@ -164,7 +165,7 @@ const Navbar = () => {
                                                             <div className="flex items-center justify-between">
                                                                 <img src="https://files.codingninjas.com/Group.svg" alt=""></img>
                                                                 <p className="childdropbtn pl-5">Analytics & Data Science</p>
-                                                                <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img>
+                                                                {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">
                                                                 <p className="sub-heading">Analytics
@@ -195,10 +196,12 @@ const Navbar = () => {
 
                                                     <div>
                                                         <div className="childdropdown">
-                                                            <div className="flex items-center justify-between">
+                                                            <div className="flex items-center gap-x-3">
                                                                 <img src="https://files.codingninjas.com/Group-3.svg" alt=""></img>
-                                                                <p className="childdropbtn pl-5">Web Development</p>
-                                                                <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img>
+                                                                {/* <p className="childdropbtn pl-5">Web Development</p> */}
+                                                                {/* <p className="childdropbtn pl-5">Web Development</p> */}
+                                                                <Link to="/courses"><p className="childdropbtn">Web Development</p></Link>
+                                                                {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">
                                                                 <p className="sub-heading">Full Stack</p>
@@ -226,7 +229,7 @@ const Navbar = () => {
                                                                     alt=""></img>
                                                                 <p className="childdropbtn pl-5">Career Camp <br /> <span className="text-gray-500 text-[14px]">An
                                                                     extensive job assistance bootcamp</span> </p>
-                                                                <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img>
+                                                                {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">
                                                                 <div>
@@ -390,9 +393,6 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-end flex gap-x-10">
-                    <div className='cursor-pointer hover:text-[#1ab79d]'>
-                        <RiSearchLine size={25}></RiSearchLine>
-                    </div>
                     <button className="allBtn py-2 px-4 flex items-center gap-x-1">
                         Login
                         <BsArrowRight></BsArrowRight>

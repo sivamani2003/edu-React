@@ -14,10 +14,10 @@ const App = () => {
       <Navbar></Navbar>
       {/* <Courses></Courses> */}
       {/* <MentorshipProgram></MentorshipProgram> */}
+      {/* <OtherCourse></OtherCourse> */}
       {/* <Footer></Footer> */}
       {/* <Hire></Hire> */}
       {/* <HireFromUs></HireFromUs> */}
-      {/* <OtherCourse></OtherCourse> */}
     </div>
   );
 };

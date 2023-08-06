@@ -26,12 +26,14 @@
     display: block;
 }
 
-.childdropdown:hover .childdropdown-content {
+/* .childdropdown:hover .childdropdown-content {
     display: block;
-}
+    z-index: 40;
+} */
 
 .courseDropdown:hover .courseDropdown-content {
     display: block !important;
+    z-index: 40;
 }
 
 
@@ -160,6 +162,7 @@
 
 .practice:hover .practice-content {
     display: block;
+    z-index: 40;
 }
 
 /* *
@@ -207,6 +210,7 @@
 /* Show the dropdown menu on hover */
 .dropdown1:hover .dropdown-content1 {
     display: block;
+    z-index: 40;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
