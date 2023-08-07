@@ -11,6 +11,8 @@ import Android from '../../pages/courses/android/Android'
 // Mentorship
 import MentorshipProgram from '../../pages/mentorshipProgram/MentorshipProgram'
 
+import OtherCourses from '../../pages/othersCourse/OtherCourse'
+
 const router = createBrowserRouter([
     {
         path: "/",
@@ -45,6 +47,10 @@ const router = createBrowserRouter([
             {
                 path: '/mentorship',
                 element: <MentorshipProgram></MentorshipProgram>
+            },
+            {
+                path: '/other',
+                element: <OtherCourses></OtherCourses>
             },
         ]
     },

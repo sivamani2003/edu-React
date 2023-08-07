@@ -70,8 +70,8 @@ const Navbar = () => {
                                                         <div className="childdropdown">
                                                             <div className="flex items-center gap-x-3">
                                                                 <img src="https://files.codingninjas.com/Group-2.svg" alt=""></img>
-                                                                <Link to="/dsa"><p className="childdropbtn">Data structures and algorithms</p></Link>
-                                                                {/* <p className="childdropbtn pl-4">Data structures and algorithms</p> */}
+                                                                {/* <Link to="/dsa"><p className="childdropbtn">Data structures and algorithms</p></Link> */}
+                                                                <p className="childdropbtn pl-4">Data structures and algorithms</p>
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">
@@ -165,9 +165,10 @@ const Navbar = () => {
 
                                                     <div>
                                                         <div className="childdropdown">
-                                                            <div className="flex items-center justify-between">
+                                                            <div className="flex items-center gap-x-3">
                                                                 <img src="https://files.codingninjas.com/Group.svg" alt=""></img>
-                                                                <p className="childdropbtn pl-5">Analytics & Data Science</p>
+                                                                {/* <p className="childdropbtn pl-5">Analytics & Data Science</p> */}
+                                                                <Link to="/dsa"><p className="childdropbtn">Analytics & Data Science</p></Link>
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">
