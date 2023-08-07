@@ -3,12 +3,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import '../Courses.css'
+import '../../Courses.css'
 import { Mousewheel, Pagination } from 'swiper/modules';
 
-import one from '../../../assets/FAQs-amico.png'
-import two from '../../../assets/nodeJS.png'
-import three from '../../../assets/reactJS.png'
+import one from '../../../../assets/FAQs-amico.png'
+import two from '../../../../assets/nodeJS.png'
+import three from '../../../../assets/reactJS.png'
 
 
 const slideImages = [

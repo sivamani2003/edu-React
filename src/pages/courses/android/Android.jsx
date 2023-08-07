@@ -7,7 +7,8 @@ import TrainingWorks from './components/TrainingWorks';
 import Questions from './components/Questions';
 import MySwiper from './components/MySwiper';
 
-const Courses = () => {
+
+const Android = () => {
         return (
                 <div>
                         <div>
@@ -39,4 +40,4 @@ const Courses = () => {
         );
 };
 
-export default Courses;
+export default Android;

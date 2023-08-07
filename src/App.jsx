@@ -1,6 +1,6 @@
 
 import MentorshipProgram from './pages/mentorshipProgram/MentorshipProgram';
-import Courses from './pages/courses/Courses';
+import Courses from './pages/courses/mern/Mern';
 import Footer from './pages/footer/Footer'
 import Hire from './pages/hire/components/Hire'
 import HireFromUs from './pages/hireFromUs/HireFromUs';

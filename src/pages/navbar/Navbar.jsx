@@ -25,9 +25,9 @@ const Navbar = () => {
                             <li><a>Mentorship</a></li>
                         </ul>
                     </div>
-                    <a className="normal-case text-xl">
+                    <Link to="/" className="normal-case text-xl">
                         <img src={logo} alt="" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <div className="menu-horizontal px-1">
@@ -68,9 +68,10 @@ const Navbar = () => {
                                                 <div>
                                                     <div className="mt-8">
                                                         <div className="childdropdown">
-                                                            <div className="flex items-center justify-between">
+                                                            <div className="flex items-center gap-x-3">
                                                                 <img src="https://files.codingninjas.com/Group-2.svg" alt=""></img>
-                                                                <p className="childdropbtn pl-4">Data structures and algorithms</p>
+                                                                <Link to="/dsa"><p className="childdropbtn">Data structures and algorithms</p></Link>
+                                                                {/* <p className="childdropbtn pl-4">Data structures and algorithms</p> */}
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">
@@ -99,9 +100,10 @@ const Navbar = () => {
 
                                                     <div>
                                                         <div className="childdropdown">
-                                                            <div className="flex items-center justify-between">
+                                                            <div className="flex items-center gap-x-3">
                                                                 <img src="https://files.codingninjas.com/Group%203738.svg" alt=""></img>
-                                                                <p className="childdropbtn pl-4">Competitive Programming</p>
+                                                                <Link to="/android"><p className="childdropbtn">Android Development</p></Link>
+                                                                {/* <p className="childdropbtn pl-4">Competitive Programming</p> */}
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">
@@ -118,9 +120,10 @@ const Navbar = () => {
 
                                                     <div>
                                                         <div className="childdropdown">
-                                                            <div className="flex items-center justify-between">
+                                                            <div className="flex items-center gap-x-3">
                                                                 <img src="https://files.codingninjas.com/interview-prep-old-11731.svg" alt=""></img>
-                                                                <p className="childdropbtn pl-5">Interview Preparation</p>
+                                                                {/* <p className="childdropbtn pl-5">Interview Preparation</p> */}
+                                                                <Link to="/python"><p className="childdropbtn">Python Development</p></Link>
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">
@@ -200,7 +203,7 @@ const Navbar = () => {
                                                                 <img src="https://files.codingninjas.com/Group-3.svg" alt=""></img>
                                                                 {/* <p className="childdropbtn pl-5">Web Development</p> */}
                                                                 {/* <p className="childdropbtn pl-5">Web Development</p> */}
-                                                                <Link to="/courses"><p className="childdropbtn">Web Development</p></Link>
+                                                                <Link to="/mern"><p className="childdropbtn">MERN stack Development</p></Link>
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">
@@ -379,13 +382,14 @@ const Navbar = () => {
 
 
                             <li className="">
-                                <a href="#">
+                                <div>
                                     <div className="flex items-center gap-x-2 hover:text-[#0bb09f]">
                                         <img src="https://www.codingninjas.com/assets-landing/icons/header-cc-partner.svg" alt=""></img>
-                                        <p>Mentorship Program</p>
+                                        {/* <p>Mentorship Program</p> */}
+                                        <Link to="mentorship"><p>Mentorship Program</p></Link>
                                         <button className="mentorshipBtn">new</button>
                                     </div>
-                                </a>
+                                </div>
                             </li>
 
 

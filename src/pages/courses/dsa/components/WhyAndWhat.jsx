@@ -1,6 +1,6 @@
 import React from 'react';
-import why from '../../../assets/courses/why.jpg'
-import what from '../../../assets/courses/what.jpg'
+import why from '../../../../assets/courses/why.jpg'
+import what from '../../../../assets/courses/what.jpg'
 
 const WhyAndWhat = () => {
         return (
@@ -8,14 +8,14 @@ const WhyAndWhat = () => {
                         <div>
                                 <div className="md:flex">
                                         <div data-aos="zoom-in" className="md:w-1/2 px-3 md:pl-16">
-                                                <h1 className="text-2xl md:text-5xl font-bold">Why <span className='text-pink'>learn</span> web development?</h1> <br />
+                                                <h1 className="text-2xl md:text-5xl font-bold">Why <span className='text-pink'>learn</span> Data Science?</h1> <br />
                                                 <div className='pl-20 md:pl-0'>
-                                                        <h3 className="text-xl md:text-2xl font-bold">Build Awesome Websites</h3>
-                                                        <p className="mt-1 md:mt-2 text-gray">Mark Zuckerberg built Facebook. Sachin Bansal <br /> built Flipkart. What will you build?</p> <br />
-                                                        <h3 className="text-xl md:text-2xl font-bold">Be in demand</h3>
-                                                        <p className="mt-1 md:mt-2 text-gray">With 1.7 billion websites on the internet, it is one of the hottest career options with an average fresher salary of 6 LPA for full stack developers according to Glassdoor.</p> <br />
-                                                        <h3 className="text-xl md:text-2xl font-bold">Eat-Sleep-Code-Repeat</h3>
-                                                        <p className="mt-1 md:mt-2 text-gray">Be it rain or sunshine, coding is always on your mind.</p>
+                                                        <h3 className="text-xl md:text-2xl font-bold">Unleash Data Insights</h3>
+                                                        <p className="mt-1 md:mt-2 text-gray">Learn Data Science to derive valuable insights, make informed decisions, and tell stories from data.</p> <br />
+                                                        <h3 className="text-xl md:text-2xl font-bold">Thriving Demand in the Job Market</h3>
+                                                        <p className="mt-1 md:mt-2 text-gray">Data Science skills are highly sought after by companies across industries, opening doors to rewarding careers.</p> <br />
+                                                        <h3 className="text-xl md:text-2xl font-bold">Fuel Your Analytical Creativity</h3>
+                                                        <p className="mt-1 md:mt-2 text-gray">Data Science empowers you to creatively explore data, identify patterns, and make data-driven decisions.</p>
                                                 </div>
                                         </div>
                                         <div data-aos="zoom-in" className='hidden md:w-1/2 md:flex justify-center'>

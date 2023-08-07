@@ -1,8 +1,8 @@
 import React from 'react';
 import { FaSplotch } from "react-icons/fa";
-import '../Courses.css'
+import '../../Courses.css'
 import { BsArrowRight } from "react-icons/bs";
-import homeImg from '../../../assets/mentorship/first-section.svg'
+import homeImg from '../../../../assets/mentorship/first-section.svg'
 
 // #f5f2eb
 
@@ -21,9 +21,9 @@ const Home = () => {
                         <div className='animate-card triangle'></div>
                         <div className='md:flex items-center md:p-20'>
                                 <div className='md:w-1/2 z-10'>
-                                        <h1 className='text-2xl md:text-5xl font-bold text-black'>Full Stack Web Development Course — <span className='text-pink'>MERN Stack</span></h1>
+                                        <h1 className='text-2xl md:text-5xl font-bold text-black'>Android Development Course - <span className='text-pink'>Kotlin</span></h1>
                                         <p className='font-bold md:text-lg my-4 text-black'>for Beginners and Experienced Learners</p>
-                                        <p className='text-black'>Learn to build entire web applications from start to finish on one of the most versatile tech stacks : MongoDB, Express.js, React.js and Node.js (MERN stack)</p>
+                                        <p className='text-black'>Learn to build powerful Android applications from scratch using the latest technologies and tools available in the Android ecosystem.</p>
                                         <div className='flex items-center mt-3 gap-x-3'>
                                                 <p className='text-lg font-bold text-black'>4.5</p>
                                                 <div className='flex items-center gap-x-1 text-orange-500'>

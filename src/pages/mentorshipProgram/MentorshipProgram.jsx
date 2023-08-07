@@ -5,7 +5,6 @@ import WhyMentorship from './components/WhyMentorship';
 import HowWorks from './components/HowWorks';
 import Banner from './components/Banner';
 import LearnCode from './components/LearnCode';
-import Footer from './components/Footer';
 
 const MentorshipProgram = () => {
         return (
@@ -22,10 +21,6 @@ const MentorshipProgram = () => {
                                         <WhyMentorship></WhyMentorship>
                                 </div>
                                 <Questions></Questions>
-                        </div>
-
-                        <div className='mt-16'>
-                                <Footer></Footer>
                         </div>
                 </div>
         );
