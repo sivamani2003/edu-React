@@ -1,5 +1,5 @@
 .platform_page {
-    background-color: hsl(36, 33%, 94%);
+    background-color: #f5f1eb;
     clip-path: polygon(0% 15%, 0% 100%, 50% 100%, 100% 100%, 100% 15%, 50% 0%);
     display: flex;
     align-items: center;
