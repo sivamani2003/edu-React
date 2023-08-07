@@ -63,7 +63,7 @@ const MySwiper = () => {
                                                         </div>
                                                 </SwiperSlide>
                                         </Swiper>
-                                        <div className='absolute -top-[80px] md:top-[8%] z-10 left-28 md:-left-36 shadow-2xl p-4 md:p-8 rounded-[15px]'>
+                                        <div className='absolute top-0 md:top-1/2 left-1/2 md:left-0  transform -translate-x-1/2 -translate-y-1/2 z-10 shadow-2xl p-4 md:p-8 rounded-[15px] flex items-center'>
                                                 <img
                                                         src={slideImages[currentSlide]}
                                                         alt={`Slide ${currentSlide + 1}`}

@@ -25,7 +25,7 @@ const NewsBlogs = () => {
                     }
                 }}
                 modules={[FreeMode, Pagination]}
-                className="mySwiper"
+                className="NewsBlogs"
             >
                 <SwiperSlide>
                     <div className="card news-blogs-card-shadow">

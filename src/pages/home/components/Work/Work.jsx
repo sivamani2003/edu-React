@@ -8,7 +8,7 @@ import {
   
   const Work = () => {
     return (
-      <div className="w-full max-w-7xl mx-auto">
+      <div className="w-full max-w-7xl mx-auto my-10 md:my-14">
         <h1 className="text-center font-bold text-5xl">How we <span className="text-[#ee4962] underline">work?</span></h1>
         <p className="text-center my-4 mb-8">
           Revolutionize the era of learning by creating high-quality content

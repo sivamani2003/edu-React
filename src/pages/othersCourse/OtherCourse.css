@@ -1,9 +1,10 @@
 /********************** 
       Slider styles
 **********************/
-.swiper {
+
+.NewsBlogs{
     width: 100%;
-    height: 500px !important;
+    height: 500px;
     padding-bottom: 10px;
 }
 
