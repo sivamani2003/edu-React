@@ -20,8 +20,8 @@ const Home = () => {
                 <CardBase></CardBase>
             </div>
             <div>
-                <Work></Work>
                 <MeetOurExp></MeetOurExp>
+                <Work></Work>
             </div>
         </div>
     );
