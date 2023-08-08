@@ -16,16 +16,22 @@ const Navbar = () => {
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Courses</a></li>
+                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[5] p-2 shadow bg-base-100 rounded-box">
                             <li><a>Scholarship</a></li>
                             <li><a>Community</a></li>
-                            <li><a>Price</a></li>
+                            <li><a>Courses</a>
+                                <ul className="p-2">
+                                    <li><Link to="/android">Android Development</Link></li>
+                                    <li><Link to="/python">Python Development</Link></li>
+                                    <li><Link to="/analytics">Analytics and data science</Link></li>
+                                    <li><Link to="/mern">MERN stack Development</Link></li>
+                                    <li><Link to="/mern">Data structures and algorithms</Link></li>
+                                </ul></li>
                             <li><a>Mentorship</a></li>
                         </ul>
                     </div>
                     <Link to="/">
-                        <img className='h-[120%]' src="https://i.ibb.co/7K6G6dS/W-2-removebg-preview.png" alt="" />
+                        <img className='h-[120%]' src="https://i.ibb.co/NCCL3wb/W-3-removebg-preview.png" alt="" />
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">

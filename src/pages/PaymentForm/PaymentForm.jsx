@@ -29,7 +29,7 @@ const PaymentForm = () => {
             setTimer(
                 'QR Code is valid for ' +
                 (minutes > 9 ? minutes : '0' + minutes) + ':'
-                + (seconds > 9 ? seconds : '0' + seconds) + ' minutes'
+                + (seconds > 9 ? seconds : '0' + seconds) + ' minute'
             )
         }
 
@@ -41,7 +41,7 @@ const PaymentForm = () => {
     }
 
     const clearTimer = (e) => {
-        setTimer('00:10');
+        setTimer('10:00');
 
         if (Ref.current) clearInterval(Ref.current);
         const id = setInterval(() => {
@@ -52,7 +52,7 @@ const PaymentForm = () => {
     const getDeadTime = () => {
         let deadline = new Date();
 
-        deadline.setSeconds(deadline.getSeconds() + 10);
+        deadline.setSeconds(deadline.getSeconds() + 600);
         return deadline;
     }
     useEffect(() => {
@@ -71,12 +71,12 @@ const PaymentForm = () => {
                 <div className="w-full lg:w-6/12 lg:text-left  text-black">
                     <div className="flex items-center mb-8">
                         <div className="border-4 border-slate-500"><img src="https://i.ibb.co/X4q0YGv/1633933253987.jpg" className="h-16 w-20" alt="Writo" /></div>
-                        <h4 className="ms-4 text-xl font-semibold">Pregrad</h4>
+                        <h4 className="ms-4 text-xl font-semibold">WRITO</h4>
                     </div>
                     <h3 className="text-3xl text-[#0d2366] font-semibold">Pre-Graduation Program <br /> Enrollment</h3> <br />
                     <hr className="bg-green-500 w-10 h-2" /> <br />
                     <h1 className="text-xl font-semibold">Hey Learner!</h1>
-                    <p>Finally that you're here give us a high-five! This is the Pre-final step to get into the Pre-Graduation  Program (Live Online Course) and to start the learning journey and career with Pregrad.</p> <br />
+                    <p>Finally that you're here give us a high-five! This is the Pre-final step to get into the Pre-Graduation  Program (Live Online Course) and to start the learning journey and career with WRITO.</p> <br />
                     <h1 className="text-xl font-semibold">Fee breakup</h1>
                     <p>This is the Pre-enrollment fee, Our Support team will get in touch with you for remaining fee that has to be paid within 3-4 days of Pre-enrollment. Note- You'll be receiving all further intimations over your WhatsApp.</p> <br />
                     <br />
@@ -86,7 +86,7 @@ const PaymentForm = () => {
                     <br />
 
                     <h1 className="text-xl font-semibold">Terms & Conditions:</h1>
-                    <p>Course fee once Paid is not refundable for more details visit <a className="text-blue-500" href="">https://pregrad.in/refund_returns/</a></p>
+                    <p>Course fee once Paid is not refundable for more details visit <a className="text-blue-500" href=""></a></p>
                     <p className="mt-4">You agree to share information entered on this page with Pregrad (owner of this page) and Razorpay, adhering to applicable laws.</p>
                     <hr className="mt-8 h-2" />
 

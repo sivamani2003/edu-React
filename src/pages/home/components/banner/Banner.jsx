@@ -6,17 +6,24 @@ import banner1 from '../../../../assets/home/hero-banner-1.jpg'
 import banner2 from '../../../../assets/home/hero-banner-2.jpg'
 import banner3 from '../../../../assets/home/contact.jpg'
 
-const Banner = () => {
+const Banner = ({ courses }) => {
+
+    const handleCourses = () => {
+        courses.current?.scrollIntoView({ behavior: 'smooth' });
+    }
+
     return (
         <div className='banner-bg'>
             <div className='md:flex items-center px-4 py-10 md:px-24 md:py-16 max-w-[1400px] md:mx-auto'>
                 <div className='md:w-1/2 px-10 md:px-0'>
                     <h1 className='text-5xl font-bold'>The Best Program to <span className='text-pink'>Enroll</span> for Exchange</h1>
                     <p className='text-lg mt-8'>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.</p>
-                    <button className='allBtn mt-4 flex items-center gap-x-1'>
-                        Find Courses
-                        <BsArrowRight></BsArrowRight>
-                    </button>
+                    <a href="#findCourse">
+                        <button onClick={handleCourses} className='allBtn mt-4 flex items-center gap-x-1'>
+                            Find Courses
+                            <BsArrowRight></BsArrowRight>
+                        </button>
+                    </a>
                 </div>
                 <div className='md:w-1/2 home-banner-right flex flex-col items-center justify-center'>
                     <div className='flex my-10 md:my-0 md:relative top-10'>

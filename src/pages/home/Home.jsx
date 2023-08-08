@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import MeetOurExp from './components/expertsPage/MeetOurExp';
 import Platform from './components/platformPage/Platform';
 import Section from './components/Section/Section';
@@ -8,15 +8,17 @@ import Card from './components/card/Card';
 import Work from './components/Work/Work';
 
 const Home = () => {
+
+    const courses = useRef(null)
     return (
         <div>
             <div>
-                <Banner></Banner>
+                <Banner courses={courses}></Banner>
                 <Section></Section>
             </div>
             <div className='max-w-7xl mx-auto'>
                 <Platform></Platform>
-                <Card></Card>
+                <Card title={''} ref={courses}></Card>
                 <CardBase></CardBase>
             </div>
             <div>

@@ -1,50 +1,63 @@
 import React from 'react';
 import { FaLongArrowAltRight } from "react-icons/fa";
 
-const Card = () => {
+const Card = ({ title }, courses) => {
     return (
-        <div className='my-6'>
+        <div ref={courses} className='my-6'>
             <h1 className='text-center text-lg md:text-5xl font-bold'>Recommended <br /> <span className='text-pink'>Courses</span></h1>
-            <div className='mt-4 grid md:grid-cols-3 gap-y-5 md:gap-y-8'>
-                <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                    <div className="pl-8 pt-4">
-                        <img src="https://files.codingninjas.in/phone-26004.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
+            <div className='mt-4 md:flex gap-x-10 space-y-4 md:space-y-0'>
+
+                <div className="card card-compact md:w-1/2 mx-8 md:mx-auto course-card-shadow">
+                    <div className="flex flex-col md:flex-row items-center justify-center md:justify-between md:mx-10 pt-4">
+                        <h2 className='text-5xl font-bold'>JavaScript</h2>
+                        <img src="https://miro.medium.com/v2/resize:fit:1400/1*LyZcwuLWv2FArOumCxobpA.png" alt="Shoes" className="my-2 md:my-0 rounded-xl md:w-[200px] h-[100px] md:h-[150px]" />
                     </div>
                     <div className='card-body'>
-                        <h2 className="card-title my-2">PhotoFolio</h2>
-                        <p>Build an Android app that allows users to create and showcase their photography portfolio. Users can upload, organize, and share their digital photos with the world.</p>
-                        <div>
-                            <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
+                        <p className='md:px-4 font-semibold text-[18px]'>Build an Android app that allows users to create and showcase their photography portfolio. Users can upload, organize, and share their digital photos with the world.</p>
+                        <div className='flex justify-between md:px-10 py-2 text-lg'>
+                            <div className='flex flex-col'>
+                                <p>Duration: 3 month</p>
+                                <p>projects: 10</p>
+                            </div>
+                            <div className='flex flex-col'>
+                                <p>1:1 mentorship</p>
+                                <p>Price: 12k</p>
+                            </div>
+                        </div>
+                        <div className='flex justify-center'>
+                            <button className="allBtn text-lg bg-[#1ab79d] text-white font-bold">Explore more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                    <div className="pl-8 pt-4">
-                        <img src="https://files.codingninjas.in/ipod-project-9419.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
+
+
+
+                <div className="card card-compact md:w-1/2 mx-8 md:mx-auto course-card-shadow">
+                    <div className="flex flex-col md:flex-row items-center justify-center md:justify-between md:mx-10 pt-4">
+                        <h2 className='text-5xl font-bold'>Python</h2>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT70j4FrMvxHJ2kXCaNIBNEdHPhsmBfNhpoJu4RP-dODiMzteZR2_bfxJz4FQEokzqToLg&usqp=CAU" alt="Shoes" className="my-2 md:my-0 rounded-xl md:w-[200px] h-[100px] md:h-[150px]" />
                     </div>
                     <div className='card-body'>
-                        <h2 className="card-title my-2">iPod</h2>
-                        <p>Build an Android app for playing and managing music tracks with a sleek design and easy-to-use controls.</p>
-                        <div className='card-actions'>
-                            <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
+                        <p className='md:px-4 font-semibold text-[18px]'>Build an Android app that allows users to create and showcase their photography portfolio. Users can upload, organize, and share their digital photos with the world.</p>
+                        <div className='flex justify-between md:px-10 py-2 text-lg'>
+                            <div className='flex flex-col'>
+                                <p>Duration: 3 month</p>
+                                <p>projects: 10</p>
+                            </div>
+                            <div className='flex flex-col'>
+                                <p>1:1 mentorship</p>
+                                <p>Price: 12k</p>
+                            </div>
+                        </div>
+                        <div className='flex justify-center'>
+                            <button className="allBtn text-lg bg-[#1ab79d] text-white font-bold">Explore more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
                         </div>
                     </div>
                 </div>
-                <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                    <div className="pl-8 pt-4">
-                        <img src="https://files.codingninjas.in/music-app-9425.svg" alt="Shoes" className="rounded-xl w-[100px] h-[100px]" />
-                    </div>
-                    <div className='card-body'>
-                        <h2 className="card-title my-2">Music Player</h2>
-                        <p>Create a sleek Android music player inspired by Spotify/Youtube Music with custom design and controls.</p>
-                        <div>
-                            <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     );
 };
 
-export default Card;
+export default React.forwardRef(Card);

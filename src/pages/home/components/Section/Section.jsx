@@ -13,6 +13,8 @@ function Section() {
             <p className="sub-child-2">Great students deserve the best jobs</p>
             <p className="sub-child-3">Writo Education Makes it Happen...</p>
           </div>
+          
+          
           <div className="container-child-2">
             <div className="hexagon-box-1">
               <div className="poster-box-1">
