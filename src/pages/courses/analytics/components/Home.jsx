@@ -3,6 +3,7 @@ import { FaSplotch } from "react-icons/fa";
 import '../../Courses.css'
 import { BsArrowRight } from "react-icons/bs";
 import homeImg from '../../../../assets/mentorship/first-section.svg'
+import { Link } from 'react-router-dom';
 
 // #f5f2eb
 
@@ -36,7 +37,9 @@ const Home = () => {
                                                 <p className='text-lg font-semibold text-black'>(2K+ students)</p>
                                         </div>
                                         <div className='flex items-center gap-x-2 mt-4'>
-                                                <button className='allBtn'>Enroll now <BsArrowRight></BsArrowRight></button>
+                                                <Link to="/paymentForm">
+                                                        <button className='allBtn'>Enroll now <BsArrowRight></BsArrowRight></button>
+                                                </Link>
                                                 <button className='allBtn bg-transparent text-black'>Try for free <BsArrowRight></BsArrowRight></button>
                                         </div>
                                         <hr className='my-4 w-2/3 border-[1px]' />

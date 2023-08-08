@@ -11,6 +11,9 @@ import Analytics from "../../pages/courses/analytics/Analytics";
 // Mentorship
 import MentorshipProgram from '../../pages/mentorshipProgram/MentorshipProgram'
 
+// PaymentForm
+import PaymentForm from '../../pages/PaymentForm/PaymentForm'
+
 import OtherCourses from '../../pages/othersCourse/OtherCourse'
 
 const router = createBrowserRouter([
@@ -51,6 +54,12 @@ const router = createBrowserRouter([
             {
                 path: '/other',
                 element: <OtherCourses></OtherCourses>
+            },
+
+            // payment form route
+            {
+                path: '/paymentForm',
+                element: <PaymentForm></PaymentForm>
             },
         ]
     },
