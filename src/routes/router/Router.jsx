@@ -7,6 +7,7 @@ import Mern from '../../pages/courses/mern/Mern'
 import Python from '../../pages/courses/python/Python'
 import Android from '../../pages/courses/android/Android'
 import Analytics from "../../pages/courses/analytics/Analytics";
+import Dsa from "../../pages/courses/dsa/Dsa";
 
 // Mentorship
 import MentorshipProgram from '../../pages/mentorshipProgram/MentorshipProgram'
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
             {
                 path: '/android',
                 element: <Android></Android>
+            },
+            {
+                path: '/dsa',
+                element: <Dsa></Dsa>
             },
 
 

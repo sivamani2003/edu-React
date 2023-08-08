@@ -9,8 +9,8 @@ const Card = ({ title }, courses) => {
 
                 <div className="card card-compact md:w-1/2 mx-8 md:mx-auto course-card-shadow">
                     <div className="flex flex-col md:flex-row items-center justify-center md:justify-between md:mx-10 pt-4">
-                        <h2 className='text-5xl font-bold'>JavaScript</h2>
-                        <img src="https://miro.medium.com/v2/resize:fit:1400/1*LyZcwuLWv2FArOumCxobpA.png" alt="Shoes" className="my-2 md:my-0 rounded-xl md:w-[200px] h-[100px] md:h-[150px]" />
+                        <h2 className='text-3xl font-bold'>Data structure & Algorithms in C++</h2>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZPlQdcU3r56DSWZFNqXCrvtnsHoAokvvpZtBLh7t1SOQ5ZeK8KywnwhPvu6xyZhyxMp0&usqp=CAU" alt="Shoes" className="my-2 md:my-0 rounded-xl md:w-[200px] h-[100px] md:h-[150px]" />
                     </div>
                     <div className='card-body'>
                         <p className='md:px-4 font-semibold text-[18px]'>Build an Android app that allows users to create and showcase their photography portfolio. Users can upload, organize, and share their digital photos with the world.</p>
@@ -34,8 +34,8 @@ const Card = ({ title }, courses) => {
 
                 <div className="card card-compact md:w-1/2 mx-8 md:mx-auto course-card-shadow">
                     <div className="flex flex-col md:flex-row items-center justify-center md:justify-between md:mx-10 pt-4">
-                        <h2 className='text-5xl font-bold'>Python</h2>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT70j4FrMvxHJ2kXCaNIBNEdHPhsmBfNhpoJu4RP-dODiMzteZR2_bfxJz4FQEokzqToLg&usqp=CAU" alt="Shoes" className="my-2 md:my-0 rounded-xl md:w-[200px] h-[100px] md:h-[150px]" />
+                        <h2 className='text-3xl font-bold'>MERN Stack</h2>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaXbZmeZg8sRK1fCQgz-LlX63veR4Oov7DcMW1Eeh2qHjk1TZYTt1GHSuMeM1qSnEtvmo&usqp=CAU" alt="Shoes" className="my-2 md:my-0 rounded-xl md:w-[200px] h-[100px] md:h-[150px]" />
                     </div>
                     <div className='card-body'>
                         <p className='md:px-4 font-semibold text-[18px]'>Build an Android app that allows users to create and showcase their photography portfolio. Users can upload, organize, and share their digital photos with the world.</p>

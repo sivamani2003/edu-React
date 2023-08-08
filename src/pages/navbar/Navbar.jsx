@@ -5,7 +5,7 @@ import { BsArrowRight } from "react-icons/bs";
 import mern from '../../assets/navbar/mern-stack.svg'
 import cProgram from '../../assets/navbar/c-language.svg'
 import './Navbar.css'
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -16,18 +16,18 @@ const Navbar = () => {
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[5] p-2 shadow bg-base-100 rounded-box">
+                        <ul tabIndex={0} className="menu dropdown-content mt-3 z-[5] p-2 shadow bg-base-100 rounded-box">
                             <li><a>Scholarship</a></li>
                             <li><a>Community</a></li>
                             <li><a>Courses</a>
                                 <ul className="p-2">
-                                    <li><Link to="/android">Android Development</Link></li>
-                                    <li><Link to="/python">Python Development</Link></li>
-                                    <li><Link to="/analytics">Analytics and data science</Link></li>
-                                    <li><Link to="/mern">MERN stack Development</Link></li>
-                                    <li><Link to="/mern">Data structures and algorithms</Link></li>
+                                    <li><NavLink to="/android" className={({ isActive }) => (isActive ? 'bg-blue-500' : '')}>Android Development</NavLink></li>
+                                    <li><NavLink to="/python" className={({ isActive }) => (isActive ? 'bg-blue-500' : '')}>Python Development</NavLink></li>
+                                    <li><NavLink to="/analytics" className={({ isActive }) => (isActive ? 'bg-blue-500' : '')}>Analytics and data science</NavLink></li>
+                                    <li><NavLink to="/mern" className={({ isActive }) => (isActive ? 'bg-blue-500' : '')}>MERN stack Development</NavLink></li>
+                                    <li><NavLink to="/dsa" className={({ isActive }) => (isActive ? 'bg-blue-500' : '')}>Data structures and algorithms</NavLink></li>
                                 </ul></li>
-                            <li><a>Mentorship</a></li>
+                            <li><NavLink to="/mentorship" className={({ isActive }) => (isActive ? 'bg-blue-500' : '')}>Mentorship</NavLink></li>
                         </ul>
                     </div>
                     <Link to="/">
@@ -75,8 +75,8 @@ const Navbar = () => {
                                                         <div className="childdropdown">
                                                             <div className="flex items-center gap-x-3">
                                                                 <img src="https://files.codingninjas.com/Group-2.svg" alt=""></img>
-                                                                {/* <Link to="/dsa"><p className="childdropbtn">Data structures and algorithms</p></Link> */}
-                                                                <p className="childdropbtn pl-4">Data structures and algorithms</p>
+                                                                <Link to="/dsa"><p className="childdropbtn">Data structures and algorithms</p></Link>
+                                                                {/* <p className="childdropbtn pl-4">Data structures and algorithms</p> */}
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">
