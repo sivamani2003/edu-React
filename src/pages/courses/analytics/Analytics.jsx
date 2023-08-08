@@ -8,7 +8,7 @@ import Questions from './components/Questions';
 import MySwiper from './components/MySwiper';
 
 
-const Dsa = () => {
+const Analytics = () => {
         return (
                 <div>
                         <div>
@@ -40,4 +40,4 @@ const Dsa = () => {
         );
 };
 
-export default Dsa;
+export default Analytics;

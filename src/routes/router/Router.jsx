@@ -5,8 +5,8 @@ import Home from "../../pages/home/Home";
 // Courses
 import Mern from '../../pages/courses/mern/Mern'
 import Python from '../../pages/courses/python/Python'
-import Dsa from '../../pages/courses/dsa/Dsa'
 import Android from '../../pages/courses/android/Android'
+import Analytics from "../../pages/courses/analytics/Analytics";
 
 // Mentorship
 import MentorshipProgram from '../../pages/mentorshipProgram/MentorshipProgram'
@@ -34,8 +34,8 @@ const router = createBrowserRouter([
                 element: <Python></Python>
             },
             {
-                path: '/dsa',
-                element: <Dsa></Dsa>
+                path: '/analytics',
+                element: <Analytics></Analytics>
             },
             {
                 path: '/android',

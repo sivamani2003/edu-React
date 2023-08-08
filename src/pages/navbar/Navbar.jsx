@@ -168,7 +168,7 @@ const Navbar = () => {
                                                             <div className="flex items-center gap-x-3">
                                                                 <img src="https://files.codingninjas.com/Group.svg" alt=""></img>
                                                                 {/* <p className="childdropbtn pl-5">Analytics & Data Science</p> */}
-                                                                <Link to="/dsa"><p className="childdropbtn">Analytics & Data Science</p></Link>
+                                                                <Link to="/analytics"><p className="childdropbtn">Analytics & Data Science</p></Link>
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
                                                             </div>
                                                             <div className="childdropdown-content p-4">

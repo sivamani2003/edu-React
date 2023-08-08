@@ -1,6 +1,7 @@
 import React from "react";
 import "./Style.css";
 
+
 function Section() {
   const url = "https://files.codingninjas.com/group-4457-9843.svg";
   return (
@@ -42,6 +43,19 @@ function Section() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="image-box-X1">
+          <img
+            src={url}
+            alt="blur"
+          ></img>
+        </div>
+        <div className="image-box-X2">
+          <img
+            src={url}
+            alt="blur"
+          ></img>
+          <img src="group.svg" alt="blur"></img>
         </div>
       </div>
     </>
