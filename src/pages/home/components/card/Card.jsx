@@ -9,7 +9,7 @@ const Card = ({ title }, courses) => {
 
                 <div className="card card-compact md:w-1/2 mx-8 md:mx-auto course-card-shadow">
                     <div className="flex flex-col md:flex-row items-center justify-center md:justify-between md:mx-10 pt-4">
-                        <h2 className='text-3xl font-bold'>Data structure & Algorithms in C++</h2>
+                        <h2 className='text-2xl text-center md:text-start md:text-3xl font-bold'>Data structure & Algorithms in C++</h2>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZPlQdcU3r56DSWZFNqXCrvtnsHoAokvvpZtBLh7t1SOQ5ZeK8KywnwhPvu6xyZhyxMp0&usqp=CAU" alt="Shoes" className="my-2 md:my-0 rounded-xl md:w-[200px] h-[100px] md:h-[150px]" />
                     </div>
                     <div className='card-body'>
@@ -34,7 +34,7 @@ const Card = ({ title }, courses) => {
 
                 <div className="card card-compact md:w-1/2 mx-8 md:mx-auto course-card-shadow">
                     <div className="flex flex-col md:flex-row items-center justify-center md:justify-between md:mx-10 pt-4">
-                        <h2 className='text-3xl font-bold'>MERN Stack</h2>
+                        <h2 className='text-2xl md:text-3xl font-bold'>MERN Stack</h2>
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaXbZmeZg8sRK1fCQgz-LlX63veR4Oov7DcMW1Eeh2qHjk1TZYTt1GHSuMeM1qSnEtvmo&usqp=CAU" alt="Shoes" className="my-2 md:my-0 rounded-xl md:w-[200px] h-[100px] md:h-[150px]" />
                     </div>
                     <div className='card-body'>

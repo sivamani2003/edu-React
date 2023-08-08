@@ -109,17 +109,17 @@ const Footer = () => {
               <hr className="w-1/2 h-[3px] bg-[#1ab79d] my-3" />
               <div className="flex items-center gap-x-2">
                 <FaHome className="text-4xl p-2 bg-[#1ab79d] rounded-xl text-white"></FaHome>
-                <a className="link link-hover">
-                  B Block Noida Sector 15 Uttar Pradesh
+                <a className="link link-hover text-[15px]">
+                  Janata College Road, Anantpur, Madhya Pradesh - India
                 </a>
               </div>
               <div className="flex items-center gap-x-2 my-2">
                 <FaRegEnvelope className="text-4xl p-2 bg-[#1ab79d] rounded-xl text-white"></FaRegEnvelope>
-                <a className="link link-hover">tutors@baoiam.com</a>
+                <a className="link link-hover">ravinder@writo.in</a>
               </div>
               <div className="flex items-center gap-x-2">
                 <FaPhoneAlt className="text-4xl p-2 bg-[#1ab79d] rounded-xl text-white"></FaPhoneAlt>
-                <a className="link link-hover">+91-9992754599</a>
+                <a className="link link-hover">+9518889372</a>
               </div>
               <div className="flex text-4xl gap-x-4 relative mt-4">
                 <FaFacebookF className="bg-[#1ab79d] cursor-pointer p-2 rounded-xl text-white hover:bg-white hover:duration-700"></FaFacebookF>

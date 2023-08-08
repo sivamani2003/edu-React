@@ -34,9 +34,9 @@ const PaymentForm = () => {
         }
 
         else {
-            
+
             setTimer('The previous QR Code got expired');
-            clearInterval(Ref.current); 
+            clearInterval(Ref.current);
         }
     }
 
@@ -81,8 +81,8 @@ const PaymentForm = () => {
                     <p>This is the Pre-enrollment fee, Our Support team will get in touch with you for remaining fee that has to be paid within 3-4 days of Pre-enrollment. Note- You'll be receiving all further intimations over your WhatsApp.</p> <br />
                     <br />
                     <h3 className="text-xl font-semibold">Contact Us:</h3>
-                    <p className="flex items-center gap-x-1"><FaVoicemail></FaVoicemail> info@gmail.com</p>
-                    <p className="flex items-center gap-x-1"><FaPhoneAlt />info@gmail.com</p>
+                    <p className="flex items-center gap-x-1"><FaVoicemail></FaVoicemail> ravinder@writo.in</p>
+                    <p className="flex items-center gap-x-1"><FaPhoneAlt />+9518889372</p>
                     <br />
 
                     <h1 className="text-xl font-semibold">Terms & Conditions:</h1>
@@ -173,7 +173,7 @@ const PaymentForm = () => {
                                 <QRCode
                                     size={200}
                                     style={{ height: "auto", maxWidth: "100%", width: "100%" }}
-                                    value='Sir Mujhe pizza Chaiyee -Written by Emran'
+                                    value='upi://pay?pa=writoeducationpvtltd@oksbi&pn=Writo%20education%20pvt%20ltd&am=1180.00&cu=INR&aid=uGICAgMCysemQXg'
                                     viewBox={`0 0 100 256`}
                                 />
                             </div>
