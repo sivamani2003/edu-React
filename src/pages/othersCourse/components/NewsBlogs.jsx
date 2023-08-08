@@ -30,7 +30,7 @@ const NewsBlogs = () => {
                 <SwiperSlide>
                     <div className="card news-blogs-card-shadow">
                         <figure>
-                            <img src="http://www.baoiam.com/images/blog1.jpg" />
+                            <img src="https://contentstatic.techgig.com/photo/77313069/top-20-programming-languages-used-for-web-development.jpg?119426" />
                         </figure>
                         <div className='relative'>
                             <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-red-500 absolute bottom-0 flex items-center justify-center gap-x-4'>
@@ -39,7 +39,7 @@ const NewsBlogs = () => {
                             </div>
                         </div>
                         <div className="card-body">
-                            <p className='text-xl font-bold text-[#47476e] text-left'>Product development is not a course to learn, its an arts.</p>
+                            <p className='text-xl font-bold text-[#47476e] text-left'>Product development is not a course to learn, its an arts. And so...</p>
                             <div className='text-left text-[#47476e] font-semibold'>
                                 <div className='flex justify-between'>
                                     <div className='flex flex-col'>
@@ -61,7 +61,7 @@ const NewsBlogs = () => {
                 <SwiperSlide>
                     <div className="card news-blogs-card-shadow">
                         <figure>
-                            <img src="http://www.baoiam.com/images/blog2.jpg" />
+                            <img src="https://www.freecodecamp.org/news/content/images/2022/08/A6125B75-DB79-4448-94C9-E6ABD3E0E3E9.jpeg" />
                         </figure>
                         <div className='relative'>
                             <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-red-500 absolute bottom-0 flex items-center justify-center gap-x-4'>
@@ -70,7 +70,7 @@ const NewsBlogs = () => {
                             </div>
                         </div>
                         <div className="card-body">
-                            <p className='text-xl font-bold text-[#47476e] text-left'>The ERA on Enterpreneurship: How You can be the Next Success Story</p>
+                            <p className='text-xl font-bold text-[#47476e] text-left'>The ERA on Enterpreneurship: How You can be the Next Success...</p>
                             <div className='text-left text-[#47476e] font-semibold'>
                                 <div className='flex justify-between'>
                                     <div className='flex flex-col'>
@@ -92,7 +92,7 @@ const NewsBlogs = () => {
                 <SwiperSlide>
                     <div className="card news-blogs-card-shadow">
                         <figure>
-                            <img src="http://www.baoiam.com/images/blog3.jpg" />
+                            <img src="https://d1y8sb8igg2f8e.cloudfront.net/images/Internship_Inequity.2e16d0ba.fill-1200x630.jpg" />
                         </figure>
                         <div className='relative'>
                             <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-red-500 absolute bottom-0 flex items-center justify-center gap-x-4'>

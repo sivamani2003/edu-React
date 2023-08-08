@@ -134,7 +134,7 @@ const Footer = () => {
       </div>
 
       <div className="p-8 bg-gradient text-base-content">
-        <p className="text-center text-white">Copyright © 2023 BAOIAM. All Rights Reserved</p>
+        <p className="text-center text-white">Copyright © 2023 WRITO. All Rights Reserved</p>
       </div>
 
     </div>

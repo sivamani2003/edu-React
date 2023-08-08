@@ -48,7 +48,7 @@ function MeetOurExp() {
         <div className='moe_page xl:px-36'>
             <div className='expert_heading' >
                 <h1 className='lg:w-6/12 text-4xl font-bold'>Meet Our Experts</h1>
-                <p className='lg:w-6/12 text-base lg:px-14 expert_heading-text'>BAOIAM students get mentored by the industry experts who have achieved mastery in their respective domains & are passionate about helping
+                <p className='lg:w-6/12 text-base lg:px-14 expert_heading-text'>WRITO students get mentored by the industry experts who have achieved mastery in their respective domains & are passionate about helping
                     students achieve their dreams.</p>
             </div>
             <div className='experts_container my-10 w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth'>

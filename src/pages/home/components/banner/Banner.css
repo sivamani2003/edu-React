@@ -20,11 +20,17 @@
     border-bottom-right-radius: 70px;
 }
 
+.banner3 {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
 @media (min-width: 640px) {
     .home-banner-right {
         background-image: url(.././../../../assets/home/hero-shape-2.png);
     }
 }
+
 @media (max-width: 640px) {
     .banner1 {
         border-top-right-radius: 60px;

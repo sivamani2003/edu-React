@@ -85,15 +85,16 @@ const Platform = () => {
           <img src={img1} alt=''></img>
         </div>
       </div>
+
       <div className={toggleState === 2 ? "content_container grid xl:grid-cols-2 gap-x-40" : "hide"}>
         <div className='content'>
-          <h3 className='text-2xl font-bold content_heading'>Well Guided Program</h3>
-          <h1 className='text-xl font-medium py-4 text-gray'>We have invented and perfected the best system to learn coding</h1>
+          <h3 className='text-2xl font-bold content_heading'>Doubt Resolution</h3>
+          <h1 className='text-xl font-medium py-4 text-gray'>Get your doubts resolved instantly with live 1:1 mentor support.</h1>
           <p className='text-sm my-2 text-gray'>
-            Your Journey will follow a tried & Tested method that delivers the best results. Each concept that you learn will follow the following structure.
+            In case you have any doubt at any time while you are watching a video, with an MCQ, a coding assignment or a test - We have you covered!
             <br />
             <br />
-            Very short learning videos: 10-15 minutes 2-3 Guided Problems & 5-10 practice problems to understand: 45 minutes Doubts resolved instantly by our Teaching Assitants and Notes for Revision
+            We have a network of dedicated teaching assistants to make sure your doubts get resolved quickly and you dont miss on deadlines.
           </p>
           <div className='flex flex-row text-sm content_last'>
             <div className='py-5 w-40'>
@@ -113,13 +114,13 @@ const Platform = () => {
 
       <div className={toggleState === 3 ? "content_container grid xl:grid-cols-2 gap-x-40" : "hide"}>
         <div className='content'>
-          <h3 className='text-2xl font-bold content_heading'>Well Guided Program</h3>
-          <h1 className='text-xl font-medium py-4 text-gray'>We have invented and perfected the best system to learn coding</h1>
+          <h3 className='text-2xl font-bold content_heading'>Free Resources</h3>
+          <h1 className='text-xl font-medium py-4 text-gray'>A platform to help you practice, compete & get ready for interviews.</h1>
           <p className='text-sm my-2 text-gray'>
-            Your Journey will follow a tried & Tested method that delivers the best results. Each concept that you learn will follow the following structure.
+            A place for aspiring and experienced programmers to prepare for tech interviews, practice problems, compete in challenges, discuss and stay up to date with the latest developments in the tech world.
             <br />
             <br />
-            Very short learning videos: 10-15 minutes 2-3 Guided Problems & 5-10 practice problems to understand: 45 minutes Doubts resolved instantly by our Teaching Assitants and Notes for Revision
+            Our expert designed curated guided paths will help you save time and energy to figure out which coding questions to be solved and give you a perfect sequence to maximise your learning experience.
           </p>
           <div className='flex flex-row text-sm content_last'>
             <div className='py-5 w-40'>
@@ -139,13 +140,13 @@ const Platform = () => {
 
       <div className={toggleState === 4 ? "content_container grid xl:grid-cols-2 gap-x-40" : "hide"}>
         <div className='content'>
-          <h3 className='text-2xl font-bold content_heading'>Well Guided Program</h3>
-          <h1 className='text-xl font-medium py-4 text-gray'>We have invented and perfected the best system to learn coding</h1>
+          <h3 className='text-2xl font-bold content_heading'>Mock Interviews</h3>
+          <h1 className='text-xl font-medium py-4 text-gray'>Mock Interviews to help you get prepared for your real interview</h1>
           <p className='text-sm my-2 text-gray'>
-            Your Journey will follow a tried & Tested method that delivers the best results. Each concept that you learn will follow the following structure.
+            Industry experts from top product companies like Amazon, Facebook, Google and working in the US will take your mock interviews.
             <br />
             <br />
-            Very short learning videos: 10-15 minutes 2-3 Guided Problems & 5-10 practice problems to understand: 45 minutes Doubts resolved instantly by our Teaching Assitants and Notes for Revision
+            The focus will be on both technical and interpersonal skills. Get instant feedback at the end of the interview.
           </p>
           <div className='flex flex-row text-sm content_last'>
             <div className='py-5 w-40'>
@@ -165,13 +166,13 @@ const Platform = () => {
 
       <div className={toggleState === 5 ? "content_container grid xl:grid-cols-2 gap-x-40" : "hide"}>
         <div className='content'>
-          <h3 className='text-2xl font-bold content_heading'>Well Guided Program</h3>
-          <h1 className='text-xl font-medium py-4 text-gray'>We have invented and perfected the best system to learn coding</h1>
+          <h3 className='text-2xl font-bold content_heading'>Free Resources</h3>
+          <h1 className='text-xl font-medium py-4 text-gray'>Placement Cell - A dedicated team to help you land the best opportunities.</h1>
           <p className='text-sm my-2 text-gray'>
-            Your Journey will follow a tried & Tested method that delivers the best results. Each concept that you learn will follow the following structure.
+            Curated openings and industry referrals to ensure you have access to the best opportunities out there.
             <br />
             <br />
-            Very short learning videos: 10-15 minutes 2-3 Guided Problems & 5-10 practice problems to understand: 45 minutes Doubts resolved instantly by our Teaching Assitants and Notes for Revision
+            Our placement cell works closely with you to help you reach closer to your professional goals.
           </p>
           <div className='flex flex-row text-sm content_last'>
             <div className='py-5 w-40'>
@@ -191,13 +192,13 @@ const Platform = () => {
 
       <div className={toggleState === 6 ? "content_container grid xl:grid-cols-2 gap-x-40" : "hide"}>
         <div className='content'>
-          <h3 className='text-2xl font-bold content_heading'>Well Guided Program</h3>
-          <h1 className='text-xl font-medium py-4 text-gray'>We have invented and perfected the best system to learn coding</h1>
+          <h3 className='text-2xl font-bold content_heading'>Free Resources</h3>
+          <h1 className='text-xl font-medium py-4 text-gray'>Tons of resources to enable you to learn for free & stay up to date</h1>
           <p className='text-sm my-2 text-gray'>
-            Your Journey will follow a tried & Tested method that delivers the best results. Each concept that you learn will follow the following structure.
+            We regularly conduct webinars & coding events on various topics to answer your burning questions & to keep you up to date with the latest happenings in the tech world.
             <br />
             <br />
-            Very short learning videos: 10-15 minutes 2-3 Guided Problems & 5-10 practice problems to understand: 45 minutes Doubts resolved instantly by our Teaching Assitants and Notes for Revision
+            A blog with the latest articles to ensure you are reading & constantly in touch with your interest areas.
           </p>
           <div className='flex flex-row text-sm content_last'>
             <div className='py-5 w-40'>

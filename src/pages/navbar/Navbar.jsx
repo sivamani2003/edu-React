@@ -1,8 +1,7 @@
 import React from 'react';
 import { FaArrowRight } from "react-icons/fa";
-import { RiArrowDownDoubleFill, RiSearchLine } from "react-icons/ri";
+import { RiArrowDownDoubleFill } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";
-import logo from '../../assets/navbar/logo.svg'
 import mern from '../../assets/navbar/mern-stack.svg'
 import cProgram from '../../assets/navbar/c-language.svg'
 import './Navbar.css'
@@ -25,8 +24,8 @@ const Navbar = () => {
                             <li><a>Mentorship</a></li>
                         </ul>
                     </div>
-                    <Link to="/" className="normal-case text-xl">
-                        <img src={logo} alt="" />
+                    <Link to="/">
+                        <img className='h-[120%]' src="https://i.ibb.co/7K6G6dS/W-2-removebg-preview.png" alt="" />
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -311,30 +310,29 @@ const Navbar = () => {
                                                         <h2 className="text-black ps-3 py-6">UPCOMING EVENTS</h2>
                                                         <div className="grid grid-cols-2 gap-4 font-medium">
                                                             <div>
-                                                                <img className="w-[180px] h-[80px]" src="https://files.codingninjas.in/mobile-100-2-28742.jpg" alt="" />
+                                                                <img className="w-[180px] h-[80px]" src="https://astrologyfutureeye.com/image/content/career-related-dreams.jpg" alt="" />
                                                                 <h3>
                                                                     Master Your Career: The Ultima...
                                                                 </h3>
                                                             </div>
                                                             <div>
-                                                                <img className="w-[180px] h-[80px]" src="https://files.codingninjas.in/artboard-9-2x-8-2-25888.png"
+                                                                <img className="w-[180px] h-[80px]" src="https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/7/4534/files/2018/05/how-to-create-a-website-feature-image-e1496943224192-1yzdyp6.jpg"
                                                                     alt="" />
                                                                 <h3>
-                                                                    Master Your Career: The Ultima...
+                                                                    Hands-on keys | Sikkim Manipa...
                                                                 </h3>
                                                             </div>
                                                             <div>
-                                                                <img className="w-[180px] h-[80px]" src="https://files.codingninjas.in/coding-event-mobile-27433.jpg"
+                                                                <img className="w-[180px] h-[80px]" src="https://media.designrush.com/articles/231707/conversions/information-technology-details.jpg"
                                                                     alt="" />
                                                                 <h3>
-                                                                    Master Your Career: The Ultima...
+                                                                    CodeQuest30 -Final Day || IE...
                                                                 </h3>
                                                             </div>
                                                             <div>
-                                                                <img className="w-[180px] h-[80px]"
-                                                                    src="https://files.codingninjas.in/placement-assessment-test-mobile-29027.png" alt="" />
+                                                                <img className="w-[180px] h-[80px]" src="https://blog.vantagecircle.com/content/images/2020/08/technology-in-the-workplace.png" alt="" />
                                                                 <h3>
-                                                                    Master Your Career: The Ultima...
+                                                                    Placement Assessment Test -
                                                                 </h3>
                                                             </div>
                                                         </div>

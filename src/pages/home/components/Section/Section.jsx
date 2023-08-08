@@ -19,13 +19,13 @@ function Section() {
                 <div className="box-img">
                   <p className="box-img-num">150+</p>
                   <p className="box-img-text">
-                    students are working at FAANG MNC's
+                    Students working in FAANG
                   </p>
                 </div>
                 <div className="box-img">
                   <p className="box-img-num">10</p>
                   <p className="box-img-text">
-                    students are working at FAANG MNC's
+                    Students started their own companies
                   </p>
                 </div>
               </div>
@@ -33,12 +33,12 @@ function Section() {
                 <div className="box-img">
                   <p className="box-img-num">50+</p>
                   <p className="box-img-text">
-                    students are working at FAANG MNC's
+                    Students having 5 Stars on CodeChef
                   </p>
                 </div>
                 <div className="box-img">
                   <p className="box-img-num">100+</p>
-                  <p className="box-img-text">students working in FAANG </p>
+                  <p className="box-img-text">Students received International Job Offers</p>
                 </div>
               </div>
             </div>

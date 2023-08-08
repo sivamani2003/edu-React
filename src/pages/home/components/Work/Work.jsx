@@ -8,8 +8,8 @@ import {
 
 const Work = () => {
   return (
-    <div className="w-full max-w-7xl mx-auto my-10 md:my-14">
-      <h1 className="text-center font-bold text-5xl">How we <span className="text-[#ee4962] underline">work?</span></h1>
+    <div className="w-full max-w-7xl mx-auto">
+      <h1 className="text-center font-bold text-5xl">How we <span className="text-[#ee4962]">work?</span></h1>
       <p className="text-center my-4 mb-8">
         Revolutionize the era of learning by creating high-quality content
         courses mentored by top-notch skilled <br /> trainers with full time
@@ -21,12 +21,10 @@ const Work = () => {
         <div className="flex relative my-4">
           <div>
             <div className="flex items-center justify-center">
-              <div>
-                <div className="text-9xl p-1 border-2 border-dotted border-[#ee4962] text-[#ee4962] bg-white rounded-full">
-                  <FaHandHoldingMedical className="text-9xl p-2 border-2 border-dotted border-[#ee4962] text-[#ee4962] bg-white rounded-full" />
-                </div>
+              <div className="text-9xl p-[2px] border-2 border-dotted border-green-500 text-green-500 bg-white rounded-full">
+                <FaHandHoldingMedical className="text-9xl p-4 border-2 border-dotted border-green-500 text-green-500 bg-white rounded-full" />
               </div>
-              <div className="absolute border-2 flex justify-center items-center h-9 w-9 rounded-full  border-[#ee4962] bg-[#ee4962] -top-[0.50rem] left-[4rem] ">
+              <div className="absolute border-2 flex justify-center items-center h-9 w-9 rounded-full  border-green-500 bg-green-500 -top-[0.50rem] left-[4rem] ">
                 <p className="text-xl text-white p-3 font-extrabold  ">01</p>
               </div>
             </div>
@@ -53,10 +51,10 @@ const Work = () => {
         <div className="flex relative my-4">
           <div>
             <div className="flex items-center justify-center">
-              <div>
-                <FaSearch className="text-9xl p-4 border-2 border-dotted border-[#ee4962] text-[#ee4962] bg-white rounded-full" />
+              <div className="text-9xl p-[2px] border-2 border-dotted border-green-500 text-green-500 bg-white rounded-full">
+                <FaSearch className="text-9xl p-4 border-2 border-dotted border-green-500 text-green-500 bg-white rounded-full" />
               </div>
-              <div className="absolute border-2 flex justify-center items-center h-9 w-9 rounded-full  border-[#ee4962] bg-[#ee4962] -top-[0.50rem] left-[4rem] ">
+              <div className="absolute border-2 flex justify-center items-center h-9 w-9 rounded-full  border-green-500 bg-green-500 -top-[0.50rem] left-[4rem] ">
                 <p className="text-xl text-white p-3 font-extrabold  ">02</p>
               </div>
             </div>
@@ -80,10 +78,10 @@ const Work = () => {
         <div className="flex relative my-4">
           <div>
             <div className="flex items-center justify-center">
-              <div>
-                <FaLightbulb className="text-9xl p-4 border-2 border-dotted border-[#ee4962] text-[#ee4962] bg-white rounded-full" />
+              <div className="text-9xl p-[2px] border-2 border-dotted border-green-500 text-green-500 bg-white rounded-full">
+                <FaRocket className="text-9xl p-4 border-2 border-dotted border-green-500 text-green-500 bg-white rounded-full" />
               </div>
-              <div className="absolute border-2 flex justify-center items-center h-9 w-9 rounded-full  border-[#ee4962] bg-[#ee4962] -top-[0.50rem] left-[4rem] ">
+              <div className="absolute border-2 flex justify-center items-center h-9 w-9 rounded-full  border-green-500 bg-green-500 -top-[0.50rem] left-[4rem] ">
                 <p className="text-xl text-white p-3 font-extrabold  ">03</p>
               </div>
             </div>
@@ -110,11 +108,15 @@ const Work = () => {
           <div>
             <div className="flex items-center justify-center">
               <div>
-                <FaRocket className="text-9xl p-4 border-2 border-dotted border-[#ee4962] text-[#ee4962] bg-white rounded-full" />
+                <div className="text-9xl p-[2px] border-2 border-dotted border-green-500 text-green-500 bg-white rounded-full">
+                  <FaSatelliteDish className="text-9xl p-4 border-2 border-dotted border-green-500 text-green-500 bg-white rounded-full" />
+                </div>
               </div>
-              <div className="absolute border-2 flex justify-center items-center h-9 w-9 rounded-full  border-[#ee4962] bg-[#ee4962] -top-[0.50rem] left-[4rem] ">
+
+              <div className=" m-2 absolute border-2 flex justify-center items-center h-9 w-9 rounded-full  border-green-500 bg-green-500 -top-[0.50rem] left-[4rem] ">
                 <p className="text-xl text-white p-3 font-extrabold  ">04</p>
               </div>
+
             </div>
 
             <div className="text-center mt-8">
@@ -136,10 +138,10 @@ const Work = () => {
         <div className="flex relative my-4">
           <div>
             <div className="flex items-center justify-center">
-              <div>
-                <FaSatelliteDish className="text-9xl p-4 border-2 border-dotted border-[#ee4962] text-[#ee4962] bg-white rounded-full" />
+              <div className="text-9xl p-[2px] border-2 border-dotted border-green-500 text-green-500 bg-white rounded-full">
+                <FaHandHoldingMedical className="text-9xl p-4 border-2 border-dotted border-green-500 text-green-500 bg-white rounded-full" />
               </div>
-              <div className="absolute border-2 flex justify-center items-center h-9 w-9 rounded-full  border-[#ee4962] bg-[#ee4962] -top-[0.50rem] left-[4rem] ">
+              <div className="absolute border-2 flex justify-center items-center h-9 w-9 rounded-full  border-green-500 bg-green-500 -top-[0.50rem] left-[4rem] ">
                 <p className="text-xl text-white p-3 font-extrabold  ">05</p>
               </div>
             </div>

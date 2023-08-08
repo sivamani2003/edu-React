@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 import banner1 from '../../../../assets/home/hero-banner-1.jpg'
 import banner2 from '../../../../assets/home/hero-banner-2.jpg'
-import banner3 from '../../../../assets/home/hero-shape-1.svg'
+import banner3 from '../../../../assets/home/contact.jpg'
 
 const Banner = () => {
     return (
@@ -28,7 +28,7 @@ const Banner = () => {
                         </div>
                     </div>
                     <div className='relative hidden md:block right-32'>
-                        <img src={banner3} alt="" />
+                        <img className='banner3' src={banner3} alt="" />
                     </div>
                 </div>
             </div>
