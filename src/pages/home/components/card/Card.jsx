@@ -1,7 +1,9 @@
 import React from 'react';
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Card = ({ title }, courses) => {
+
     return (
         <div ref={courses} className='my-6'>
             <h1 className='text-center text-lg md:text-5xl font-bold'>Recommended <br /> <span className='text-pink'>Courses</span></h1>
@@ -25,7 +27,9 @@ const Card = ({ title }, courses) => {
                             </div>
                         </div>
                         <div className='flex justify-center'>
-                            <button className="allBtn text-lg bg-[#1ab79d] text-white font-bold">Explore more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
+                            <Link to="/dsa">
+                                <button className="allBtn text-lg bg-[#1ab79d] text-white font-bold">Explore more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
+                            </Link>
                         </div>
                     </div>
                 </div>
@@ -50,7 +54,9 @@ const Card = ({ title }, courses) => {
                             </div>
                         </div>
                         <div className='flex justify-center'>
-                            <button className="allBtn text-lg bg-[#1ab79d] text-white font-bold">Explore more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
+                            <Link to="/mern">
+                                <button className="allBtn text-lg bg-[#1ab79d] text-white font-bold">Explore more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

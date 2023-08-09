@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Home from './components/Home';
 import CourseHighlight from './components/CourseHighlight';
 import YouWillBuild from './components/YouWillBuild';
@@ -6,9 +6,17 @@ import WhyAndWhat from './components/WhyAndWhat';
 import TrainingWorks from './components/TrainingWorks';
 import Questions from './components/Questions';
 import MySwiper from './components/MySwiper';
+import { useLocation } from 'react-router-dom';
 
 
 const Android = () => {
+
+        let location = useLocation();
+
+        useEffect(() => {
+            window.scrollTo(0, 0);
+        }, [location]);
+
         return (
                 <div>
                         <div>

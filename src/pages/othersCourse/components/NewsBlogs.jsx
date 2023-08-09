@@ -7,6 +7,7 @@ import 'swiper/css/pagination';
 import { FreeMode, Pagination } from 'swiper/modules';
 
 import { FaFolder } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const NewsBlogs = () => {
     return (
@@ -53,7 +54,9 @@ const NewsBlogs = () => {
                                 </div>
                             </div>
                             <div className='text-right flex justify-center'>
-                                <button className='text-lg allBtn font-bold px-2 py-2'>Explore More</button>
+                                <Link to="/mern">
+                                    <button className='text-lg allBtn font-bold px-2 py-2'>Explore More</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -84,7 +87,9 @@ const NewsBlogs = () => {
                                 </div>
                             </div>
                             <div className='text-right flex justify-center'>
-                                <button className='text-lg allBtn font-bold px-2 py-2'>Explore More</button>
+                                <Link to="/machineLearning">
+                                    <button className='text-lg allBtn font-bold px-2 py-2'>Explore More</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -116,7 +121,9 @@ const NewsBlogs = () => {
                                 </div>
                             </div>
                             <div className='text-right flex justify-center'>
-                                <button className='text-lg allBtn font-bold px-2 py-2'>Explore More</button>
+                                <Link to="/python">
+                                    <button className='text-lg allBtn font-bold px-2 py-2'>Explore More</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -129,7 +136,7 @@ const NewsBlogs = () => {
                         <div className='relative'>
                             <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-red-500 absolute bottom-0 flex items-center justify-center gap-x-4'>
                                 <FaFolder size={30}></FaFolder>
-                                <p>Python</p>
+                                <p>Data structure</p>
                             </div>
                         </div>
                         <div className="card-body">
@@ -148,7 +155,9 @@ const NewsBlogs = () => {
                                 </div>
                             </div>
                             <div className='text-right flex justify-center'>
-                                <button className='text-lg allBtn font-bold px-2 py-2'>Explore More</button>
+                                <Link to="/dsa">
+                                    <button className='text-lg allBtn font-bold px-2 py-2'>Explore More</button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -161,7 +170,7 @@ const NewsBlogs = () => {
                         <div className='relative'>
                             <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-red-500 absolute bottom-0 flex items-center justify-center gap-x-4'>
                                 <FaFolder size={30}></FaFolder>
-                                <p>Python</p>
+                                <p>Mern stack</p>
                             </div>
                         </div>
                         <div className="card-body">
@@ -180,7 +189,9 @@ const NewsBlogs = () => {
                                 </div>
                             </div>
                             <div className='text-right flex justify-center'>
-                                <button className='text-lg allBtn font-bold px-2 py-2'>Explore More</button>
+                                <Link to="/mern">
+                                    <button className='text-lg allBtn font-bold px-2 py-2'>Explore More</button>
+                                </Link>
                             </div>
                         </div>
                     </div>

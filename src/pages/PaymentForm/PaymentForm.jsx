@@ -85,12 +85,12 @@ const PaymentForm = () => {
                         <div className="border-4 border-slate-500"><img src="https://i.ibb.co/X4q0YGv/1633933253987.jpg" className="h-16 w-20" alt="Writo" /></div>
                         <h4 className="ms-4 text-xl font-semibold">WRITO</h4>
                     </div>
-                    <h3 className="text-3xl text-[#0d2366] font-semibold">Pre-Graduation Program <br /> Enrollment</h3> <br />
+                    <h3 className="text-3xl text-[#0d2366] font-semibold">Mentorship Program <br /> Enrollment</h3> <br />
                     <hr className="bg-green-500 w-10 h-2" /> <br />
                     <h1 className="text-xl font-semibold">Hey Learner!</h1>
-                    <p>Finally that you're here give us a high-five! This is the Pre-final step to get into the Pre-Graduation  Program (Live Online Course) and to start the learning journey and career with WRITO.</p> <br />
+                    <p>Finally that you're here give us a high-five! This is the Pre-final step to get into the Mentorship  Program (Live Online Course) and to start the learning journey and career with WRITO.</p> <br />
                     <h1 className="text-xl font-semibold">Fee breakup</h1>
-                    <p>This is the Pre-enrollment fee, Our Support team will get in touch with you for remaining fee that has to be paid within 3-4 days of Pre-enrollment. Note- You'll be receiving all further intimations over your WhatsApp.</p> <br />
+                    <p>This is the Pre-enrollment fee, Our Support team will get in touch with you for remaining fee that has to be paid within 9-10 days of Pre-enrollment. Note- You'll be receiving all further intimations over your WhatsApp.</p> <br />
                     <br />
                     <h3 className="text-xl font-semibold">Contact Us:</h3>
                     <p className="flex items-center gap-x-1"><FaRegEnvelope></FaRegEnvelope> ravinder@writo.in</p>

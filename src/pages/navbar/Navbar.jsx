@@ -6,6 +6,7 @@ import mern from '../../assets/navbar/mern-stack.svg'
 import cProgram from '../../assets/navbar/c-language.svg'
 import './Navbar.css'
 import { Link, NavLink } from 'react-router-dom';
+import logo from '../../assets/navbar/logo.svg'
 
 const Navbar = () => {
     return (
@@ -31,7 +32,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to="/">
-                        <img className='h-[120%]' src="https://i.ibb.co/NCCL3wb/W-3-removebg-preview.png" alt="" />
+                        <img className='w-20' src={logo} alt="" />
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -50,20 +51,20 @@ const Navbar = () => {
                                             <div className="md:w-[50%] md:pr-16">
                                                 <h4 className="font-semibold text-black text-[20px]">Recommended courses</h4>
                                                 <p>The most in demand courses at the <br /> moment</p>
-                                                <a href="">
+                                                <Link to="/mern">
                                                     <div
                                                         className="w-full h-[60px] border-[1px] rounded-lg hover:border-orange-500 mt-4 flex items-center justify-between">
                                                         <p className="pl-2">MERN stack</p>
                                                         <img className="h-[60%] w-[60%] -mr-12" src={mern} alt="" srcSet=""></img>
                                                     </div>
-                                                </a>
-                                                <a href="">
+                                                </Link>
+                                                <Link to="/dsa">
                                                     <div
                                                         className="w-full h-[60px] border-[1px] rounded-lg hover:border-orange-500 mt-6 flex items-center justify-between">
                                                         <p className="pl-2">Basics of C++ with Data Structures and Algorithms</p>
                                                         <img className="h-[60%] w-[60%]" src={cProgram} alt="" srcSet=""></img>
                                                     </div>
-                                                </a>
+                                                </Link>
                                             </div>
 
                                             {/* <!-- child dropdown --> */}

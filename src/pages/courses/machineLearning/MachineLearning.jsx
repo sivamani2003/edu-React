@@ -8,7 +8,7 @@ import Questions from './components/Questions';
 import MySwiper from './components/MySwiper';
 import { useLocation } from 'react-router-dom';
 
-const Dsa = () => {
+const MachineLearning = () => {
 
         let location = useLocation();
 
@@ -47,4 +47,4 @@ const Dsa = () => {
         );
 };
 
-export default Dsa;
+export default MachineLearning;

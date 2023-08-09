@@ -16,6 +16,7 @@ import MentorshipProgram from '../../pages/mentorshipProgram/MentorshipProgram'
 import PaymentForm from '../../pages/PaymentForm/PaymentForm'
 
 import OtherCourses from '../../pages/othersCourse/OtherCourse'
+import MachineLearning from "../../pages/courses/machineLearning/MachineLearning";
 
 const router = createBrowserRouter([
     {
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
             {
                 path: '/dsa',
                 element: <Dsa></Dsa>
+            },
+            {
+                path: '/machineLearning',
+                element: <MachineLearning></MachineLearning>
             },
 
 
