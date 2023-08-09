@@ -16,8 +16,8 @@ const Banner = ({ courses }) => {
         <div className='banner-bg'>
             <div className='md:flex items-center px-4 py-10 md:px-24 md:py-16 max-w-[1400px] md:mx-auto'>
                 <div className='md:w-1/2 px-10 md:px-0'>
-                    <h1 className='text-5xl font-bold'>The Best Program to <span className='text-pink'>Enroll</span> for Exchange</h1>
-                    <p className='text-lg mt-8'>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit.</p>
+                    <h1 className='text-5xl font-bold'>Let's gain skills with <span className='text-pink'>leadership</span> opportunities</h1>
+                    <p className='text-lg mt-8'>it's a transformative journey that equips college students with essential skills through immersive hands-on work experiences, dynamic leadership opportunities, and personalized mentorship.</p>
                     <a href="#findCourse">
                         <button onClick={handleCourses} className='allBtn mt-4 flex items-center gap-x-1'>
                             Find Courses

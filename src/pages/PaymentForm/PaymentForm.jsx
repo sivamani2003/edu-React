@@ -101,12 +101,23 @@ const PaymentForm = () => {
                     <h1 className="text-xl font-semibold">Terms & Conditions:</h1>
                     <p>Course fee once Paid is not refundable for more details visit <a className="text-blue-500" href=""></a></p>
                     <p className="mt-4">You agree to share information entered on this page with Pregrad (owner of this page) and Razorpay, adhering to applicable laws.</p>
+
                     <hr className="mt-8 h-2" />
+
+                    <div className="flex flex-col mt-4 text-blue-500">
+                        <a className="hover:underline" href="https://merchant.razorpay.com/policy/MNwUQ1almK30Uz/terms">Terms and conditions</a>
+                        <a className="hover:underline" href="https://merchant.razorpay.com/policy/MNwUQ1almK30Uz/privacy">Add Privacy and policies</a>
+                        <a className="hover:underline" href="https://merchant.razorpay.com/policy/MNwUQ1almK30Uz/refund">Refund policies</a>
+                        <a className="hover:underline" href="https://merchant.razorpay.com/policy/MNwUQ1almK30Uz/shipping">Shipping and delivery</a>
+                    </div>
+
+
+                    {/* 
 
                     <div className="mt-2">
                         <img src="https://i.ibb.co/X4q0YGv/1633933253987.jpg" className="h-8 w-16" alt="Writo" />
                         <p>Want to create page like this for your Business? Visit <br /> <a className="text-blue-500" href="">Razorpay Payment Pages</a> to get started</p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="card lg:ms-8 mx-2 w-full md:mx-0 lg:w-5/12 shadow-2xl bg-white">
@@ -132,21 +143,13 @@ const PaymentForm = () => {
                             <h4 className="md:text-[16px] mb-2 md:mb-0 text-[14px]">Live Program Selected</h4>
                             <select className="select border rounded-none border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2">
                                 <option selected>--Select--</option>
-                                <option>Data Science & Analytics</option>
-                                <option>DSA With C/C++</option>
-                                <option>Full Stack Development MERN PGP </option>
-                                <option>Digital Marketing PGP</option>
-                                <option>Finance</option>
-                                <option>Business Analytics PGP</option>
-                                <option>Cyber Security </option>
+                                <option>Analytics & Data Science</option>
+                                <option>Data Structure & Algorithm</option>
+                                <option>Python Development</option>
+                                <option>Android Development</option>
+                                <option>MERN stack Development</option>
                                 <option>Android App Development</option>
-                                <option>Python Core to Advanced</option>
-                                <option>Artifiicial Intelligennce...</option>
-                                <option>AutoCAD</option>
-                                <option>Cloud Computing AWS</option>
-                                <option>Full Stack with Java </option>
-                                <option>Investment Banking</option>
-                                <option>AutoCAD June</option>
+                                <option>Machine Learning</option>
                             </select>
                         </div>
 

@@ -32,7 +32,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <Link to="/">
-                        <img className='w-20' src={logo} alt="" />
+                        <img className='w-16' src={logo} alt="" />
                     </Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -376,7 +376,7 @@ const Navbar = () => {
                                         <a href="#blog">Practice</a>
                                     </div>
                                     <div className="practice-content rounded-lg">
-                                        <p className='py-2'>Coding Ninjas</p>
+                                        <p className='py-2'>Writo</p>
                                         <a href="#">Contacts</a>
                                         <a href="#">Guided Pats</a>
                                         <a href="#">Code Problems</a>

@@ -64,13 +64,13 @@ const Questions = () => {
                                         <h1
                                                 className='flex p-6 items-center justify-between cursor-pointer'
                                                 onClick={toggleHandle1}>
-                                                Q1. I am not a student of BAOIAM. Can I still participate?
+                                                Q1. Who is eligible to participate in the program?
                                                 {toggle1 ? minus : plus}
                                         </h1>
                                         <div className={`animation ${toggle1 ? 'openCollapse' : ''} collapseContent`} ref={contentRef1}>
                                                 <article className='article'>
                                                         <div className="hr-line"></div>
-                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita blanditiis dolorum consectetur dolores neque incidunt dolore perspiciatis officiis id quod.</p>
+                                                        <p>The program is open to all college students who are eager to enhance their skills, gain practical work experience, and develop leadership abilities. We welcome students from various fields and backgrounds to join our transformative journey.</p>
                                                 </article>
                                         </div>
                                 </div>
@@ -78,13 +78,13 @@ const Questions = () => {
                                         <h1
                                                 className='flex p-6 items-center justify-between cursor-pointer'
                                                 onClick={toggleHandle2}>
-                                                Q2. How can I track the status of my earning?
+                                                Q2. How will participating in the program benefit my future career?
                                                 {toggle2 ? minus : plus}
                                         </h1>
                                         <div className={`animation ${toggle2 ? 'openCollapse' : ''} collapseContent`} ref={contentRef2}>
                                                 <article>
                                                         <div className="hr-line"></div>
-                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita blanditiis dolorum consectetur dolores neque incidunt dolore perspiciatis officiis id quod.</p>
+                                                        <p>The program offers a unique blend of hands-on experiences, leadership opportunities, and expert mentorship that are designed to supercharge your skillset and accelerate your career growth. By engaging in real-world projects and honing essential skills, you'll gain a competitive edge and be well-prepared to excel in your chosen field.</p>
                                                 </article>
                                         </div>
                                 </div>
@@ -92,13 +92,13 @@ const Questions = () => {
                                         <h1
                                                 className='flex p-6 items-center justify-between cursor-pointer'
                                                 onClick={toggleHandle3}>
-                                                Q3. Who all can participate?
+                                                Q3. What type of mentorship and support will I receive throughout the program?
                                                 {toggle3 ? minus : plus}
                                         </h1>
                                         <div className={`animation ${toggle3 ? 'openCollapse' : ''} collapseContent`} ref={contentRef3}>
                                                 <article>
                                                         <div className="hr-line"></div>
-                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita blanditiis dolorum consectetur dolores neque incidunt dolore perspiciatis officiis id quod.</p>
+                                                        <p>The program is committed to providing personalized mentorship and support. You'll be guided by a team of industry experts and professionals who will offer insights, advice, and guidance as you navigate your projects and leadership roles. Regular check-ins, workshops, and resources are in place to ensure you have the support you need.</p>
                                                 </article>
                                         </div>
                                 </div>
@@ -106,13 +106,13 @@ const Questions = () => {
                                         <h1
                                                 className='flex p-6 items-center justify-between cursor-pointer'
                                                 onClick={toggleHandle4}>
-                                                Q4. Who all can participate?
+                                                Q4. How does the leadership aspect of the program work?
                                                 {toggle4 ? minus : plus}
                                         </h1>
                                         <div className={`animation ${toggle4 ? 'openCollapse' : ''} collapseContent`} ref={contentRef4}>
                                                 <article>
                                                         <div className="hr-line"></div>
-                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita blanditiis dolorum consectetur dolores neque incidunt dolore perspiciatis officiis id quod.</p>
+                                                        <p>In the program, you'll have the opportunity to lead junior interns as part of your experiential learning. As you progress, you'll take on increasing leadership responsibilities, enhancing your communication, management, and decision-making skills. The program is structured to provide a gradual and supportive transition into leadership roles.</p>
                                                 </article>
                                         </div>
                                 </div>
@@ -120,13 +120,13 @@ const Questions = () => {
                                         <h1
                                                 className='flex p-6 items-center justify-between cursor-pointer'
                                                 onClick={toggleHandle5}>
-                                                Q5. Who all can participate?
+                                                Q5. What types of projects and practical experiences can I expect to work on?
                                                 {toggle5 ? minus : plus}
                                         </h1>
                                         <div className={`animation ${toggle5 ? 'openCollapse' : ''} collapseContent`} ref={contentRef5}>
                                                 <article>
                                                         <div className="hr-line"></div>
-                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita blanditiis dolorum consectetur dolores neque incidunt dolore perspiciatis officiis id quod.</p>
+                                                        <p>The program offers a diverse range of projects spanning various industries and challenges. From web development and data analytics to machine learning and more, you'll engage in real-world tasks that blend theory with practical application. These projects are designed to empower you with skills that are directly transferable to your future career.</p>
                                                 </article>
                                         </div>
                                 </div>

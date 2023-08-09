@@ -12,26 +12,26 @@ function MeetOurExp() {
     const data = [
         {
             id: 1,
-            name: "Imon Hossain",
-            profile: "UI/UX Designer",
+            name: "Abhinay Chaturvedi",
+            profile: "Deloite",
             img: 'https://img.freepik.com/premium-photo/smiling-indian-software-developer_274689-36939.jpg'
         },
         {
             id: 2,
-            name: "Michel Richard",
-            profile: "Web Developer",
+            name: "Amit Pandey",
+            profile: "Microsoft",
             img: 'https://st2.depositphotos.com/1643295/7439/i/600/depositphotos_74390343-stock-photo-smiling-software-developer.jpg',
         },
         {
             id: 3,
-            name: "Fernando Lopez",
-            profile: "Programmer",
+            name: "Ashok Chaudhary",
+            profile: "Amazon",
             img: 'https://st4.depositphotos.com/13187390/20643/i/600/depositphotos_206437620-stock-photo-young-indian-male-using-laptop.jpg',
         },
         {
             id: 4,
-            name: "Sanjida Cruze",
-            profile: "Digital Marketer",
+            name: "Anubhav",
+            profile: "Byjus",
             img: 'https://st3.depositphotos.com/1017986/18714/i/450/depositphotos_187143178-stock-photo-close-up-of-creative-man.jpg',
         }
     ];

@@ -118,10 +118,8 @@
     overflow: auto;
   }
 
-  .image-box-X1 {
-    top: 200px;
-    right: -20px;
-    filter: blur(84px);
+  .image-box-X1, .image-box-X2 {
+    display: none;
   }
 
   .box-relative {
