@@ -48,7 +48,7 @@ const NewsBlogs = () => {
                                     </div>
                                     <div className='flex flex-col'>
                                         <p>1:1 mentorship</p>
-                                        <p>Price: 12000k</p>
+                                        <p>Price: 12k</p>
                                     </div>
                                 </div>
                             </div>
@@ -79,7 +79,7 @@ const NewsBlogs = () => {
                                     </div>
                                     <div className='flex flex-col'>
                                         <p>1:1 mentorship</p>
-                                        <p>Price: 12000k</p>
+                                        <p>Price: 12k</p>
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +111,7 @@ const NewsBlogs = () => {
                                     </div>
                                     <div className='flex flex-col'>
                                         <p>1:1 mentorship</p>
-                                        <p>Price: 12000k</p>
+                                        <p>Price: 12k</p>
                                     </div>
                                 </div>
                             </div>
@@ -143,7 +143,7 @@ const NewsBlogs = () => {
                                     </div>
                                     <div className='flex flex-col'>
                                         <p>1:1 mentorship</p>
-                                        <p>Price: 12000k</p>
+                                        <p>Price: 12k</p>
                                     </div>
                                 </div>
                             </div>
@@ -175,7 +175,7 @@ const NewsBlogs = () => {
                                     </div>
                                     <div className='flex flex-col'>
                                         <p>1:1 mentorship</p>
-                                        <p>Price: 12000k</p>
+                                        <p>Price: 12k</p>
                                     </div>
                                 </div>
                             </div>

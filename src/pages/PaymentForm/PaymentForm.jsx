@@ -63,13 +63,18 @@ const PaymentForm = () => {
         window.my_modal_3.showModal()
     }
 
-    const [gst, useGst] = useState(0);
 
-    const enrollMentFee = (event) => {
-        const value = event.target.value;
-        const percentGST = parseFloat(value * 0.2).toFixed(2);
+    const enrollmentFee = 1000;
+
+    const [gst, useGst] = useState(0);
+    const [totalPlay, setTotalPay] = useState(0);
+
+    useEffect(() => {
+        const percentGST = parseFloat((enrollmentFee * 0.18).toFixed(2));
+        const sumOfTotal = enrollmentFee + percentGST;
+        setTotalPay(sumOfTotal)
         useGst(percentGST);
-    }
+    }, [])
 
     return (
         <div className="hero min-h-screen mb-8">
@@ -147,7 +152,7 @@ const PaymentForm = () => {
 
                         <div className="md:flex items-center justify-between mt-6">
                             <h4 className="md:text-[16px] mb-2 md:mb-0 text-[14px]">Enrollment Fee <br /> including Gateway <br /> Charge</h4>
-                            <input className="appearance-none border border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight pl-4 outline-green-400" id="number" type="number" onChange={enrollMentFee} />
+                            <input className="appearance-none border border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight pl-4 outline-green-400" id="number" type="number" disabled value={enrollmentFee} />
                         </div>
 
                         <div className="md:flex items-center justify-between mt-6">
@@ -167,7 +172,7 @@ const PaymentForm = () => {
 
                         </div>
                         <div className="h-15">
-                            <button className="md:ms-2 bg-[#05ad11] p-5 text-white font-bold w-full md:w-48" onClick={() => onClickStart()}>Pay ₹ 1400</button>
+                            <button className="md:ms-2 bg-[#05ad11] p-5 text-white font-bold w-full md:w-48" onClick={() => onClickStart()}>Pay ₹ {totalPlay}</button>
                         </div>
                     </div>
 
