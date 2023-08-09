@@ -30,7 +30,7 @@ const MySwiper = () => {
                         <div>
                                 <div className='swiper-shadow shadow-2xl relative'>
                                         <Swiper
-                                                direction={'vertical'}
+                                                direction={'horizontal'}
                                                 slidesPerView={1}
                                                 spaceBetween={30}
                                                 mousewheel={true}
@@ -40,6 +40,12 @@ const MySwiper = () => {
                                                 modules={[Mousewheel, Pagination]}
                                                 className="mySwiper"
                                                 onSlideChange={handleSlideChange}
+                                                loop={true}
+                                                breakpoints={{
+                                                        640: {
+                                                                direction: 'vertical'
+                                                        }
+                                                }}
                                         >
                                                 <SwiperSlide className='flex flex-col justify-center'>
                                                         <div className='md:pl-36 md:pr-6'>

@@ -4,11 +4,11 @@ import { RiArrowDownDoubleFill } from "react-icons/ri";
 import { BsArrowRight } from "react-icons/bs";
 import mern from '../../assets/navbar/mern-stack.svg'
 import cProgram from '../../assets/navbar/c-language.svg'
-import './Navbar.css'
+import './NavBar.css'
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/navbar/logo.svg'
 
-const Navbar = () => {
+const NavBar = () => {
     return (
         <div>
             <div className="navbar bg-base-300">
@@ -413,4 +413,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default NavBar;
