@@ -2,14 +2,14 @@ import { useEffect, useRef, useState } from "react";
 import {
     FaVoicemail,
     FaPhoneAlt,
+    FaRegEnvelope,
+    FaWhatsapp,
 } from "react-icons/fa";
 import QRCode from "react-qr-code";
 
 const PaymentForm = () => {
     const Ref = useRef(null);
     const [timer, setTimer] = useState();
-    const [time, setTime] = useState(true)
-    console.log(time)
 
     const getTimeRemaining = (e) => {
         const total = Date.parse(e) - Date.parse(new Date());
@@ -25,7 +25,6 @@ const PaymentForm = () => {
         let { total, hours, minutes, seconds }
             = getTimeRemaining(e);
         if (total >= 0) {
-            setTime(false)
             setTimer(
                 'QR Code is valid for ' +
                 (minutes > 9 ? minutes : '0' + minutes) + ':'
@@ -64,6 +63,14 @@ const PaymentForm = () => {
         window.my_modal_3.showModal()
     }
 
+    const [gst, useGst] = useState(0);
+
+    const enrollMentFee = (event) => {
+        const value = event.target.value;
+        const percentGST = parseFloat(value * 0.2).toFixed(2);
+        useGst(percentGST);
+    }
+
     return (
         <div className="hero min-h-screen mb-8">
             <div className="hero-content flex-col lg:flex-row">
@@ -81,8 +88,9 @@ const PaymentForm = () => {
                     <p>This is the Pre-enrollment fee, Our Support team will get in touch with you for remaining fee that has to be paid within 3-4 days of Pre-enrollment. Note- You'll be receiving all further intimations over your WhatsApp.</p> <br />
                     <br />
                     <h3 className="text-xl font-semibold">Contact Us:</h3>
-                    <p className="flex items-center gap-x-1"><FaVoicemail></FaVoicemail> ravinder@writo.in</p>
+                    <p className="flex items-center gap-x-1"><FaRegEnvelope></FaRegEnvelope> ravinder@writo.in</p>
                     <p className="flex items-center gap-x-1"><FaPhoneAlt />+9518889372</p>
+                    <p className="flex items-center gap-x-1"><FaWhatsapp />+8059458609</p>
                     <br />
 
                     <h1 className="text-xl font-semibold">Terms & Conditions:</h1>
@@ -101,22 +109,22 @@ const PaymentForm = () => {
                         <h3 className="text-2xl font-semibold">Payment Details</h3>
                         <hr className="bg-green-500 w-10 h-2 mt-8" /> <br />
                         <div className="md:flex items-center justify-between">
-                            <h4 className="md:text-[16px] text-[14px]">Student Name</h4>
+                            <h4 className="md:text-[16px] mb-2 md:mb-0 text-[14px]">Student Name</h4>
                             <input className="appearance-none border border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight  outline-green-400" id="text" type="text" required />
                         </div>
 
                         <div className="md:flex items-center justify-between mt-6">
-                            <h4 className="md:text-[16px] text-[14px]">Email</h4>
+                            <h4 className="md:text-[16px] mb-2 md:mb-0 text-[14px]">Email</h4>
                             <input className="appearance-none border border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight  outline-green-400" id="email" type="email" required />
                         </div>
 
                         <div className="md:flex items-center justify-between mt-6">
-                            <h4 className="md:text-[16px] text-[14px]">Number</h4>
+                            <h4 className="md:text-[16px] mb-2 md:mb-0 text-[14px]">Number</h4>
                             <input className="appearance-none border border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight  outline-green-400" id="number" type="number" />
                         </div>
 
                         <div className="md:flex items-center justify-between mt-6">
-                            <h4 className="md:text-[16px] text-[14px]">Live Program Selected</h4>
+                            <h4 className="md:text-[16px] mb-2 md:mb-0 text-[14px]">Live Program Selected</h4>
                             <select className="select border rounded-none border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2">
                                 <option selected>--Select--</option>
                                 <option>Data Science & Analytics</option>
@@ -138,13 +146,13 @@ const PaymentForm = () => {
                         </div>
 
                         <div className="md:flex items-center justify-between mt-6">
-                            <h4 className="md:text-[16px] text-[14px]">Enrollment Fee <br /> including Gateway <br /> Charge</h4>
-                            <input className="appearance-none border border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight  outline-green-400" id="number" type="number" value={1220} />
+                            <h4 className="md:text-[16px] mb-2 md:mb-0 text-[14px]">Enrollment Fee <br /> including Gateway <br /> Charge</h4>
+                            <input className="appearance-none border border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight pl-4 outline-green-400" id="number" type="number" onChange={enrollMentFee} />
                         </div>
 
                         <div className="md:flex items-center justify-between mt-6">
-                            <h4 className="md:text-[16px] text-[14px]">GST</h4>
-                            <input className="appearance-none border border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight  outline-green-400" id="number" type="number" value={180} />
+                            <h4 className="md:text-[16px] mb-2 md:mb-0 text-[14px]">GST</h4>
+                            <input className="appearance-none border border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight pl-4 outline-green-400" id="number" type="text" disabled value={gst} />
                         </div>
 
                     </div>

@@ -21,13 +21,13 @@ const Navbar = () => {
                             <li><a>Community</a></li>
                             <li><a>Courses</a>
                                 <ul className="p-2">
-                                    <li><NavLink to="/android" className={({ isActive }) => (isActive ? 'bg-blue-500' : '')}>Android Development</NavLink></li>
-                                    <li><NavLink to="/python" className={({ isActive }) => (isActive ? 'bg-blue-500' : '')}>Python Development</NavLink></li>
-                                    <li><NavLink to="/analytics" className={({ isActive }) => (isActive ? 'bg-blue-500' : '')}>Analytics and data science</NavLink></li>
-                                    <li><NavLink to="/mern" className={({ isActive }) => (isActive ? 'bg-blue-500' : '')}>MERN stack Development</NavLink></li>
-                                    <li><NavLink to="/dsa" className={({ isActive }) => (isActive ? 'bg-blue-500' : '')}>Data structures and algorithms</NavLink></li>
+                                    <li><NavLink to="/android" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Android Development</NavLink></li>
+                                    <li><NavLink to="/python" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Python Development</NavLink></li>
+                                    <li><NavLink to="/analytics" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Analytics and data science</NavLink></li>
+                                    <li><NavLink to="/mern" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>MERN stack Development</NavLink></li>
+                                    <li><NavLink to="/dsa" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Data structures and algorithms</NavLink></li>
                                 </ul></li>
-                            <li><NavLink to="/mentorship" className={({ isActive }) => (isActive ? 'bg-blue-500' : '')}>Mentorship</NavLink></li>
+                            <li><NavLink to="/mentorship" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Mentorship</NavLink></li>
                         </ul>
                     </div>
                     <Link to="/">
