@@ -18,6 +18,8 @@ import PaymentForm from '../../pages/PaymentForm/PaymentForm'
 import OtherCourses from '../../pages/othersCourse/OtherCourse'
 import MachineLearning from "../../pages/courses/machineLearning/MachineLearning";
 
+import HireFromUs from '../../pages/hireFromUs/HireFromUs'
+
 const router = createBrowserRouter([
     {
         path: "/",
@@ -70,6 +72,10 @@ const router = createBrowserRouter([
             {
                 path: '/paymentForm',
                 element: <PaymentForm></PaymentForm>
+            },
+            {
+                path: '/hireUs',
+                element: <HireFromUs></HireFromUs>
             },
         ]
     },

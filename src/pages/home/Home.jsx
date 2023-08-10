@@ -14,7 +14,9 @@ const Home = () => {
         <div>
             <div>
                 <Banner courses={courses}></Banner>
-                <Section></Section>
+                <div className='my-12'>
+                    <Section></Section>
+                </div>
             </div>
             <div className='max-w-7xl mx-auto'>
                 <Platform></Platform>

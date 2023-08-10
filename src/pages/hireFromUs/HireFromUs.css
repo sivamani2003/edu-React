@@ -1,21 +1,3 @@
-.swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-}
-
-.swiper-slide img {
-        display: block;
-        width: 100px;
-        height: 100px;
-        object-fit: contain;
-}
-
-
-
 
 /******
 Banner section
@@ -125,26 +107,34 @@ Banner section
 carousel style
 ***** */
 
-.swiper-slide {
+.hiringPartners-slide {
         text-align: center;
+        font-size: 18px;
         background: #fff;
         display: flex;
         justify-content: center;
         align-items: center;
 }
 
-.swiper {
+.hiringPartners-slide img {
+        display: block;
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+}
+
+.hiringPartners .swiper {
         width: 100%;
         height: 300px;
         margin: 20px auto;
 }
 
-.swiper-button-next {
-        display: none !important;
+.hiringPartners-button-next {
+        display: none;
 }
 
-.swiper-button-prev {
-        display: none !important;
+.hiringPartners-button-prev {
+        display: none;
 }
 
 

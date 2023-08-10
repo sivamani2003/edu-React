@@ -24,7 +24,7 @@ const MySwiper = () => {
         };
 
         return (
-                <div className='max-w-7xl md:mx-[25%] mx-5 md:mt-24'>
+                <div className='max-w-7xl md:mx-[25%] md:mt-24'>
                         <h1 className='text-2xl md:text-5xl font-bold text-center'><span className='text-pink'>Reviews</span> From Students</h1>
                         <h3 className='text-xl md:text-3xl font-bold text-center mb-24 md:mb-12'>Average Rating : 4.5</h3>
                         <div>
@@ -38,7 +38,7 @@ const MySwiper = () => {
                                                         clickable: true,
                                                 }}
                                                 modules={[Mousewheel, Pagination]}
-                                                className="mySwiper"
+                                                className="coursesSwiper"
                                                 onSlideChange={handleSlideChange}
                                                 loop={true}
                                                 breakpoints={{

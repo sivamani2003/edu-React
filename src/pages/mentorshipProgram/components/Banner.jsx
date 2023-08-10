@@ -15,9 +15,9 @@ const Banner = () => {
                                         <h1 className='text-blue md:text-3xl mt-8 font-bold'>MENTORSHIP Program revolutionizes internships.</h1>
                                         <h1 className='text-gray md:text-2xl mt-3'>We aim to empower learners to share their expertise and earn simultaneously.</h1>
                                         <form className='mt-12'>
-                                                <div className="inputAndBtn md:inline-flex items-center text-center">
+                                                <div className="shadow-xl p-2 rounded-lg md:inline-flex items-center text-center">
                                                         <div>
-                                                                <input className='px-[20px] py-[10px] outline-none text-xl text-center md:text-left' type="email" name="" placeholder='Enter Email' />
+                                                                <input className='px-[20px] py-[10px] rounded-xl outline-none text-xl text-center md:text-left' type="email" name="" placeholder='Enter Email' />
                                                         </div>
                                                         <div className="email-btn flex justify-center">
                                                                 <button className='form-btn p-[12px] rounded-[10px]'>Become a trainer

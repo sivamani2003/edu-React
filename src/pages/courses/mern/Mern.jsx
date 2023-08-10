@@ -21,7 +21,7 @@ const Mern = () => {
                         <div>
                                 <Home></Home>
                         </div>
-                        <div className='max-w-[1240px] mx-auto'>
+                        <div className='max-w-[1240px] mx-auto my-10'>
                                 <YouWillBuild></YouWillBuild>
                         </div>
                         <div className='max-w-[1400px] mx-auto mt-12'>

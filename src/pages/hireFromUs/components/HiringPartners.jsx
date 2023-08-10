@@ -21,10 +21,10 @@ const HiringPartners = () => {
                     slidesPerView={1}
                     spaceBetween={30}
                     pagination={{ clickable: true, }}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    }}
+                    // autoplay={{
+                    //     delay: 2500,
+                    //     disableOnInteraction: false,
+                    // }}
                     breakpoints={{
                         768: {
                             slidesPerView: 2,
@@ -35,7 +35,7 @@ const HiringPartners = () => {
                     speed={1000}
                     navigation={true}
                     modules={[Pagination, Navigation, Autoplay]}
-                    className="mySwiper"
+                    className="hiringPartners"
                 >
                     <SwiperSlide>
                         <div className='border-t-2 border-[#1ab79d] px-4 py-8 card-shadow'>

@@ -38,7 +38,7 @@ const MySwiper = () => {
                                                         clickable: true,
                                                 }}
                                                 modules={[Mousewheel, Pagination]}
-                                                className="mySwiper"
+                                                className="coursesSwiper"
                                                 onSlideChange={handleSlideChange}
                                                 loop={true}
                                                 breakpoints={{

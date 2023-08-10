@@ -27,14 +27,14 @@ const Banner = ({ courses }) => {
                 </div>
                 <div className='md:w-1/2 home-banner-right flex flex-col items-center justify-center'>
                     <div className='flex my-10 md:my-0 md:relative top-10'>
-                        <div>
-                            <img className='banner1 w-[80%] md:w-full' src={banner1} alt="" />
+                        <div className='flex justify-center'>
+                            <img className='banner1 w-[80%] h-[80%] md:w-full' src={banner1} alt="" />
                         </div>
-                        <div className='md:relative top-20 left-12'>
+                        <div className='flex justify-center md:relative top-20 md:left-12'>
                             <img className='banner2 w-[70%] md:w-full' src={banner2} alt="" />
                         </div>
                     </div>
-                    <div className='relative hidden md:block right-32'>
+                    <div className='relative hidden md:block md:right-32'>
                         <img className='banner3' src={banner3} alt="" />
                     </div>
                 </div>

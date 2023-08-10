@@ -1,34 +1,47 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaArrowRight } from "react-icons/fa";
 import { RiArrowDownDoubleFill } from "react-icons/ri";
+import { HiOutlineX } from "react-icons/hi";
 import { BsArrowRight } from "react-icons/bs";
 import mern from '../../assets/navbar/mern-stack.svg'
 import cProgram from '../../assets/navbar/c-language.svg'
-import './NavBar.css'
+import './Navbar.css'
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/navbar/logo.svg'
 
 const NavBar = () => {
+    const [toggle, setToggle] = useState(false);
     return (
         <div>
-            <div className="navbar bg-base-300">
+            <div className="navbar">
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                        <label onClick={() => setToggle(!toggle)} tabIndex={0} className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
-                        <ul tabIndex={0} className="menu dropdown-content mt-3 z-[5] p-2 shadow bg-base-100 rounded-box">
-                            <li><a>Scholarship</a></li>
-                            <li><a>Community</a></li>
-                            <li><a>Courses</a>
-                                <ul className="p-2">
-                                    <li><NavLink to="/android" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Android Development</NavLink></li>
-                                    <li><NavLink to="/python" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Python Development</NavLink></li>
-                                    <li><NavLink to="/analytics" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Analytics and data science</NavLink></li>
-                                    <li><NavLink to="/mern" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>MERN stack Development</NavLink></li>
-                                    <li><NavLink to="/dsa" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Data structures and algorithms</NavLink></li>
-                                </ul></li>
-                            <li><NavLink to="/mentorship" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Mentorship</NavLink></li>
+                        <ul tabIndex={0} className={`${toggle ? 'block' : 'hidden'} menu dropdown-content mt-3 z-[5] shadow bg-base-100 rounded-box`}>
+                            <div>
+                                {/* <p className='text-right'>XX</p> */}
+                                <div className='text-right p-3'>
+                                    <button onClick={() => setToggle(!toggle)}>
+                                        <HiOutlineX size={25} className='text-pink'></HiOutlineX>
+                                    </button>
+                                </div>
+                                <div>
+                                    <li><a>Scholarship</a></li>
+                                    <li><a>Community</a></li>
+                                    <li>
+                                        <a>Courses</a>
+                                        <ul className="p-2">
+                                            <li onClick={() => setToggle(!toggle)}><NavLink to="/android" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Android Development</NavLink></li>
+                                            <li onClick={() => setToggle(!toggle)}><NavLink to="/python" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Python Development</NavLink></li>
+                                            <li onClick={() => setToggle(!toggle)}><NavLink to="/analytics" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Analytics and data science</NavLink></li>
+                                            <li onClick={() => setToggle(!toggle)}><NavLink to="/mern" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>MERN stack Development</NavLink></li>
+                                            <li onClick={() => setToggle(!toggle)}><NavLink to="/dsa" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Data structures and algorithms</NavLink></li>
+                                        </ul></li>
+                                    <li onClick={() => setToggle(!toggle)}><NavLink to="/mentorship" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Mentorship</NavLink></li>
+                                </div>
+                            </div>
                         </ul>
                     </div>
                     <Link to="/">
@@ -287,9 +300,9 @@ const NavBar = () => {
 
                             <li className="">
                                 <a href="#about">
-                                    <div className="flex items-center gax-x-2 hover:text-[#0bb09f]">
+                                    <div className="flex items-center hover:text-[#0bb09f]">
                                         <p>Scholarship</p>
-                                        <button className="scholarshipBtn">UP TO% OFF</button>
+                                        <button className="scholarshipBtn ml-[4px]">UP TO% OFF</button>
                                     </div>
                                 </a>
                             </li>

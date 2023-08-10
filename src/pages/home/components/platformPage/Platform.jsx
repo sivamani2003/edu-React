@@ -51,7 +51,7 @@ const Platform = () => {
       <h2 className='text-center text-lg md:text-5xl text-pink font-bold'>A One stop Platform</h2>
       <p className='text-center lg:text-lg lg:m-4 text-gray-500'>Practice and learn till you are perfect</p>
 
-      <ul className='header lg:text-base font-semibold m-3 p-5'>
+      <ul className='header grid lg:grid-cols-6 grid-cols-3 gap-y-2 text-center lg:text-base font-semibold m-3 p-5'>
         <li className={toggleState === 1 ? "header_content active" : "header_content"} onClick={() => { toggle(1) }}>Guided Program</li>
         <li className={toggleState === 2 ? "header_content active" : "header_content"} onClick={() => { toggle(2) }}>Doubt Resolution</li>
         <li className={toggleState === 3 ? "header_content active" : "header_content"} onClick={() => { toggle(3) }}>EduWeb</li>
