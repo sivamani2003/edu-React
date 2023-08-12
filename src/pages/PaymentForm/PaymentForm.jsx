@@ -141,7 +141,7 @@ const PaymentForm = () => {
 
                         <div className="md:flex items-center justify-between mt-6">
                             <h4 className="md:text-[16px] mb-2 md:mb-0 text-[14px]">Live Program Selected</h4>
-                            <select className="select border rounded-none border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2">
+                            <select className="select border bg-transparent text-black rounded-none border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2">
                                 <option selected>--Select--</option>
                                 <option>Analytics & Data Science</option>
                                 <option>Data Structure & Algorithm</option>
