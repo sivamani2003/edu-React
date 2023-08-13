@@ -42,12 +42,12 @@ const Platform = () => {
     gsap.fromTo(".content-image_container", {
       scale: 1.5, opacity: 0
     }, {
-      scale: 1, duration: 1, ease: "expo.in", opacity: 1,
+      scale: 1, duration: 0.5, ease: "expo.in", opacity: 1,
     })
   })
 
   return (
-    <div className='platform_page'>
+    <div className='platform_page shadow-2xl'>
       <h2 className='text-center text-lg md:text-5xl text-pink font-bold'>A One stop Platform</h2>
       <p className='text-center lg:text-lg lg:m-4 text-gray-500'>Practice and learn till you are perfect</p>
 

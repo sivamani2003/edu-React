@@ -6,7 +6,7 @@ const Card = ({ title }, courses) => {
 
     return (
         <div ref={courses} className='my-6'>
-            <h1 className='my-12 md:mb-8 md:mt-12 mx-8 md:text-center text-4xl md:text-5xl font-bold'>Explore Our <span className='text-pink'>Courses</span></h1>
+            <h1 className='mt-12 mb-6 md:mb-8 md:mt-12 mx-8 md:text-center text-3xl md:text-5xl font-bold'>Explore Our <span className='text-pink'>Courses</span></h1>
             <h1 className='my-6 mx-8 md:text-center text-2xl md:text-4xl font-bold'>Recommended <span className='text-pink'>Courses</span></h1>
             <div className='mt-4 md:flex gap-x-10 space-y-1 md:space-y-0'>
 
