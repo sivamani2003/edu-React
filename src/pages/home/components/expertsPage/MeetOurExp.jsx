@@ -53,9 +53,9 @@ function MeetOurExp() {
             </div>
             <div className='experts_container my-10 w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth'>
                 {data.map((item, id) => (
-                    <div key={id} className='expert_card inline-block mx-10 '>
+                    <div key={id} className='expert_card inline-block mx-4 md:mx-10 '>
                         <img className='expert_image' src={item.img} alt=''></img>
-                        <h1 className='sm:text-base lg:text-xl mt-3 font-bold text-center expert_name py-0.5'>{item.name}</h1>
+                        <h1 className='text-[15px] lg:text-xl mt-3 font-bold text-center expert_name py-0.5'>{item.name}</h1>
                         <p className='lg:text-lg text-center expert_profile'>{item.profile}</p>
                         <div className='social_links py-4'>
                             <img src={linkedin} alt=''></img>
