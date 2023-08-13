@@ -6,8 +6,9 @@ const Card = ({ title }, courses) => {
 
     return (
         <div ref={courses} className='my-6'>
-            <h1 className='text-center my-12 text-lg md:text-5xl font-bold'>Recommended <br /> <span className='text-pink'>Courses</span></h1>
-            <div className='mt-4 md:flex gap-x-10 space-y-4 md:space-y-0'>
+            <h1 className='my-12 md:mb-8 md:mt-12 mx-8 md:text-center text-4xl md:text-5xl font-bold'>Explore Our <span className='text-pink'>Courses</span></h1>
+            <h1 className='my-6 mx-8 md:text-center text-2xl md:text-4xl font-bold'>Recommended <span className='text-pink'>Courses</span></h1>
+            <div className='mt-4 md:flex gap-x-10 space-y-1 md:space-y-0'>
 
                 <div className="card card-compact md:w-1/2 mx-8 md:mx-auto course-card-shadow">
                     <div className="flex flex-col md:flex-row items-center justify-center md:justify-between md:mx-10 pt-4">

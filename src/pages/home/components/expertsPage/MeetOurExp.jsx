@@ -47,13 +47,13 @@ function MeetOurExp() {
     return (
         <div className='moe_page xl:px-36'>
             <div className='expert_heading' >
-                <h1 className='lg:w-6/12 text-4xl font-bold'>Meet Our Experts</h1>
-                <p className='lg:w-6/12 text-base lg:px-14 expert_heading-text'>WRITO students get mentored by the industry experts who have achieved mastery in their respective domains & are passionate about helping
+                <h1 className='lg:w-6/12 text-4xl font-bold pt-4'>Meet Our Experts</h1>
+                <p className='lg:w-6/12 text-base mx-4 md:mx-0 mt-4 md:mt-0 lg:px-14 expert_heading-text'>WRITO students get mentored by the industry experts who have achieved mastery in their respective domains & are passionate about helping
                     students achieve their dreams.</p>
             </div>
-            <div className='experts_container my-10 w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth'>
+            <div className='experts_container my-[4px] md:my-10 w-full h-full overflow-x-scroll scroll whitespace-nowrap scroll-smooth'>
                 {data.map((item, id) => (
-                    <div key={id} className='expert_card inline-block mx-4 md:mx-10 '>
+                    <div key={id} className='expert_card inline-block ml-8 md:mx-10 '>
                         <img className='expert_image' src={item.img} alt=''></img>
                         <h1 className='text-[15px] lg:text-xl mt-3 font-bold text-center expert_name py-0.5'>{item.name}</h1>
                         <p className='lg:text-lg text-center expert_profile'>{item.profile}</p>

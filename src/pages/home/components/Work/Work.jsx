@@ -8,15 +8,15 @@ import {
 
 const Work = () => {
   return (
-    <div className="w-full max-w-7xl mx-auto">
-      <h1 className="text-center font-bold text-5xl">How we <span className="text-[#ee4962]">work?</span></h1>
-      <p className="text-center my-4 mb-8">
+    <div className="w-full my-12 max-w-7xl md:mx-auto">
+      <h1 className="text-center font-bold text-[40px] md:text-5xl">How we <span className="text-[#ee4962]">work?</span></h1>
+      <p className="mx-8 my-4 mb-8">
         Revolutionize the era of learning by creating high-quality content
-        courses mentored by top-notch skilled <br /> trainers with full time
+        courses mentored by top-notch skilled trainers with full time
         support & live corporate trainings accompanied by placement assistance &
-        networking <br /> support.
+        networking support.
       </p>
-      <div className="grid md:grid-cols-5 gap-4 mt-4 my-4">
+      <div className="grid md:grid-cols-5 gap-4 mx-4 md:mx-0 mt-16 md:mt-4">
 
         <div className="flex relative my-4">
           <div>
@@ -29,8 +29,8 @@ const Work = () => {
               </div>
             </div>
 
-            <div className="text-center mt-8">
-              <h3 className="text-2xl font-bold my-4">
+            <div className="text-center mb-6">
+              <h3 className="text-2xl font-bold my-2">
                 Learn with top experts
               </h3>
               <p>
@@ -59,8 +59,8 @@ const Work = () => {
               </div>
             </div>
 
-            <div className="text-center mt-8">
-              <h3 className="text-2xl font-bold my-4">Community discussion</h3>
+            <div className="text-center  mb-6">
+              <h3 className="text-2xl font-bold my-2">Community discussion</h3>
               <p>
                 Attend the regular and planned community discussions to share
                 and support innovative ideas and dreams.
@@ -86,8 +86,8 @@ const Work = () => {
               </div>
             </div>
 
-            <div className="text-center mt-8">
-              <h3 className="text-2xl font-bold my-4">
+            <div className="text-center mb-6">
+              <h3 className="text-2xl font-bold my-2">
                 Live Corporate projects
               </h3>
               <p>
@@ -119,8 +119,8 @@ const Work = () => {
 
             </div>
 
-            <div className="text-center mt-8">
-              <h3 className="text-2xl font-bold my-4">Placement Assistance</h3>
+            <div className="text-center mb-6">
+              <h3 className="text-2xl font-bold my-2">Placement Assistance</h3>
               <p>
                 Learn to crack interviews from our experienced trainers and get
                 placed at top companies.
@@ -146,8 +146,8 @@ const Work = () => {
               </div>
             </div>
 
-            <div className="text-center mt-8">
-              <h3 className="text-2xl font-bold my-4">
+            <div className="text-center mb-6">
+              <h3 className="text-2xl font-bold my-2">
                 Networking and Investment Support
               </h3>
               <p>

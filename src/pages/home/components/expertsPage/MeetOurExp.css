@@ -30,7 +30,7 @@
     flex-direction: row;
     overflow-x: scroll;
     white-space: nowrap;
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 
 .experts_container::-webkit-scrollbar {
@@ -89,7 +89,7 @@
     }
     .expert_heading-text {
         position: relative;
-        padding: 1rem 2rem;
+        padding: 0 1rem;
     }
     .expert_card {
         min-width: 180px;

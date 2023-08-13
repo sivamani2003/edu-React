@@ -48,7 +48,7 @@ function Section() {
                     </div>
 
                 </div>
-                <div className="image-box-X1">
+                {/* <div className="image-box-X1">
                     <img
                         src={url}
                         alt="blur"
@@ -60,10 +60,10 @@ function Section() {
                         alt="blur"
                     ></img>
                     <img src="group.svg" alt="blur"></img>
-                </div>
+                </div> */}
             </div>
         </>
     );
 }
 
-export default Section;
+export default Section;

@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 
 const NewsBlogs = () => {
     return (
-        <div>
+        <div className='mb-10'>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
