@@ -32,12 +32,12 @@ const Platform = () => {
     tl.fromTo(".content_text", {
       x: -100, opacity: 0,
     }, {
-      x: 0, duration: 0.5, ease: "power1.in", opacity: 1
+      x: 0, duration: 0.5, ease: "power1.in", opacity: 1,
     })
     tl.fromTo(".content_last", {
       x: -100, opacity: 0,
     }, {
-      x: 0, duration: 0.5, ease: "power1.in", opacity: 1
+      x: 0, duration: 0.5, ease: "power1.in", opacity: 1,
     })
     gsap.fromTo(".content-image_container", {
       scale: 1.5, opacity: 0
