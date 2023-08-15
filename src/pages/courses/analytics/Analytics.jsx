@@ -5,7 +5,7 @@ import YouWillBuild from './components/YouWillBuild';
 import WhyAndWhat from './components/WhyAndWhat';
 import TrainingWorks from './components/TrainingWorks';
 import Questions from './components/Questions';
-import MySwiper from './components/MySwiper';
+import CoursesSwiper from '../shared/CoursesSwiper';
 import { useLocation } from 'react-router-dom';
 
 
@@ -42,7 +42,7 @@ const Analytics = () => {
                         </div>
 
                         <div className='max-w-[1400px] mx-auto mt-12'>
-                                <MySwiper></MySwiper>
+                                <CoursesSwiper></CoursesSwiper>
                         </div>
                 </div>
         );

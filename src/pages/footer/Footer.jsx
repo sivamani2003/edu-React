@@ -13,15 +13,14 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className="w-full relative">
-      <div className="mt-60 md:mt-32">
-        {/* Form section */}
-        <div className="flex justify-center">
-          <div className="bg-gradient w-10/12 mx-auto rounded-2xl absolute -top-60 md:-top-28">
-            <div>
-              <div className="flex flex-col md:flex-row justify-evenly  p-8">
-                <div className="text-white md:w-8/12 p-4">
-                  <h1 className="text-4xl font-bold mb-2">
+    <div className="text-white bg-[#000] relative mt-48 md:mt-24">
+      <div className="max-w-7xl mx-auto">
+
+        <div className="w-full px-12 absolute top-0 -translate-y-1/2 left-0">
+          <div className="bg-gradient rounded-2xl">
+              <div className="flex flex-col md:flex-row justify-evenly p-3 lg:p-8">
+                <div className="text-white p-4 md:w-[70%]">
+                  <h1 className="text-3xl lg:text-4xl font-bold mb-2">
                     Subscribe us for the latest newsletter
                   </h1>
 
@@ -30,20 +29,18 @@ const Footer = () => {
                   </p>
 
                 </div>
-                <div className="input-field p-1 md:w-4/12">
-                  <input type="text" placeholder="Enter Email" className="input w-full" />{" "}
+                <div className="input-field p-1 md:w-[30%]">
+                  <input type="text" placeholder="Enter Email" className="input w-full" />
                   <br />
                   <button className="allBtn w-full flex justify-center">
                     Subscribe
                   </button>
                 </div>
               </div>
-            </div>
           </div>
         </div>
-        {/* Form section end */}
-
-        <footer className="footer p-12 flex justify-center pt-36 text-white bg-[#000] text-lg">
+        
+        <footer className="footer px-8 md:px-0 footer-padding flex flex-col justify-center text-lg">
           <div className="grid gap-8 md:grid-cols-4">
             <div className="text-white">
               <span className="font-bold text-2xl">Quick Links</span>
@@ -131,6 +128,7 @@ const Footer = () => {
             </div>
           </div>
         </footer>
+
       </div>
 
       <div className="p-8 bg-gradient text-base-content">
