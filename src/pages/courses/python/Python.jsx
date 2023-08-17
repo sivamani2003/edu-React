@@ -21,7 +21,7 @@ const Python = () => {
                         <div>
                                 <Home></Home>
                         </div>
-                        <div className='max-w-[1240px] mx-auto my-10'>
+                        <div className='max-w-[1240px] mx-auto md:my-10'>
                                 <YouWillBuild></YouWillBuild>
                         </div>
                         <div className='max-w-[1400px] mx-auto mt-12'>

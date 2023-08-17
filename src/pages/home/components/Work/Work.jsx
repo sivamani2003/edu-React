@@ -10,7 +10,7 @@ const Work = () => {
   return (
     <div className="w-full my-12 max-w-7xl md:mx-auto">
       <h1 className="text-center font-bold text-[40px] md:text-5xl">How we <span className="text-[#ee4962]">work?</span></h1>
-      <p className="md:mx-[200px] my-4 mb-8 text-gray">
+      <p className="md:mx-[200px] mx-4 my-4 mb-8 text-gray">
         Revolutionize the era of learning by creating high-quality content
         courses mentored by top-notch skilled trainers with full time
         support & live corporate trainings accompanied by placement assistance &
