@@ -115,6 +115,14 @@
         padding: 4px 16px !important;
 }
 
+.courses-img-shadow {
+        box-shadow: 0 6px #00cbab;
+        background-color: #eef6f5;
+}
+
+
+
+
 
 
 /* swiper */
@@ -133,8 +141,24 @@
         justify-content: center;
         align-items: center;
 }
+
 .swiper-shadow {
         position: relative;
         border-radius: 15px;
         padding: 18px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 640px) {
+        .bg-animation {
+                /* display: relative; */
+                background-image: url(../../assets/hero-bg.svg);
+                /* height: 1000px; */
+                background-size: cover;
+                height: 80vh;
+        }
+
+        .coursesSwiper {
+                height: 370px;
+        }
 }

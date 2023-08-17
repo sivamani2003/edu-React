@@ -7,7 +7,7 @@ const WhyAndWhat = () => {
                 <div>
                         <div>
                                 <div className="md:flex">
-                                        <div data-aos="zoom-in" className="md:w-1/2 px-3 md:pl-16">
+                                        <div className="md:w-1/2 px-3 md:pl-16">
                                                 <h1 className="text-2xl md:text-5xl font-bold">Why <span className='text-pink'>learn</span> web development?</h1> <br />
                                                 <div className='pl-20 md:pl-0'>
                                                         <h3 className="text-xl md:text-2xl font-bold">Build Awesome Websites</h3>
@@ -18,7 +18,7 @@ const WhyAndWhat = () => {
                                                         <p className="mt-1 md:mt-2 text-gray">Be it rain or sunshine, coding is always on your mind.</p>
                                                 </div>
                                         </div>
-                                        <div data-aos="zoom-in" className='hidden md:w-1/2 md:flex justify-center'>
+                                        <div className='hidden md:w-1/2 md:flex justify-center'>
                                                 <img src={why} className="w-[70%]" />
                                         </div>
                                 </div>
@@ -26,7 +26,7 @@ const WhyAndWhat = () => {
 
                         <div className="mt-8 md:mt-12">
                                 <div className="md:flex">
-                                        <div data-aos="zoom-in" className="md:w-1/2 px-3 md:pl-16">
+                                        <div className="md:w-1/2 px-3 md:pl-16">
                                                 <h1 className="text-2xl md:text-5xl font-bold">What <span className='text-pink'>placement assistance</span> will you receive?</h1> <br />
                                                 <div className='pl-20 md:pl-0'>
                                                         <h3 className="text-xl md:text-2xl font-bold">Free Placement Prep Training</h3>
@@ -37,7 +37,7 @@ const WhyAndWhat = () => {
                                                         <p className="mt-1 md:mt-2 text-gray">Top performers will be highlighted in their internship & <br /> job applications on Internshala</p>
                                                 </div>
                                         </div>
-                                        <div data-aos="zoom-in" className='md:w-1/2 hidden md:flex justify-center'>
+                                        <div className='md:w-1/2 hidden md:flex justify-center'>
                                                 <img src={what} className="w-[80%]" />
                                         </div>
                                 </div>

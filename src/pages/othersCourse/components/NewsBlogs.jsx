@@ -40,7 +40,7 @@ const NewsBlogs = () => {
                             </div>
                         </div>
                         <div className="card-body">
-                            <p className='text-xl font-bold text-[#47476e] text-left'>Product development is not a course to learn, its an arts. And so...</p>
+                            <p className='text-xl font-bold text-[#47476e] text-left'>Craft immersive online experiences through hands-on coding and design mastery.</p>
                             <div className='text-left text-[#47476e] font-semibold'>
                                 <div className='flex justify-between'>
                                     <div className='flex flex-col'>
@@ -73,7 +73,7 @@ const NewsBlogs = () => {
                             </div>
                         </div>
                         <div className="card-body">
-                            <p className='text-xl font-bold text-[#47476e] text-left'>The ERA on Enterpreneurship: How You can be the Next Success...</p>
+                            <p className='text-xl font-bold text-[#47476e] text-left'>Harness the future with intelligent systems and algorithms through machine learning expertise.</p>
                             <div className='text-left text-[#47476e] font-semibold'>
                                 <div className='flex justify-between'>
                                     <div className='flex flex-col'>
@@ -106,7 +106,7 @@ const NewsBlogs = () => {
                             </div>
                         </div>
                         <div className="card-body">
-                            <p className='text-xl font-bold text-[#47476e] text-left'>Having an INTERNSHIP EXPERIENCE before getting info professional
+                            <p className='text-xl font-bold text-[#47476e] text-left'>Unleash the power of programming versatility with Python's dynamic language.
                             </p>
                             <div className='text-left text-[#47476e] font-semibold'>
                                 <div className='flex justify-between'>
@@ -140,7 +140,7 @@ const NewsBlogs = () => {
                             </div>
                         </div>
                         <div className="card-body">
-                            <p className='text-xl font-bold text-[#47476e] text-left'>Having an INTERNSHIP EXPERIENCE before getting info professional
+                            <p className='text-xl font-bold text-[#47476e] text-left'>Master data structures and algorithms for efficient problem-solving using C/C++.
                             </p>
                             <div className='text-left text-[#47476e] font-semibold'>
                                 <div className='flex justify-between'>
@@ -174,7 +174,7 @@ const NewsBlogs = () => {
                             </div>
                         </div>
                         <div className="card-body">
-                            <p className='text-xl font-bold text-[#47476e] text-left'>Having an INTERNSHIP EXPERIENCE before getting info professional
+                            <p className='text-xl font-bold text-[#47476e] text-left'>Craft immersive online experiences through hands-on coding and design mastery.
                             </p>
                             <div className='text-left text-[#47476e] font-semibold'>
                                 <div className='flex justify-between'>

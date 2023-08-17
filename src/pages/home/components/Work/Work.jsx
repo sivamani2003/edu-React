@@ -10,7 +10,7 @@ const Work = () => {
   return (
     <div className="w-full my-12 max-w-7xl md:mx-auto">
       <h1 className="text-center font-bold text-[40px] md:text-5xl">How we <span className="text-[#ee4962]">work?</span></h1>
-      <p className="mx-8 my-4 mb-8">
+      <p className="md:mx-[200px] my-4 mb-8 text-gray">
         Revolutionize the era of learning by creating high-quality content
         courses mentored by top-notch skilled trainers with full time
         support & live corporate trainings accompanied by placement assistance &
@@ -33,7 +33,7 @@ const Work = () => {
               <h3 className="text-2xl font-bold my-2">
                 Learn with top experts
               </h3>
-              <p>
+              <p className="text-gray">
                 Get your confusion replaced with <br /> confidence and doubts with
                 solution under  the guidance of our top experts
               </p>
@@ -61,7 +61,7 @@ const Work = () => {
 
             <div className="text-center  mb-6">
               <h3 className="text-2xl font-bold my-2">Community discussion</h3>
-              <p>
+              <p className="text-gray">
                 Attend the regular and planned community discussions to share
                 and support innovative ideas and dreams.
               </p>
@@ -90,7 +90,7 @@ const Work = () => {
               <h3 className="text-2xl font-bold my-2">
                 Live Corporate projects
               </h3>
-              <p>
+              <p className="text-gray">
                 Work on live projects and get the practical knowledge required
                 to boost up your career
               </p>
@@ -121,7 +121,7 @@ const Work = () => {
 
             <div className="text-center mb-6">
               <h3 className="text-2xl font-bold my-2">Placement Assistance</h3>
-              <p>
+              <p className="text-gray">
                 Learn to crack interviews from our experienced trainers and get
                 placed at top companies.
               </p>
@@ -150,7 +150,7 @@ const Work = () => {
               <h3 className="text-2xl font-bold my-2">
                 Networking and Investment Support
               </h3>
-              <p>
+              <p className="text-gray">
                 Master the art of networking by enhancing your communication
                 skills and get the financial aid to start your business.
               </p>

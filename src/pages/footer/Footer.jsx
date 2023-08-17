@@ -13,10 +13,10 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <div className="text-white bg-[#000] relative mt-48 md:mt-24">
+    <div className="text-white bg-[#000] relative mt-[250px] md:mt-24">
       <div className="max-w-7xl mx-auto">
 
-        <div className="w-full px-12 absolute top-0 -translate-y-1/2 left-0">
+        <div className="w-full px-8 absolute top-0 -translate-y-1/2 left-0">
           <div className="bg-gradient rounded-2xl">
               <div className="flex flex-col md:flex-row justify-evenly p-3 lg:p-8">
                 <div className="text-white p-4 md:w-[70%]">

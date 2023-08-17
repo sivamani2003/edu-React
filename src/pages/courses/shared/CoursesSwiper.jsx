@@ -24,11 +24,11 @@ const MySwiper = () => {
         };
 
         return (
-                <div className='max-w-7xl md:mx-[25%] md:mt-24'>
+                <div className='max-w-7xl md:mx-[25%] mt-[100px] md:mt-24'>
                         <h1 className='text-2xl md:text-5xl font-bold text-center'><span className='text-pink'>Reviews</span> From Students</h1>
                         <h3 className='text-xl md:text-3xl font-bold text-center mb-24 md:mb-12'>Average Rating : 4.5</h3>
                         <div>
-                                <div className='swiper-shadow shadow-2xl relative'>
+                                <div className='swiper-shadow shadow-2xl mx-8 md:mx-0 relative'>
                                         <Swiper
                                                 direction={'horizontal'}
                                                 slidesPerView={1}
@@ -49,31 +49,31 @@ const MySwiper = () => {
                                         >
                                                 <SwiperSlide className='flex flex-col justify-center'>
                                                         <div className='md:pl-36 md:pr-6'>
-                                                                <h1 className='text-3xl text-pink font-bold mt-8 md:mt-0'>Devraj kalvi</h1>
+                                                                <h1 className='text-3xl text-pink font-bold mt-8 md:mt-0'>Emran</h1>
                                                                 <h1 className='text-lg text-[#1ab79d] font-semibold'>Deloite</h1>
-                                                                <p className='mt-2 text-gray'>WRITO students get mentored by the industry experts who have achieved mastery in their respective domains & are passionate about helping students achieve their dreams.</p>
+                                                                <p className='mt-2 text-gray'>My stint with Writo has been great because of my mentors that helped me learn complex and dynamic concepts that were a part of my course. Their Teaching Assistant feature compliments the learning process due to their.</p>
                                                         </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide className='flex flex-col justify-center'>
                                                         <div className='md:pl-36 md:pr-6'>
-                                                                <h1 className='text-3xl text-pink font-bold mt-8 md:mt-0'>Ravinder</h1>
+                                                                <h1 className='text-3xl text-pink font-bold mt-8 md:mt-0'>Jahangir</h1>
                                                                 <h1 className='text-lg text-[#1ab79d] font-semibold'>Microsoft</h1>
-                                                                <p className='mt-2 text-gray'>WRITO students get mentored by the industry experts who have achieved mastery in their respective domains & are passionate about helping students achieve their dreams.</p>
+                                                                <p className='mt-2 text-gray'>I had signed-up for C++ with Data Structures with Algorithms that featured the basics to the technicalities related to the course. Each topic was very well explained by my faculty a part of my course.</p>
                                                         </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide className='flex flex-col justify-center'>
                                                         <div className='md:pl-36 md:pr-6'>
-                                                                <h1 className='text-3xl text-pink font-bold mt-8 md:mt-0'>James Bond</h1>
+                                                                <h1 className='text-3xl text-pink font-bold mt-8 md:mt-0'>Najim</h1>
                                                                 <h1 className='text-lg text-[#1ab79d] font-semibold'>Byjus</h1>
-                                                                <p className='mt-2 text-gray'>WRITO students get mentored by the industry experts who have achieved mastery in their respective domains & are passionate about helping students achieve their dreams.</p>
+                                                                <p className='mt-2 text-gray'> My stint with Coding Ninjas has been great because of my mentors that helped me learn complex and dynamic concepts that were a part of my course. Their Teaching Assistant feature a part of my course.</p>
                                                         </div>
                                                 </SwiperSlide>
                                         </Swiper>
-                                        <div className='absolute top-0 md:top-1/2 left-1/2 md:left-0  transform -translate-x-1/2 -translate-y-1/2 z-10 shadow-2xl p-4 md:p-8 rounded-[15px] bg-white flex items-center'>
+                                        <div className='courses-img-shadow absolute top-0 md:top-1/2 left-1/2 md:left-0 transform -translate-x-1/2 -translate-y-1/2 z-10 md:p-8 rounded-[15px] bg-white flex items-center'>
                                                 <img
                                                         src={slideImages[currentSlide]}
                                                         alt={`Slide ${currentSlide + 1}`}
-                                                        className='w-[120px] h-[120px] rounded-xl md:w-[200px] md:h-[200px]'
+                                                        className='w-[500px] h-[120px] rounded-xl md:w-[200px] md:h-[200px]'
                                                 />
                                         </div>
                                 </div>

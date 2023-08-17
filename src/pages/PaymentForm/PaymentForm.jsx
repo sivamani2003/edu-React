@@ -76,6 +76,13 @@ const PaymentForm = () => {
         useGst(percentGST);
     }, [])
 
+
+    const handleSubmitForm = (event) => {
+        event.preventDefault();
+
+        onClickStart()
+    }
+
     return (
         <div className="hero min-h-screen bg-white mb-8">
             <div className="hero-content flex-col lg:flex-row">
@@ -120,7 +127,7 @@ const PaymentForm = () => {
                     </div> */}
                 </div>
 
-                <div className="card lg:ms-8 mx-2 w-full md:mx-0 lg:w-5/12 shadow-2xl bg-white">
+                <form onSubmit={handleSubmitForm} className="card lg:ms-8 mx-2 w-full md:mx-0 lg:w-5/12 shadow-2xl bg-white">
                     <div className="p-8">
                         <h3 className="text-2xl font-semibold">Payment Details</h3>
                         <hr className="bg-green-500 w-10 h-2 mt-8" /> <br />
@@ -136,12 +143,12 @@ const PaymentForm = () => {
 
                         <div className="md:flex items-center justify-between mt-6">
                             <h4 className="md:text-[16px] mb-2 md:mb-0 text-[14px]">Number</h4>
-                            <input className="appearance-none border bg-transparent text-black border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight  outline-green-400" id="number" type="number" />
+                            <input className="appearance-none border bg-transparent text-black border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight  outline-green-400" id="number" type="number" required/>
                         </div>
 
                         <div className="md:flex items-center justify-between mt-6">
                             <h4 className="md:text-[16px] mb-2 md:mb-0 text-[14px]">Live Program Selected</h4>
-                            <select className="select border bg-transparent text-black rounded-none border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2">
+                            <select className="select border bg-transparent text-black rounded-none border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2" required>
                                 <option selected>--Select--</option>
                                 <option>Analytics & Data Science</option>
                                 <option>Data Structure & Algorithm</option>
@@ -155,12 +162,12 @@ const PaymentForm = () => {
 
                         <div className="md:flex items-center justify-between mt-6">
                             <h4 className="md:text-[16px] mb-2 md:mb-0 text-[14px]">Enrollment Fee <br /> including Gateway <br /> Charge</h4>
-                            <input className="appearance-none border bg-transparent text-black border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight pl-4 outline-green-400" id="number" type="number" disabled value={enrollmentFee} />
+                            <input className="appearance-none border bg-transparent text-black border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight pl-4 outline-green-400" id="number" type="number" disabled value={enrollmentFee} required/>
                         </div>
 
                         <div className="md:flex items-center justify-between mt-6">
                             <h4 className="md:text-[16px] mb-2 md:mb-0 text-[14px]">GST</h4>
-                            <input className="appearance-none border bg-transparent text-black border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight pl-4 outline-green-400" id="number" type="text" disabled value={gst} />
+                            <input className="appearance-none border bg-transparent text-black border-[#e2e2e2] w-full md:ms-4 md:w-72 py-2 leading-tight pl-4 outline-green-400" id="number" type="text" disabled value={gst} required/>
                         </div>
 
                     </div>
@@ -175,16 +182,17 @@ const PaymentForm = () => {
 
                         </div>
                         <div className="h-15">
-                            <button className="md:ms-2 bg-[#05ad11] p-5 text-white font-bold w-full md:w-48" onClick={() => onClickStart()}>Pay ₹ {totalPlay}</button>
+                            
+                            <button className="md:ms-2 bg-[#05ad11] p-5 text-white font-bold w-full md:w-48" ><input type="submit" value="Pay ₹" /> {totalPlay}</button>
                         </div>
                     </div>
 
-                </div>
+                </form>
 
                 <dialog id="my_modal_3" className="modal">
                     <form method="dialog" className="modal-box">
                         <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
-                        <div className="flex items-center gap-4">
+                        <div className="flex flex-col md:flex-row h-[80vh] md:h-[250px] items-center gap-4">
                             <div>
                                 <QRCode
                                     size={200}
