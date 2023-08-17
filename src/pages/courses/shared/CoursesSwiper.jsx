@@ -6,9 +6,9 @@ import 'swiper/css/pagination';
 import '../Courses.css'
 import { Mousewheel, Pagination } from 'swiper/modules';
 
-const one = 'https://img.freepik.com/premium-photo/smiling-indian-software-developer_274689-36939.jpg'
-const two = 'https://st2.depositphotos.com/1643295/7439/i/600/depositphotos_74390343-stock-photo-smiling-software-developer.jpg'
-const three = 'https://st3.depositphotos.com/1017986/18714/i/450/depositphotos_187143178-stock-photo-close-up-of-creative-man.jpg'
+const one = 'https://img.freepik.com/premium-photo/indian-programmer-trying-hard-find-solution-when-working-programming-code_274689-19233.jpg'
+const two = 'https://media.istockphoto.com/id/1075599562/photo/programmer-working-with-program-code.jpg?s=612x612&w=0&k=20&c=n3Vw5SMbMCWW1YGG6lnTfrwndNQ8B_R4Vw-BN7LkqpA='
+const three = 'https://blog.teamtreehouse.com/wp-content/uploads/2014/05/codingconfidence.jpg'
 
 
 const slideImages = [
@@ -49,21 +49,21 @@ const MySwiper = () => {
                                         >
                                                 <SwiperSlide className='flex flex-col justify-center'>
                                                         <div className='md:pl-36 md:pr-6'>
-                                                                <h1 className='text-3xl text-pink font-bold mt-8 md:mt-0'>Abhinay Chaturvedi</h1>
+                                                                <h1 className='text-3xl text-pink font-bold mt-8 md:mt-0'>Devraj kalvi</h1>
                                                                 <h1 className='text-lg text-[#1ab79d] font-semibold'>Deloite</h1>
                                                                 <p className='mt-2 text-gray'>WRITO students get mentored by the industry experts who have achieved mastery in their respective domains & are passionate about helping students achieve their dreams.</p>
                                                         </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide className='flex flex-col justify-center'>
                                                         <div className='md:pl-36 md:pr-6'>
-                                                                <h1 className='text-3xl text-pink font-bold mt-8 md:mt-0'>Amit Pandey</h1>
+                                                                <h1 className='text-3xl text-pink font-bold mt-8 md:mt-0'>Ravinder</h1>
                                                                 <h1 className='text-lg text-[#1ab79d] font-semibold'>Microsoft</h1>
                                                                 <p className='mt-2 text-gray'>WRITO students get mentored by the industry experts who have achieved mastery in their respective domains & are passionate about helping students achieve their dreams.</p>
                                                         </div>
                                                 </SwiperSlide>
                                                 <SwiperSlide className='flex flex-col justify-center'>
                                                         <div className='md:pl-36 md:pr-6'>
-                                                                <h1 className='text-3xl text-pink font-bold mt-8 md:mt-0'>Anubhav</h1>
+                                                                <h1 className='text-3xl text-pink font-bold mt-8 md:mt-0'>James Bond</h1>
                                                                 <h1 className='text-lg text-[#1ab79d] font-semibold'>Byjus</h1>
                                                                 <p className='mt-2 text-gray'>WRITO students get mentored by the industry experts who have achieved mastery in their respective domains & are passionate about helping students achieve their dreams.</p>
                                                         </div>
