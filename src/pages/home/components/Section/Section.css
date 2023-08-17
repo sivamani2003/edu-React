@@ -56,9 +56,10 @@
 .box-img {
   background-image: url("../../../../assets/home/hex-9602.svg");
   background-repeat: no-repeat;
+  /* background-size: cover; */
   display: inline-block;
   height: 180px;
-  width: 178px;
+  width: 180px;
 }
 
 .box-img-num {
@@ -118,7 +119,8 @@
     overflow: auto;
   }
 
-  .image-box-X1, .image-box-X2 {
+  .image-box-X1,
+  .image-box-X2 {
     display: none;
   }
 
@@ -127,8 +129,34 @@
     left: 0px;
   }
 
-  /* .box-img {
-    height: 110px;
-    width: 100px;
-  } */
+  .box-img {
+    background-image: url("../../../../assets/home/hex-1000.svg");
+    height: 140px;
+    width: 120px;
+  }
+  .box-img-num {
+    width: 95px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 17px;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .box-img-text {
+    text-align: center;
+    font-size: 9px;
+    color: white;
+    margin-left: 18px;
+    max-width: 130px;
+    display: inline-block;
+  }
+
+  .box-relative {
+    position: relative;
+    /* left: 40px; */
+    bottom: 50px;
+  }
 }
