@@ -19,7 +19,7 @@ function Section() {
                     <div className="container-child-2 flex justify-center">
                         <div>
 
-                            <div className="">
+                            <div className="box-img-container">
                                 <div className="box-img">
                                     <p className="box-img-num">150+</p>
                                     <p className="box-img-text">Students working in FAANG</p>
@@ -30,7 +30,7 @@ function Section() {
                                 </div>
                             </div>
 
-                            <div className="box-relative">
+                            <div className="box-relative box-img-container">
                                 <div className="box-img">
                                     <p className="box-img-num">50+</p>
                                     <p className="box-img-text">Students having 5 Stars on CodeChef</p>

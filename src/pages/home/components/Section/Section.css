@@ -125,8 +125,19 @@
   }
 
   .box-relative {
+    position: relative;
+    bottom: 50px;
     margin-top: 50px;
     left: 0px;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .box-relative {
+    margin-top: 50px;
+    left: 0px;
+    position: relative;
+    bottom: 50px;
   }
 
   .box-img {
@@ -134,6 +145,12 @@
     height: 140px;
     width: 120px;
   }
+
+  .box-img-container {
+    display: flex;
+    column-gap: 10px;
+  }
+
   .box-img-num {
     width: 95px;
     font-weight: bold;
@@ -144,7 +161,7 @@
     font-size: 30px;
     color: white;
   }
-  
+
   .box-img-text {
     text-align: center;
     font-size: 9px;
@@ -154,9 +171,7 @@
     display: inline-block;
   }
 
-  .box-relative {
-    position: relative;
-    /* left: 40px; */
-    bottom: 50px;
+  .container-child-1 {
+    margin-bottom: 80px;
   }
 }
