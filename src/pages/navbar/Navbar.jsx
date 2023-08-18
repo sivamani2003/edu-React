@@ -11,6 +11,8 @@ import logo from '../../assets/navbar/logo.svg'
 
 const NavBar = () => {
     const [toggle, setToggle] = useState(false);
+    const [largeToggle, setLargeToggle] = useState(false)
+
     return (
         <div>
             <div className="navbar">
@@ -53,19 +55,20 @@ const NavBar = () => {
                         <ul className='flex gap-x-10 items-center'>
 
 
-                            <li className="">
+                            <li onMouseOut={() => setLargeToggle(false)} onMouseOver={() => setLargeToggle(true)}>
                                 <div className="courseDropdown">
                                     <a href="#courses" className="flex my-5 items-center gap-x-1 hover:text-[#0bb09f]">
                                         Courses
                                         <RiArrowDownDoubleFill></RiArrowDownDoubleFill>
                                     </a>
-                                    <div className="courseDropdown-content p-5 pr-0">
+                                    <div className={`${largeToggle ? 'block' : 'hidden'} courseDropdown-content p-5 pr-0`}>
                                         <div className="md:flex md:w-[650px] w-full">
                                             <div className="md:w-[50%] md:pr-16">
                                                 <h4 className="font-semibold text-black text-[20px]">Recommended courses</h4>
                                                 <p>The most in demand courses at the <br /> moment</p>
                                                 <Link to="/mern">
                                                     <div
+                                                        onClick={() => setLargeToggle(false)}
                                                         className="w-full h-[60px] border-[1px] rounded-lg hover:border-orange-500 mt-4 flex items-center justify-between">
                                                         <p className="pl-2">MERN stack</p>
                                                         <img className="h-[60%] w-[60%] -mr-12" src={mern} alt="" srcSet=""></img>
@@ -73,6 +76,7 @@ const NavBar = () => {
                                                 </Link>
                                                 <Link to="/dsa">
                                                     <div
+                                                        onClick={() => setLargeToggle(false)}
                                                         className="w-full h-[60px] border-[1px] rounded-lg hover:border-orange-500 mt-6 flex items-center justify-between">
                                                         <p className="pl-2">Basics of C++ with Data Structures and Algorithms</p>
                                                         <img className="h-[60%] w-[60%]" src={cProgram} alt="" srcSet=""></img>
@@ -87,12 +91,12 @@ const NavBar = () => {
                                                 <div>
                                                     <div className="mt-8">
                                                         <div className="childdropdown">
-                                                            <div className="flex items-center gap-x-3">
+                                                            <button onClick={() => setLargeToggle(false)} className="flex items-center gap-x-3">
                                                                 <img src="https://files.codingninjas.com/Group-2.svg" alt=""></img>
                                                                 <Link to="/dsa"><p className="childdropbtn">Data structures and algorithms</p></Link>
                                                                 {/* <p className="childdropbtn pl-4">Data structures and algorithms</p> */}
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
-                                                            </div>
+                                                            </button>
                                                             <div className="childdropdown-content p-4">
                                                                 <p className="sub-heading">Data structures and algorithms</p>
                                                                 <a href="#">
@@ -119,12 +123,12 @@ const NavBar = () => {
 
                                                     <div>
                                                         <div className="childdropdown">
-                                                            <div className="flex items-center gap-x-3">
+                                                            <button onClick={() => setLargeToggle(false)} className="flex items-center gap-x-3">
                                                                 <img src="https://files.codingninjas.com/Group%203738.svg" alt=""></img>
                                                                 <Link to="/android"><p className="childdropbtn">Android Development</p></Link>
                                                                 {/* <p className="childdropbtn pl-4">Competitive Programming</p> */}
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
-                                                            </div>
+                                                            </button>
                                                             <div className="childdropdown-content p-4">
                                                                 <p className="sub-heading">Competitive Programming</p>
                                                                 <a href="#">
@@ -139,12 +143,12 @@ const NavBar = () => {
 
                                                     <div>
                                                         <div className="childdropdown">
-                                                            <div className="flex items-center gap-x-3">
+                                                            <button onClick={() => setLargeToggle(false)} className="flex items-center gap-x-3">
                                                                 <img src="https://files.codingninjas.com/interview-prep-old-11731.svg" alt=""></img>
                                                                 {/* <p className="childdropbtn pl-5">Interview Preparation</p> */}
                                                                 <Link to="/python"><p className="childdropbtn">Python Development</p></Link>
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
-                                                            </div>
+                                                            </button>
                                                             <div className="childdropdown-content p-4">
                                                                 <p className="sub-heading">Goal Based</p>
                                                                 <a href="#">
@@ -184,12 +188,12 @@ const NavBar = () => {
 
                                                     <div>
                                                         <div className="childdropdown">
-                                                            <div className="flex items-center gap-x-3">
+                                                            <button onClick={() => setLargeToggle(false)} className="flex items-center gap-x-3">
                                                                 <img src="https://files.codingninjas.com/Group.svg" alt=""></img>
                                                                 {/* <p className="childdropbtn pl-5">Analytics & Data Science</p> */}
                                                                 <Link to="/analytics"><p className="childdropbtn">Analytics & Data Science</p></Link>
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
-                                                            </div>
+                                                            </button>
                                                             <div className="childdropdown-content p-4">
                                                                 <p className="sub-heading">Analytics
                                                                 </p>
@@ -219,13 +223,13 @@ const NavBar = () => {
 
                                                     <div>
                                                         <div className="childdropdown">
-                                                            <div className="flex items-center gap-x-3">
+                                                            <button onClick={() => setLargeToggle(false)} className="flex items-center gap-x-3">
                                                                 <img src="https://files.codingninjas.com/Group-3.svg" alt=""></img>
                                                                 {/* <p className="childdropbtn pl-5">Web Development</p> */}
                                                                 {/* <p className="childdropbtn pl-5">Web Development</p> */}
                                                                 <Link to="/mern"><p className="childdropbtn">MERN stack Development</p></Link>
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
-                                                            </div>
+                                                            </button>
                                                             <div className="childdropdown-content p-4">
                                                                 <p className="sub-heading">Full Stack</p>
                                                                 <a href="#">
@@ -247,13 +251,13 @@ const NavBar = () => {
 
                                                     <div>
                                                         <div className="childdropdown">
-                                                            <div className="flex items-center justify-between">
+                                                            <button onClick={() => setLargeToggle(false)} className="flex items-center justify-between">
                                                                 <img src="https://www.codingninjas.com/assets-landing/icons/cc-header-course-icon.svg"
                                                                     alt=""></img>
                                                                 <p className="childdropbtn pl-5">Career Camp <br /> <span className="text-gray-500 text-[14px]">An
                                                                     extensive job assistance bootcamp</span> </p>
                                                                 {/* <img src="https://www.codingninjas.com/assets-landing/icons/open-dropdown-icon.svg" alt=""></img> */}
-                                                            </div>
+                                                            </button>
                                                             <div className="childdropdown-content p-4">
                                                                 <div>
                                                                     <div className="flex items-center gap-x-4">
