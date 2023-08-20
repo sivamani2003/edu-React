@@ -6,15 +6,17 @@
 }
 
 .mcard {
-	width: 330px !important;
+	width: 330px;
 }
 
 
 
 
 
+/************************************** 
+****************************************
 
-
+------------------------------
 
 /************************************************
 <------------  MENTORS CARDS STYLES ------------>
@@ -420,20 +422,12 @@
 }
 
 
-.stepcont {
-	padding: 0 150px;
-}
 
 
-.stat {
-	width: calc(50% - 10px);
-	/* Two divs in a row with margin in between */
-	display: flex;
-	align-items: center;
-	/* padding: 80px; */
-}
 
-
+/************************************
+<----------  CARDS SHADOW ---------->
+*************************************/
 .mentorship-card-shadow {
 	box-shadow: 0 6px #00cbab;
 	background-color: #eef6f5;

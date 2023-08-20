@@ -4,8 +4,11 @@ import processImg from "../../images/processImg.png";
 
 const RoadMap = (props) => {
   return (
-    <div className="max-w-7xl mx-auto">
-      <div className="md:flex gap-x-8 md:mx-0 mx-6">
+    <div className="max-w-7xl mx-auto mt-20 md:mt-28">
+
+      <h1 className="text-center text-3xl md:text-5xl font-bold">How It <span className="text-pink">Works?</span></h1>
+
+      <div className="md:flex gap-x-8 md:mx-0 mx-6 mt-10">
 
         <div className="mb-16 md:mb-0">
           <h2 className="text-pink mb-4 md:text-2xl lg:text-3xl ">
