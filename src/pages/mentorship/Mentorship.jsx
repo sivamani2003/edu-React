@@ -15,6 +15,7 @@ import Steps from "./components/Msteps/Steps";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Overview from "./components/Overview/Overview";
+import Section from '../home/components/Section/Section'
 import FAQS from "./components/FAQ/FAQS";
 import LandingImg from "./images/landing_img.svg";
 import "./style.css";
@@ -57,7 +58,8 @@ function Mentorship() {
         MmentorImg={MmentorImg}
         LandingImg={LandingImg}
       />
-      <Overview />
+      <Overview></Overview>
+      <Section></Section>
       <div className="sm:text-center ">
         <h1 className="lg:text-left  xxs:mt-[5rem] md:mt-[10rem] xxs:ml-2 sm:ml-0 lg:ml-9 xxs:mb-[1rem] md:mb-[3rem] pb-3   font-raleway  font-bold xl:text-6xl lg:text-5xl md:text-5xl sm:text-[35px] xs:text-[27.5px]  xxs:text-[22px]">
           Getting
