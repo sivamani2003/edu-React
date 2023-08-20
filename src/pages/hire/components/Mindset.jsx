@@ -13,7 +13,7 @@ const Mindset = () => {
           </h1>
         </Bounce>
       </Reveal>
-      <Reveal triggerOnce>
+      {/* <Reveal triggerOnce>
         <Bounce>
           <p className="py-6 text-base md:text-xl text-justify">
             Our meticulous selection process seeks individuals with grit and a
@@ -24,9 +24,9 @@ const Mindset = () => {
             talented and motivated team.
           </p>
         </Bounce>
-      </Reveal>
-      <div className="mt-10 flex flex-col md:flex-row gap-6">
-        <div className="my-auto  space-y-10 w-full md:w-1/2">
+      </Reveal> */}
+      <div className=" flex flex-col md:flex-row gap-6">
+        <div className="my-auto  space-y-6 w-full md:w-1/2">
           <Reveal triggerOnce>
             <Bounce>
               <div className="flex gap-4">

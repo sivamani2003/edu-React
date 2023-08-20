@@ -25,15 +25,15 @@ const Verifying = () => {
               </h1>
             </Bounce>
           </Reveal>
-          <Reveal triggerOnce>
+          {/* <Reveal triggerOnce>
             <Bounce>
               <p className="py-6 text-base md:text-xl text-justify">
                 Eradicate dilemmas in your hiring process by verifying
                 candidates' abilities before interviews.
               </p>
             </Bounce>
-          </Reveal>
-          <div className="space-y-4">
+          </Reveal> */}
+          <div className="space-y-4 mt-6">
             <Reveal triggerOnce>
               <Bounce>
                 <div className=" flex gap-4">

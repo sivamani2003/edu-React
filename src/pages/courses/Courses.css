@@ -1,9 +1,9 @@
 .bg-animation {
-        display: relative;
+        /* display: relative; */
         background-image: url(../../assets/hero-bg.svg);
-        height: 700px;
+        /* height: 1000px; */
         background-size: cover;
-        max-height: 100vh;
+        height: 100vh;
 }
 
 .bg-animation .animate-card {
@@ -24,20 +24,20 @@
 }
 
 .bg-animation .animate-card:nth-child(1) {
-        top: 10%;
+        top: 30%;
         left: 30%;
         animation: animate 5s linear infinite;
 }
 
 .bg-animation .animate-card:nth-child(2) {
-        top: 20%;
+        top: 30%;
         left: 50%;
         animation: animate 8s linear infinite;
 }
 
 .bg-animation .animate-card:nth-child(3) {
         top: 60%;
-        left: 20%;
+        left: 50%;
         animation: animate 9s linear infinite;
 }
 
@@ -60,7 +60,7 @@
 }
 
 .bg-animation .animate-card:nth-child(7) {
-        top: 10%;
+        top: 20%;
         left: 10%;
         animation: animate 12s linear infinite;
 }
@@ -92,6 +92,7 @@
         100% {
                 transform: scale(1.2) translateY(-40px) rotate(360deg);
                 opacity: 0;
+                overflow: hidden;
         }
 }
 
@@ -114,21 +115,28 @@
         padding: 4px 16px !important;
 }
 
+.courses-img-shadow {
+        box-shadow: 0 6px #00cbab;
+        background-color: #eef6f5;
+}
+
+
+
+
 
 
 /* swiper */
 
-.swiper {
+.coursesSwiper {
         width: 100%;
         height: 300px;
+        border-radius: 15px;
 }
 
-.swiper-slide {
+.coursesSwiper .swiper-slide {
         text-align: center;
         font-size: 18px;
-        background: #fff;
-
-        /* Center slide text vertically */
+        background: white;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -137,5 +145,20 @@
 .swiper-shadow {
         position: relative;
         border-radius: 15px;
-        padding: 8px;
+        padding: 18px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 640px) {
+        .bg-animation {
+                /* display: relative; */
+                background-image: url(../../assets/hero-bg.svg);
+                /* height: 1000px; */
+                background-size: cover;
+                height: 75vh;
+        }
+
+        .coursesSwiper {
+                height: 370px;
+        }
 }
