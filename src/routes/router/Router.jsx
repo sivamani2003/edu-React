@@ -82,16 +82,6 @@ const router = createBrowserRouter([
                 path: '/hireUs',
                 element: <HireFromUs></HireFromUs>
             },
-
-
-
-
-
-            // very complex and useless code
-            // very complex and useless code
-            // very complex and useless code
-            // very complex and useless code
-            // very complex and useless code
             {
                 path: '/mentorship',
                 element: <Mentorship></Mentorship>

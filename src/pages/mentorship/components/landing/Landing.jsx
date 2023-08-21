@@ -6,7 +6,7 @@ const Landing = (props) => {
   return (
     <>
       <div className="bg-[#eef6f5]">
-        <div className="max-w-[1400px] mx-4 md:mx-auto md:flex items-center py-24">
+        <div className="max-w-[1400px] mx-4 md:mx-auto md:flex items-center md:px-10 py-24">
 
           <div className="md:w-1-2">
             <h1 className="text-3xl md:text-5xl font-bold">
