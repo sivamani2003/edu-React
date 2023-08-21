@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react';
-import './common.css'
 import { FaMinus, FaPlus } from "react-icons/fa";
 
 const FAQS = () => {
