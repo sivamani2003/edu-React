@@ -24,13 +24,13 @@ const responsive = {
 };
 export default function Mentors() {
     return (
-        <div>
+        <div className='max-w-7xl mx-auto'>
             <div className='pt-7 px-8 pb-3 xs:text-center xs:px-0'>
             <h1 className='text-xl xs:text-3xl md:text-5xl font-bold'>Every<span style={{color:'#ee4962'}} > Experience </span> Every </h1>
             <h1 className='mt-3 text-xl xs:text-3xl md:text-5xl font-bold '> <span style={{color:'#ee4962'}} >Domain 
             </span> Covered</h1>
           </div>
-            <Carousel responsive={responsive} showDots={true} arrows={false} autoPlay={true} autoPlaySpeed={2500} infinite={true} className='craw'
+            <Carousel responsive={responsive} showDots={true} arrows={false} autoPlay={true} autoPlaySpeed={2500} infinite={true} className='mentor-slide'
             >
                 <Cards name="Abhinay Chaturvedi" img="https://img.freepik.com/premium-photo/smiling-indian-software-developer_274689-36939.jpg" company="Deloite" designaton="Cyber Secuirty Expert" bio="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptates obcaecati deleniti sint aspernatur. Distinctio dicta porro molestiae dolorum. Tempore."/>
                 
