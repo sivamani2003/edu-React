@@ -57,7 +57,7 @@ const NavBar = () => {
 
                             <li onMouseOut={() => setLargeToggle(false)} onMouseOver={() => setLargeToggle(true)}>
                                 <div className="courseDropdown">
-                                    <a href="#courses" className="flex my-5 items-center gap-x-1 hover:text-[#0bb09f]">
+                                    <a href="#courses" className="font-semibold flex my-5 items-center gap-x-1 hover:text-[#0bb09f]">
                                         Courses
                                         <RiArrowDownDoubleFill></RiArrowDownDoubleFill>
                                     </a>
@@ -303,18 +303,17 @@ const NavBar = () => {
 
 
                             <li className="">
-                                <a href="#about">
+                                <Link to="/entrepreneurship">
                                     <div className="flex items-center hover:text-[#0bb09f]">
-                                        <p>Scholarship</p>
-                                        <button className="scholarshipBtn ml-[4px]">UP TO% OFF</button>
+                                        <p className='font-semibold'>Entrepreneurship</p>
                                     </div>
-                                </a>
+                                </Link>
                             </li>
 
 
                             <li className="">
                                 <div className="dropdown1">
-                                    <a href="#courses" className="inline-flex py-5 gap-x-1 gap-y-10 items-center hover:text-[#0bb09f]">
+                                    <a href="#courses" className="font-semibold inline-flex py-5 gap-x-1 gap-y-10 items-center hover:text-[#0bb09f]">
                                         Community
                                         <RiArrowDownDoubleFill></RiArrowDownDoubleFill>
                                     </a>
@@ -390,7 +389,7 @@ const NavBar = () => {
                             <li className="">
                                 <div className="practice">
                                     <div className='py-5 hover:text-[#0bb09f]'>
-                                        <a href="#blog">Practice</a>
+                                        <a className='font-semibold' href="#blog">Practice</a>
                                     </div>
                                     <div className="practice-content rounded-lg">
                                         <p className='py-2'>Writo</p>
@@ -409,7 +408,7 @@ const NavBar = () => {
                                     <div className="flex items-center gap-x-2 hover:text-[#0bb09f]">
                                         <img src="https://www.codingninjas.com/assets-landing/icons/header-cc-partner.svg" alt=""></img>
                                         {/* <p>Mentorship Program</p> */}
-                                        <Link to="mentorship"><p>Mentorship Program</p></Link>
+                                        <Link to="mentorship"><p className='font-semibold'>Mentorship Program</p></Link>
                                         <button className="mentorshipBtn">new</button>
                                     </div>
                                 </div>

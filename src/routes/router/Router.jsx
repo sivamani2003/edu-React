@@ -23,6 +23,7 @@ import HireFromUs from '../../pages/hireFromUs/HireFromUs'
 
 
 import Mentorship from "../../pages/mentorship/Mentorship";
+import Entrepreneurship from '../../pages/entrepreneurship/Entrepreneurship'
 
 const router = createBrowserRouter([
     {
@@ -94,6 +95,10 @@ const router = createBrowserRouter([
             {
                 path: '/mentorship',
                 element: <Mentorship></Mentorship>
+            },
+            {
+                path: '/entrepreneurship',
+                element: <Entrepreneurship></Entrepreneurship>
             },
         ]
     },
