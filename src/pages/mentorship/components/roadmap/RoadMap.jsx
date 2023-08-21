@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css";
 import processImg from "../../images/processImg.png";
 
 const RoadMap = (props) => {
