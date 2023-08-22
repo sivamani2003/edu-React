@@ -1,5 +1,7 @@
 import React from "react";
 import mentorshipPathImg from "../../images/mentorship-path.png";
+import HowItWorks from "./HowItWorks";
+
 export default function RoadMap() {
   return (
     <div>
@@ -11,7 +13,7 @@ export default function RoadMap() {
       </div>
 
       <div className=" lg:mt-[5rem] overflow-hidden  items-center ">
-        <RoadMap mentorshipPathImg={mentorshipPathImg} />
+        <HowItWorks mentorshipPathImg={mentorshipPathImg} />
       </div>
     </div>
   );

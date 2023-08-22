@@ -1,13 +1,13 @@
 import React from "react";
 import { useSwipeable } from "react-swipeable";
-import "./index.css";
+// import "./index.css";
 
 const HowItWorks = (props) => {
   const [offsetX, setOffsetX] = React.useState(0);
 
   const handlers = useSwipeable({
-    onSwipedLeft: () => handleSwipe(100),
-    onSwipedRight: () => handleSwipe(-100),
+    onSwipedLeft: () => handleSwipe(-100),
+    onSwipedRight: () => handleSwipe(100),
   });
 
   const handleSwipe = (deltaX) => {
