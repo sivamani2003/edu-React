@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaLinkedinIn, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 export default function cards(props) {
   return (
@@ -20,14 +21,17 @@ export default function cards(props) {
 		<div className="social-icons">
 			<a className="social-icon" href="/" target="_blank">
 				<i class="fa-brands fa-linkedin"></i>
+				<FaLinkedinIn className='z-10 text-white'></FaLinkedinIn>
 			</a>
 			
 			<a className="social-icon" href="/" target="_blank">
 				<i class="fa-brands fa-youtube"></i>
+				<FaYoutube className='z-10 text-white'></FaYoutube>
 			</a>
 			
 			<a className="social-icon" href="/" target="_blank">
 				<i class="fa-brands fa-twitter"></i>
+				<FaTwitter className='z-10 text-white'></FaTwitter>
 			</a>
 		</div>
 	</div>

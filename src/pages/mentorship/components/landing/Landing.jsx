@@ -42,9 +42,7 @@ const Landing = (props) => {
 
       <div className="mt-16 overflow-hidden">
         <div className="pt-5 lg:flex-row">
-          <p className="text-3xl md:text-5xl font-bold text-center mb-10">
-            {props.para3}
-          </p>
+          <h1 className="text-3xl md:text-5xl font-bold text-center mb-10">Our Mentees <span className="text-pink">Placed</span> At</h1>
 
           <div className="flex items-center justify-center gap-x-7 leftToRight gap-1 mb-7 ">
             <img

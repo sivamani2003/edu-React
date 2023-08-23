@@ -9,7 +9,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 const StudentReviews = () => {
   return (
     <div className='max-w-[1400px] mx-auto my-12'>
-      <h1 className='text-center font-bold text-5xl mb-12'>You too can <span className='text-red-500'>get</span> into your <span className='text-red-500'>dream company!</span></h1>
+      <h1 className='text-center font-bold text-3xl md:text-5xl mb-12'>You too can <span className='text-red-500'>get</span> into your <span className='text-red-500'>dream company!</span></h1>
       <div>
         <Swiper
           slidesPerView={1}

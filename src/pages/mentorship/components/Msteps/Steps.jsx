@@ -9,13 +9,13 @@ const Steps = () => {
           <div className="mt-7">
             <div className="pt-7 px-3 pb-7  text-center">
               <h1
-                className="text-xl md:text-5xl xs:text-3xl font-bold"
+                className="text-3xl md:text-5xl font-bold"
                 style={{ color: "#fff" }}
               >
                 Start<span style={{ color: "#ee4962" }}> Mentorship </span> today
               </h1>
               <h1
-                className="mt-3 text-xl md:text-5xl xs:text-3xl font-bold"
+                className="mt-3 text-3xl md:text-5xl font-bold"
                 style={{ color: "#fff" }}
               >
                 <span style={{ color: "#ee4962" }}>You'll</span> never{" "}

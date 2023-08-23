@@ -25,10 +25,8 @@ const responsive = {
 export default function Mentors() {
     return (
         <div className='max-w-7xl mx-auto'>
-            <div className='pt-7 px-8 pb-3 xs:text-center xs:px-0'>
-            <h1 className='text-xl xs:text-3xl md:text-5xl font-bold'>Every<span style={{color:'#ee4962'}} > Experience </span> Every </h1>
-            <h1 className='mt-3 text-xl xs:text-3xl md:text-5xl font-bold '> <span style={{color:'#ee4962'}} >Domain 
-            </span> Covered</h1>
+            <div className='pt-7 px-8 pb-3 xs:text-center xs:px-0 mb-10 mt-20'>
+            <h1 className='text-3xl md:text-5xl font-bold text-center'>Every <span className='text-pink'>Experience</span> Every <span className='text-pink'>Domain</span> Covered</h1>
           </div>
             <Carousel responsive={responsive} showDots={true} arrows={false} autoPlay={true} autoPlaySpeed={2500} infinite={true} className='mentor-slide'
             >
