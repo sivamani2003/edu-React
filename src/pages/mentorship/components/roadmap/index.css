@@ -1,0 +1,18 @@
+
+@media (max-width: 576px) {
+    .mentorship-image-container {
+      /* height: 70vh; */
+      overflow-x: scroll;
+      white-space: nowrap;
+    }
+  
+    .mentorship-image-container img {
+      max-width: 250%;
+      height: 100%;
+      transform-origin: left;
+    }
+  }
+  
+  .mentorship-image-container {
+    width: 100%;
+  }

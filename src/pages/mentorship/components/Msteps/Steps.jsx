@@ -1,106 +1,173 @@
 import React from "react";
-import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Steps = () => {
   return (
-    <div className="pb-9 bg-[#263a66]">
-      <div className="max-w-[1400px] mx-auto">
-        <div>
-          <div className="mt-7">
-            <div className="pt-7 px-3 pb-7  text-center">
-              <h1
-                className="text-xl md:text-5xl xs:text-3xl font-bold"
-                style={{ color: "#fff" }}
-              >
-                Start<span style={{ color: "#ee4962" }}> Mentorship </span> today
-              </h1>
-              <h1
-                className="mt-3 text-xl md:text-5xl xs:text-3xl font-bold"
-                style={{ color: "#fff" }}
-              >
-                <span style={{ color: "#ee4962" }}>You'll</span> never{" "}
-                <span style={{ color: "#ee4962" }}>look</span> back.
-              </h1>
+    <div className="project-section-bg pb-9  stepsbg">
+      <div>
+        <div className="mt-7">
+          <div className="pt-7 px-3 pb-7  text-center">
+            <h1
+              className="text-xl md:text-5xl xs:text-3xl font-bold"
+              style={{ color: "#fff" }}
+            >
+              Start<span style={{ color: "#ee4962" }}> Mentorship </span> today
+            </h1>
+            <h1
+              className="mt-3 text-xl md:text-5xl xs:text-3xl font-bold"
+              style={{ color: "#fff" }}
+            >
+              <span style={{ color: "#ee4962" }}>You'll</span> never{" "}
+              <span style={{ color: "#ee4962" }}>look</span> back.
+            </h1>
+          </div>
+          <div className="mt-4 grid justify-center lg:grid-cols-3 md:grid-cols-2 gap-y-5  md:gap-y-6 lg:px-9 lg:pb-8 xxs:pb-6 sm:pb-7 md:px-7">
+            <div
+              data-aos="fade-up"
+              className="card card-compact md:w-96 mx-8  min-h-[70%] md:mx-auto course-card-shadow"
+            >
+              <div className="card-body min-w-[30%] mb-6">
+                <div className="st">
+                  <div className="circle">
+                    <p>1</p>
+                  </div>
+                </div>
+                <h2 className="card-title my-2 text-2xl">Enrollment Phase</h2>
+                <p>
+                  - Application Process: Interested students apply for the
+                  program, providing their background, goals, and aspirations. -
+                  Selection: Review and select mentees based on their
+                  commitment, passion, and potential.
+                </p>
+                {/* <div>
+                  <button className="bg-transparent btnlm">
+                    Learn more
+                    <FaLongArrowAltRight className="arrowr"></FaLongArrowAltRight>{" "}
+                  </button>
+                </div> */}
+              </div>
             </div>
-
-
-
-            <div className='mt-4 grid md:grid-cols-3 gap-y-5 md:gap-y-8'>
-              <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                <div className="pl-8 pt-4">
-                  <p className="mentorship-card-circle">1</p>
-                </div>
-                <div className='card-body'>
-                  <h2 className="card-title my-2">Data Visualization</h2>
-                  <p>Use Python libraries like Matplotlib and Seaborn to create insightful data visualizations for better data understanding and communication.</p>
-                  <div>
-                    <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
+            <div
+              data-aos="fade-up"
+              className="card card-compact md:w-96 mx-8 min-h-[70%] md:mx-auto course-card-shadow"
+            >
+              <div className="card-body min-w-[30%]  xxs:mb-5">
+                <div className="st">
+                  <div className="circle">
+                    <p>2</p>
                   </div>
                 </div>
+                <h2 className="card-title my-2 text-2xl">Orientation:</h2>
+                <p>
+                  Conduct an orientation session to introduce mentors and
+                  mentees, explain program goals, expectations, and guidelines.
+                </p>
+                {/* <div className="card-actions">
+                  <button className="bg-transparent btnlm">
+                    Learn more
+                    <FaLongArrowAltRight className="arrowr"></FaLongArrowAltRight>{" "}
+                  </button>
+                </div> */}
               </div>
-              <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                <div className="pl-8 pt-4">
-                  <p className="mentorship-card-circle">2</p>
-                </div>
-                <div className='card-body'>
-                  <h2 className="card-title my-2">Machine Learning Models</h2>
-                  <p>Build predictive models using Machine Learning algorithms, leveraging libraries like Scikit-Learn to solve real-world problems.</p>
-                  <div className='card-actions'>
-                    <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
+            </div>
+            <div
+              data-aos="fade-up"
+              className="card card-compact md:w-96 min-h-[70%] mx-8 md:mx-auto course-card-shadow"
+            >
+              <div className="card-body xxs:mb-5">
+                <div className="st">
+                  <div className="circle">
+                    <p>3</p>
                   </div>
                 </div>
-              </div>
-              <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                <div className="pl-8 pt-4">
-                  <p className="mentorship-card-circle">3</p>
-                </div>
-                <div className='card-body'>
-                  <h2 className="card-title my-2">Deep Learning Applications</h2>
-                  <p>Develop advanced neural network models using TensorFlow and Keras for tasks like image recognition, natural language processing, and more.</p>
-                  <div>
-                    <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
-                  </div>
-                </div>
-              </div>
-              <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                <div className="pl-8 pt-4">
-                  <p className="mentorship-card-circle">4</p>
-                </div>
-                <div className='card-body'>
-                  <h2 className="card-title my-2">Natural Language Processing</h2>
-                  <p>Develop Python applications for processing and analyzing textual data using NLP techniques and libraries like NLTK and spaCy.</p>
-                  <div>
-                    <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
-                  </div>
-                </div>
-              </div>
-              <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                <div className="pl-8 pt-4">
-                  <p className="mentorship-card-circle">5</p>
-                </div>
-                <div className='card-body'>
-                  <h2 className="card-title my-2">Data Analysis</h2>
-                  <p>Create Python applications to perform data analysis on various datasets. Learn how to clean, process, and visualize data to gain valuable insights for decision-making.</p>
-                  <div>
-                    <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
-                  </div>
-                </div>
-              </div>
-              <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                <div className="pl-8 pt-4">
-                  <p className="mentorship-card-circle">6</p>
-                </div>
-                <div className='card-body'>
-                  <h2 className="card-title my-2">Data Cleaning</h2>
-                  <p>Build Python applications to preprocess and clean raw data, handling missing values, and outliers, to ensure data quality for analysis and modeling.</p>
-                  <div>
-                    <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
-                  </div>
+                <h2 className="card-title my-2 text-2xl">Goal Setting:</h2>
+                <p>
+                  {" "}
+                  Mentor understands your goals, current preparation level &
+                  weaknesses Mentor suggests the perfect plan, timeline &
+                  milestones for you
+                </p>
+                <div>
+                  {/* <button className="bg-transparent btnlm">
+                    Learn more
+                    <FaLongArrowAltRight className="arrowr"></FaLongArrowAltRight>{" "}
+                  </button> */}
                 </div>
               </div>
             </div>
-
-
+            <div
+              data-aos="fade-up"
+              className="card lg:pb-7 xxs:pb-4 sm:pb-5 card-compact md:w-96 min-h-[70%] mx-8 md:mx-auto course-card-shadow "
+            >
+              <div className="card-body xxs:mb-5">
+                <div className="st">
+                  <div className="circle">
+                    <p>4</p>
+                  </div>
+                </div>
+                <h2 className="card-title my-2 text-2xl">
+                  Regular Interaction:
+                </h2>
+                <p>
+                  Weekly or bi-weekly communication via phone calls, video
+                  chats, or in-person meetings, depending on availability and
+                  preferences
+                </p>
+                <div>
+                  {/* <button className="bg-transparent btnlm">
+                    Learn more
+                    <FaLongArrowAltRight className="arrowr"></FaLongArrowAltRight>{" "}
+                  </button> */}
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              className="card card-compact xxs:pb-4 sm:pb-5 md:w-96 min-h-[70%] mx-8 md:mx-auto course-card-shadow"
+            >
+              <div className="card-body"> 
+                <div className="st">
+                  <div className="circle">
+                    <p>5</p>
+                  </div>
+                </div>
+                <h2 className="card-title my-2 text-2xl">
+                  Customized Career Plan:
+                </h2>
+                <p>
+                  Mentors assist mentees in crafting a personalized career plan,
+                  including skill development, projects, certifications, and
+                  networking opportunities.
+                </p>
+                <div>
+                  {/* <button className="bg-transparent btnlm">
+                    Learn more
+                    <FaLongArrowAltRight className="arrowr"></FaLongArrowAltRight>{" "}
+                  </button> */}
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              className="card card-compact xxs:pb-4 sm:pb-5 md:w-96 mx-8 min-h-[70%] md:mx-auto course-card-shadow"
+            >
+              <div className="card-body xxs:mb-5">
+                <div className="st">
+                  <div className="circle">
+                    <p>6</p>
+                  </div>
+                </div>
+                <h2 className="card-title my-2 text-2xl">
+                  Feedback and Evaluation:
+                </h2>
+                <p>
+                  Conduct periodic evaluations to assess the effectiveness of
+                  the program and gather feedback for improvement.
+                </p>
+                {/* <div>
+                  <button className="bg-transparent btnlm">Learn more<FaLongArrowAltRight className='arrowr'></FaLongArrowAltRight> </button>
+                </div> */}
+              </div>
+            </div>
           </div>
         </div>
       </div>
