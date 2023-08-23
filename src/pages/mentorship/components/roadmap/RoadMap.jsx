@@ -1,112 +1,20 @@
 import React from "react";
-import processImg from "../../images/processImg.png";
+import mentorshipPathImg from "../../images/mentorship-path.png";
+import HowItWorks from "./HowItWorks";
 
-const RoadMap = (props) => {
+export default function RoadMap() {
   return (
-    <div className="max-w-7xl mx-auto mt-20 md:mt-28">
+    <div>
+      <div className="xxs:mt-[5rem] xxs:text-center lg:mt-[10rem] lg:ml-9">
+        <h2 className="lg:text-left xxs:ml-2 lg:ml-5 mb-[3rem] pb-3 overflow-hidden whitespace-nowrap  animate-type font-raleway   font-bold xl:text-6xl lg:text-5xl md:text-5xl sm:text-[35px] xs:text-4xl xxs:text-3xl">
+          How it
+          <span className="text-webRed pl-1">Works?</span>
+        </h2>
+      </div>
 
-      <h1 className="text-center text-3xl md:text-5xl font-bold">How It <span className="text-pink">Works?</span></h1>
-
-      <div className="md:flex gap-x-8 md:mx-0 mx-6 mt-10">
-
-        <div className="mb-16 md:mb-0">
-          <h2 className="text-pink mb-4 md:text-2xl lg:text-3xl ">
-            01
-          </h2>
-          <img
-            src={processImg}
-            alt="process icon"
-            className="w-20 h-20 md:w-24 md:h-24 road-map-shadow"
-          />
-          <h2 className="mt-8 md:mt-12 text-pink text-2xl md:text-3xl">
-            Heading
-          </h2>
-          <p className="xxs:text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
-            eveniet doloremque harum minima atque est, doloribus, exercitationem
-            itaque odio tempora quos necessitatibus.
-          </p>
-        </div>
-
-        <div className="md:mt-24 mb-16 md:mb-0">
-          <h2 className="text-pink mb-4 md:text-2xl lg:text-3xl ">
-            02
-          </h2>
-          <img
-            src={processImg}
-            alt="process icon"
-            className="w-20 h-20 md:w-24 md:h-24 road-map-shadow"
-          />
-          <h2 className="mt-8 md:mt-12 text-pink text-2xl md:text-3xl">
-            Heading
-          </h2>
-          <p className="xxs:text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
-            eveniet doloremque harum minima atque est, doloribus, exercitationem
-            itaque odio tempora quos necessitatibus.
-          </p>
-        </div>
-
-        <div className="mb-16 md:mb-0">
-          <h2 className="text-pink mb-4 md:text-2xl lg:text-3xl ">
-            03
-          </h2>
-          <img
-            src={processImg}
-            alt="process icon"
-            className="w-20 h-20 md:w-24 md:h-24 road-map-shadow"
-          />
-          <h2 className="mt-8 md:mt-12 text-pink text-2xl md:text-3xl">
-            Heading
-          </h2>
-          <p className="xxs:text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
-            eveniet doloremque harum minima atque est, doloribus, exercitationem
-            itaque odio tempora quos necessitatibus.
-          </p>
-        </div>
-
-        <div className="md:mt-24 mb-16 md:mb-0">
-          <h2 className="text-pink mb-4 md:text-2xl lg:text-3xl ">
-            04
-          </h2>
-          <img
-            src={processImg}
-            alt="process icon"
-            className="w-20 h-20 md:w-24 md:h-24 road-map-shadow"
-          />
-          <h2 className="mt-8 md:mt-12 text-pink text-2xl md:text-3xl">
-            Heading
-          </h2>
-          <p className="xxs:text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
-            eveniet doloremque harum minima atque est, doloribus, exercitationem
-            itaque odio tempora quos necessitatibus.
-          </p>
-        </div>
-
-        <div className="mb-16 md:mb-0">
-          <h2 className="text-pink mb-4 md:text-2xl lg:text-3xl ">
-            05
-          </h2>
-          <img
-            src={processImg}
-            alt="process icon"
-            className="w-20 h-20 md:w-24 md:h-24 road-map-shadow"
-          />
-          <h2 className="mt-8 md:mt-12 text-pink text-2xl md:text-3xl">
-            Heading
-          </h2>
-          <p className="xxs:text-lg">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae,
-            eveniet doloremque harum minima atque est, doloribus, exercitationem
-            itaque odio tempora quos necessitatibus.
-          </p>
-        </div>
-
+      <div className=" lg:mt-[5rem] overflow-hidden  items-center ">
+        <HowItWorks mentorshipPathImg={mentorshipPathImg} />
       </div>
     </div>
   );
-};
-
-export default RoadMap;
+}
