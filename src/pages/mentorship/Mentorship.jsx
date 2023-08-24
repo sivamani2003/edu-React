@@ -18,6 +18,7 @@ import Section from '../home/components/Section/Section'
 import FAQS from "./components/FAQ/FAQS";
 import LandingImg from "./images/landing_img.svg";
 import "./style.css";
+
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -27,6 +28,7 @@ const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
     items: 3,
+    partialVisibilityGutter: 40
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
@@ -65,11 +67,11 @@ function Mentorship() {
       <RoadMap />
 
 
-      <div className="xxs:mt-[1rem]  md:my-[5rem]   lg:mt-[10rem] lg:ml-8 mb-5 xs:ml-0 xxs:ml-3 xs:mx-4">
-        <h2 className="lg:text-left xs:ml-2 xs:text-center lg:ml-5 pb-1 overflow-hidden whitespace-nowrap font-raleway   font-bold xl:text-6xl lg:text-6xl md:text-5xl sm:text-[2rem] xs:text-[1.7rem] xxs:text-[23px]">
-          You too can <span className="text-webRed">get</span> into your
-          <span className="text-webRed ">
-            {window.innerWidth <= 1000 ? <br /> : ""} dream company!
+      <div className="xxs:mt-[1rem]  md:my-[5rem]  lg:mt-[10rem] lg:ml-8  xs:ml-0 xxs:ml-3 xs:mx-4">
+        <h2 className="lg:text-left xs:ml-2 xs:text-center lg:ml-5 md:pb-4 xxs:pb-2 overflow-hidden whitespace-nowrap font-raleway   font-bold xl:text-6xl lg:text-6xl md:text-5xl sm:text-[2rem] xs:text-[1.7rem] xxs:text-[23px]">
+          You too can <span className="text-pink">get</span> into 
+          <span className="text-pink ">
+            {window.innerWidth <= 1000 ? <br /> : ""} your dream company!
           </span>
         </h2>
       </div>
@@ -82,7 +84,9 @@ function Mentorship() {
         autoPlay={true}
         autoPlaySpeed={2500}
         infinite={true}
-        className="craw"
+        className="  overflow-hidden"
+        itemClass="carousel-item-padding-200px" 
+        partialVisible={true}
       >
         <StudentReview
           img={MmentorImg}
