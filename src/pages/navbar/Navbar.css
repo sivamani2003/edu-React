@@ -171,8 +171,21 @@
 
 .mentorshipBtn {
     padding: 0 2px 0 2px;
-    background-color: blue;
+    background-color: #ee4962;
+    border-radius: 7px;
     color: white;
+    position: relative;
+    animation: btnAnimation 2s infinite;
+}
+
+@keyframes btnAnimation{
+    
+    0%{
+        background-color: #eb0707;
+    }
+    100%{
+        background-color: #ed6579;
+    }
 }
 
 /* *

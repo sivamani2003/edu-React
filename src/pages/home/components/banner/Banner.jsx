@@ -14,8 +14,8 @@ const Banner = ({ courses }) => {
 
     return (
         <div className='banner-bg'>
-            <div className='md:flex items-center px-4 py-10 md:px-24 md:py-16 max-w-[1400px] md:mx-auto'>
-                <div className='md:w-1/2 px-10 md:px-0'>
+            <div className='md:flex px-4 py-10 md:px-12 md:py-16 max-w-[1400px] md:mx-auto'>
+                <div className='md:w-1/2 px-10 relative md:mt-10 md:px-0'>
                     <h1 className='text-5xl font-bold'>Let's gain skills with <span className='text-pink'>leadership</span> opportunities</h1>
                     <p className='text-lg mt-8'>it's a transformative journey that equips college students with essential skills through immersive hands-on work experiences, dynamic leadership opportunities, and personalized mentorship.</p>
                     <a href="#findCourse">

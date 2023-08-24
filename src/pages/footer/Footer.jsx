@@ -116,7 +116,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-x-2">
                 <FaPhoneAlt className="text-4xl p-2 bg-[#1ab79d] rounded-xl text-white"></FaPhoneAlt>
-                <a href="tel:9518889372" className="link link-hover">+9518889372</a>
+                <a href="tel:9518889372" className="link link-hover">+91 9518889372</a>
               </div>
               <div className="flex text-4xl gap-x-4 relative mt-4">
                 <FaFacebookF className="bg-[#1ab79d] cursor-pointer p-2 rounded-xl text-white hover:bg-white hover:duration-700"></FaFacebookF>
