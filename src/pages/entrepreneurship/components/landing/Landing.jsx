@@ -2,7 +2,7 @@ import React from "react";
 import "./Landing.css";
 
 const Landing = (props) => {
-  console.log(props.button)
+  
   return (
     <>
       <div className="bg-[#eef6f5]">

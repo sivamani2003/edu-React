@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLongArrowAltRight } from "react-icons/fa";
+// import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Steps = () => {
   return (
@@ -24,80 +24,87 @@ const Steps = () => {
             </div>
 
 
-
-            <div className='mt-4 grid md:grid-cols-3 gap-y-5 md:gap-y-8'>
-              <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                <div className="pl-8 pt-4">
+            <div className='mt-4 grid justify-center lg:grid-cols-3 md:grid-cols-2 gap-y-5 
+             md:gap-y-24 lg:px-24 lg:pb-12 xxs:pb-6 pb-12 px-7'>
+              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+                <div className="pl-4 pt-2">
                   <p className="mentorship-card-circle">1</p>
                 </div>
                 <div className='card-body'>
-                  <h2 className="card-title my-2">Data Visualization</h2>
-                  <p>Use Python libraries like Matplotlib and Seaborn to create insightful data visualizations for better data understanding and communication.</p>
-                  <div>
-                    <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
-                  </div>
+                  <h2 className="card-title my-2 text-2xl">Internship Phase</h2>
+                  <p className="text-base">Begin as an intern, working on practical projects and building
+                  foundational skills.</p>
+                  
                 </div>
               </div>
-              <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                <div className="pl-8 pt-4">
+              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+                <div className="pl-4 pt-2">
                   <p className="mentorship-card-circle">2</p>
                 </div>
                 <div className='card-body'>
-                  <h2 className="card-title my-2">Machine Learning Models</h2>
-                  <p>Build predictive models using Machine Learning algorithms, leveraging libraries like Scikit-Learn to solve real-world problems.</p>
-                  <div className='card-actions'>
-                    <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
-                  </div>
+                  <h2 className="card-title my-2 text-2xl">Junior Team Leader</h2>
+                  <p className="text-base">Progress to leading a small team, refining leadership
+                  capabilities and project management skills.</p>
+                  
                 </div>
               </div>
-              <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                <div className="pl-8 pt-4">
+              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+                <div className="pl-4 pt-2">
                   <p className="mentorship-card-circle">3</p>
                 </div>
                 <div className='card-body'>
-                  <h2 className="card-title my-2">Deep Learning Applications</h2>
-                  <p>Develop advanced neural network models using TensorFlow and Keras for tasks like image recognition, natural language processing, and more.</p>
-                  <div>
-                    <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
-                  </div>
+                  <h2 className="card-title my-2 text-2xl">Team Leader</h2>
+                  <p className="text-base">Oversee larger teams, collaborate on diverse projects, and
+                  enhance your decision-making prowess.</p>
+                  
                 </div>
               </div>
-              <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                <div className="pl-8 pt-4">
+              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+                <div className="pl-4 pt-2">
                   <p className="mentorship-card-circle">4</p>
                 </div>
                 <div className='card-body'>
-                  <h2 className="card-title my-2">Natural Language Processing</h2>
-                  <p>Develop Python applications for processing and analyzing textual data using NLP techniques and libraries like NLTK and spaCy.</p>
-                  <div>
-                    <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
-                  </div>
+                  <h2 className="card-title my-2 text-2xl">Project Manager</h2>
+                  <p className="text-base">Manage multiple teams and projects, honing strategic thinking
+                  and execution skills.</p>
+                  
                 </div>
               </div>
-              <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                <div className="pl-8 pt-4">
+              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+                <div className="pl-4 pt-2">
                   <p className="mentorship-card-circle">5</p>
                 </div>
                 <div className='card-body'>
-                  <h2 className="card-title my-2">Data Analysis</h2>
-                  <p>Create Python applications to perform data analysis on various datasets. Learn how to clean, process, and visualize data to gain valuable insights for decision-making.</p>
-                  <div>
-                    <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
-                  </div>
+                  <h2 className="card-title my-2 text-2xl">Senior Project Manager</h2>
+                  <p className="text-base">Lead high-profile projects, mentor fellow managers, and
+                  contribute to program development.</p>
+                  
                 </div>
               </div>
-              <div data-aos="fade-up" className="card card-compact md:w-96 mx-8 md:mx-auto course-card-shadow">
-                <div className="pl-8 pt-4">
+              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+                <div className="pl-4 pt-2">
                   <p className="mentorship-card-circle">6</p>
                 </div>
                 <div className='card-body'>
-                  <h2 className="card-title my-2">Data Cleaning</h2>
-                  <p>Build Python applications to preprocess and clean raw data, handling missing values, and outliers, to ensure data quality for analysis and modeling.</p>
-                  <div>
-                    <button className="allBtn bg-transparent text-black">Learn more<FaLongArrowAltRight></FaLongArrowAltRight> </button>
-                  </div>
+                  <h2 className="card-title my-2 text-2xl"> Program Coordinator</h2>
+                  <p className="text-base">Collaborate with organizers, ensuring program excellence and
+                  growth, and serving as a link between participants and
+                  stakeholders..</p>
+                  
                 </div>
               </div>
+              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+                <div className="pl-4 pt-2">
+                  <p className="mentorship-card-circle">7</p>
+                </div>
+                <div className='card-body'>
+                  <h2 className="card-title my-2 text-2xl">Program Director</h2>
+                  <p className="text-base">Reach the pinnacle, guiding the program's direction and
+                  mentoring all participants.</p>
+                  
+                </div>
+              </div>
+              
             </div>
 
 
