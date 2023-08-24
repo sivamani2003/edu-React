@@ -5,7 +5,7 @@ const StudentReview = (props) => {
   const { video } = props;
   return (
     <>
-      <div className=" mentorship-card-shadow overflow-hidden md:ml-5 lg:ml-8 px-10  p-2  min-w-[33%] min-h-[99%] md:w-[97%]   rounded-[30px] lg:w-[95%] lg:h-[98%] ">
+      <div className=" mentorship-card-shadow overflow-hidden md:ml-5 lg:ml-8 px-10  p-2  min-w-[33%] min-h-[99%] md:w-[95%]   rounded-[30px] lg:w-[95%] lg:h-[98%] ">
         <div className="flex items-center">
           <img src={props.img} alt="mentor img" className="sm:w-5 sm:h-5 md:w-11 md:h-11 mt-5 ml-5" />
           <div className=" md:ml-5 ">
