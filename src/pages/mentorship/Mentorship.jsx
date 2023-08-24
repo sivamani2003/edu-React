@@ -41,7 +41,7 @@ const responsive = {
 };
 function Mentorship() {
   return (
-    <div className="w-min-{370px}">
+    <div className="">
       <Landing
         heading1="Your Success,"
         heading2="Our Focus:"
@@ -84,9 +84,9 @@ function Mentorship() {
         autoPlay={true}
         autoPlaySpeed={2500}
         infinite={true}
-        className="  overflow-hidden"
-        itemClass="carousel-item-padding-200px" 
-        partialVisible={true}
+        className=" "
+      
+        
       >
         <StudentReview
           img={MmentorImg}
