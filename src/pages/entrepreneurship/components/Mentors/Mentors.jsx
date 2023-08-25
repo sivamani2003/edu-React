@@ -30,7 +30,7 @@ export default function Mentors() {
             <h1 className='mt-3 pb-8 text-xl xs:text-3xl md:text-5xl font-bold text-center '> <span style={{color:'#ee4962'}} >Domain 
             </span> Covered</h1>
           </div>
-            <Carousel responsive={responsive} showDots={true} arrows={false} autoPlay={true} autoPlaySpeed={2500} infinite={true} className='mentor-slide '
+            <Carousel responsive={responsive} showDots={false} arrows={false} autoPlay={true} autoPlaySpeed={2500} infinite={true} className='mentor-slide ml-[30px] '
             >
                 <Cards name="Abhinay Chaturvedi" img="https://img.freepik.com/premium-photo/smiling-indian-software-developer_274689-36939.jpg" company="Deloite" designaton="Cyber Secuirty Expert" bio="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias voluptates obcaecati deleniti sint aspernatur. Distinctio dicta porro molestiae dolorum. Tempore."/>
                 

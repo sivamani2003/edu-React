@@ -1,11 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
 .all {
 	margin: 0;
-	display: grid;
+	display: flex;
 	place-items: center;
 	font-family: 'Raleway', sans-serif;
 }
@@ -30,6 +25,7 @@
 
 .craw .react-multi-carousel-item {
 	margin: 0 20px;
+	
 }
 
 /* .mentor-slide {} */

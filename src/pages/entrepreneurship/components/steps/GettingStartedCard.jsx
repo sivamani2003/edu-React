@@ -4,12 +4,12 @@ import "../../Entrepreneurship.css"
 
 const GettingStartedCard = (props) => {
   return (
-    <div className="flex mb-[2rem] mt-10 mb-[5rem] font-raleway 
-    relative flex-col mx-2 pt-10 pb-60 px-5 bg-opacity-10 shadow-3xl hover:shadow-4xl 
-    hover:bg-opacity-10 rounded-[30px] min-w-[32%] h-96 bg-webGreen my-[1rem]">
+    <div className="flex   mb-[0rem] mt-10 lg:mb-[1rem] font-raleway 
+    relative flex-col lg:mx-2 mx-8  pt-10 pb-60 px-5 bg-opacity-10 shadow-3xl hover:shadow-[0_5px_5px_0px_#1ab79d]
+    hover:bg-opacity-10 rounded-[30px] min-w-[32%] h-96 bg-[#1ab79d] my-[1rem] ">
       
       
-      <h3 className="border-hidden rounded-[100px] mb-10 bg-webGreen bg-opacity-70
+      <h3 className="border-hidden rounded-[100px] mb-10 bg-[#1ab79d] bg-opacity-70
        text-3xl text-white font-semibold w-[60px] h-[60px] flex justify-center items-center
         p-3  ">
         {props.number}
@@ -26,7 +26,7 @@ const GettingStartedCard = (props) => {
     padding: '10px',
   }}
 >
-  <FaLongArrowAltRight size={50} color="green" />
+  <FaLongArrowAltRight size={50} color="#1ab79d" />
 </div>
     </div>
   );

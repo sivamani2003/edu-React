@@ -25,8 +25,8 @@ const Steps = () => {
 
 
             <div className='mt-4 grid justify-center lg:grid-cols-3 md:grid-cols-2 gap-y-5 
-             md:gap-y-24 lg:px-24 lg:pb-12 xxs:pb-6 pb-12 px-7'>
-              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+             md:gap-y-24 lg:px-24 lg:pb-12 xxs:pb-12 pb-12 px-7'>
+              <div data-aos="fade-up" className="card card-compact w-9/12 md:h-64 mx-8 mx-auto course-card-shadow">
                 <div className="pl-4 pt-2">
                   <p className="mentorship-card-circle">1</p>
                 </div>
@@ -37,7 +37,7 @@ const Steps = () => {
                   
                 </div>
               </div>
-              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+              <div data-aos="fade-up" className="card card-compact w-9/12 md:h-64 mx-8 mx-auto course-card-shadow">
                 <div className="pl-4 pt-2">
                   <p className="mentorship-card-circle">2</p>
                 </div>
@@ -48,7 +48,7 @@ const Steps = () => {
                   
                 </div>
               </div>
-              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+              <div data-aos="fade-up" className="card card-compact w-9/12 md:h-64 mx-8 mx-auto course-card-shadow">
                 <div className="pl-4 pt-2">
                   <p className="mentorship-card-circle">3</p>
                 </div>
@@ -59,7 +59,7 @@ const Steps = () => {
                   
                 </div>
               </div>
-              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+              <div data-aos="fade-up" className="card card-compact w-9/12 md:h-64 mx-8 mx-auto course-card-shadow">
                 <div className="pl-4 pt-2">
                   <p className="mentorship-card-circle">4</p>
                 </div>
@@ -70,7 +70,7 @@ const Steps = () => {
                   
                 </div>
               </div>
-              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+              <div data-aos="fade-up" className="card card-compact w-9/12 md:h-64 mx-8 mx-auto course-card-shadow">
                 <div className="pl-4 pt-2">
                   <p className="mentorship-card-circle">5</p>
                 </div>
@@ -81,7 +81,7 @@ const Steps = () => {
                   
                 </div>
               </div>
-              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+              <div data-aos="fade-up" className="card card-compact w-9/12 md:h-64 mx-8 mx-auto course-card-shadow">
                 <div className="pl-4 pt-2">
                   <p className="mentorship-card-circle">6</p>
                 </div>
@@ -93,7 +93,7 @@ const Steps = () => {
                   
                 </div>
               </div>
-              <div data-aos="fade-up" className="card card-compact w-9/12 h-64 mx-8 mx-auto course-card-shadow">
+              <div data-aos="fade-up" className="card card-compact w-9/12 md:h-64 mx-8 mx-auto course-card-shadow">
                 <div className="pl-4 pt-2">
                   <p className="mentorship-card-circle">7</p>
                 </div>

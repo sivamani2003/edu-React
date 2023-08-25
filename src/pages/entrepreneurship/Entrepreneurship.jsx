@@ -65,10 +65,10 @@ function Mentorship() {
       <RoadMap />
 
 
-      <div className="xxs:mt-[1rem]  md:my-[5rem]   lg:mt-[10rem] lg:ml-8 mb-5 xs:ml-0 xxs:ml-3 xs:mx-4">
-        <h2 className="lg:text-left xs:ml-2 xs:text-center lg:ml-5 pb-1 overflow-hidden whitespace-nowrap font-raleway   font-bold xl:text-6xl lg:text-6xl md:text-5xl sm:text-[2rem] xs:text-[1.7rem] xxs:text-[23px]">
-          You too can <span className="text-webRed">get</span> into your
-          <span className="text-webRed ">
+      <div className="text-center xxs:mt-[1rem]  md:my-[5rem]   lg:mt-[10rem] lg:ml-8 mb-5 xs:ml-0 xxs:ml-3 xs:mx-4">
+        <h2 className="lg:text-center xs:ml-2 xs:text-center lg:ml-5 md:pb-8 pt-8 md:pt-4 overflow-hidden whitespace-nowrap font-raleway   font-bold xl:text-6xl lg:text-6xl md:text-5xl text-[1.5rem] xs:text-[1.7rem] xxs:text-[23px]">
+          You too can <span className="text-[#ee4962]">get</span> into your
+          <span className="text-[#ee4962]  ">
             {window.innerWidth <= 1000 ? <br /> : ""} dream company!
           </span>
         </h2>
@@ -78,7 +78,7 @@ function Mentorship() {
       <Carousel
         responsive={responsive}
         arrows={false}
-        showDots={true}
+        showDots={false}
         autoPlay={true}
         autoPlaySpeed={2500}
         infinite={true}

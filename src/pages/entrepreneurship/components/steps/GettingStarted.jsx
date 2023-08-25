@@ -9,7 +9,7 @@ const GettingStarted = () => {
       <h1 className="text-center text-3xl md:text-5xl font-bold">Getting <span className="text-pink">Started</span> It's <span className="text-pink">Easy</span></h1>
       
       
-      <div className="flex xxs:flex-col lg:flex-row xxs:mx-2 md:mx-8 lg:mx-9">
+      <div className="grid lg:grid-cols-3 xxs:mb-0 xxs:mx-8 md:mx-8 lg:mx-9">
         <GettingStartedCard
         display="flex"
           heading="Getting started is easy!"
