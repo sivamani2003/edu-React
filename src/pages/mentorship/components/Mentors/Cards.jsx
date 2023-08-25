@@ -19,15 +19,15 @@ export default function cards(props) {
 		
 		<div className="social-icons">
 			<a className="social-icon" href="/" target="_blank">
-				<i class="fa-brands fa-linkedin"></i>
+				<i className="fa-brands fa-linkedin"></i>
 			</a>
 			
 			<a className="social-icon" href="/" target="_blank">
-				<i class="fa-brands fa-youtube"></i>
+				<i className="fa-brands fa-youtube"></i>
 			</a>
 			
 			<a className="social-icon" href="/" target="_blank">
-				<i class="fa-brands fa-twitter"></i>
+				<i className="fa-brands fa-twitter"></i>
 			</a>
 		</div>
 	</div>

@@ -1,38 +1,134 @@
-import React from "react";
-import '../../style.css'
+import { Swiper, SwiperSlide } from 'swiper/react';
+import './studentReview.css'
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import 'swiper/css/autoplay';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
-const StudentReview = (props) => {
-  const { video } = props;
+const StudentReview = () => {
+  
   return (
     <>
-      <div className=" mentorship-card-shadow overflow-hidden md:ml-5 lg:ml-8 px-10  p-2  min-w-[33%] min-h-[99%] md:w-[95%]   rounded-[30px] lg:w-[95%] lg:h-[98%] ">
-        <div className="flex items-center">
-          <img src={props.img} alt="mentor img" className="sm:w-5 sm:h-5 md:w-11 md:h-11 mt-5 ml-5" />
-          <div className=" md:ml-5 ">
-            <p className="pt-5  sm:text-2xl xxs:text-xl">{props.name}</p>
-            <p className=" m text-webRed sm:text-2xl xxs:text-lg font-semibold text-left">
-              {props.companyname}
-            </p>
-          </div>
-        </div>
+      <div className='max-w-[1400px] mx-auto my-12'>
+      <h1 className='text-center font-bold text-5xl mb-12'>You too can <span className='text-red-500'>get</span> into your <span className='text-red-500'>dream company!</span></h1>
+      <div>
+        <Swiper
+          autoplay={{delay:3000}}
+          slidesPerView={1}
+          spaceBetween={30}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Pagination, Navigation, Autoplay]}
+          className="studentReviewSwiper"
+          breakpoints={{
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            700:{
+              slidesPerView : 2 ,
+              spaceBetween:5
+            }
+          }}
+        >
+          <SwiperSlide>
+            <div className="card h-full news-blogs-card-shadow">
 
-        <p className="text-base text-justify tracking-wide md:mx-5 lg:mx-3 pt-5">
-          {props.para}
-        </p>
-        <div className="card-body flex justify-center min-h-[50%] min-w-[30%] items-center">
-          {video ? (
-            <iframe
-              className=" sm:w-[300px] sm:h-[350px] min-w-[200px] min-h-[30%]  md:w-[300px] md:h-[250px] lg:w-[280px] lg:h-[200px] rounded-3xl border-solid border-[#1ab79d]"
-              src={video}
-              title="YouTube Video"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
-          ) : (
-            <p></p>
-          )}
-        </div>
+              <div className='flex items-center mt-6'>
+                <img className='h-8 w-8 ms-8' src="https://i.ibb.co/H2RFxjb/Mmentor-Img-removebg-preview.png" />
+                <h3 className='ms-8 text-2xl'>Sujit Kumar</h3>
+              </div>
+              <p className='mx-7 mt-4 text-left'>Harsh used to continuously keep a check on me. If I am doing well mentally. If I am executing my tasks. If I am on the right track</p>
+
+              <div className="card-body">
+                <iframe
+                  className="w-full h-[200px] rounded-3xl border-solid border-[#1ab79d]"
+                  src='https://www.youtube-nocookie.com/embed/J-vJMlJHpGU?rel=0&controls=1&autoplay=1&mute=1&start=0'
+                  title="YouTube Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="card news-blogs-card-shadow">
+
+              <div className='flex items-center mt-6'>
+                <img className='h-8 w-8 ms-8' src="https://i.ibb.co/H2RFxjb/Mmentor-Img-removebg-preview.png" />
+                <h3 className='ms-8 text-2xl'>Kaushik Mukherjee</h3>
+              </div>
+              <p className='mx-7 mt-4 text-left'>Thank you Sushrut for supporting me like a big brother, and helping me improve constantly. If I am on the right track</p>
+
+              <div className="card-body">
+                <iframe
+                  className="w-full h-[200px] rounded-3xl border-solid border-[#1ab79d]"
+                  src='https://www.youtube-nocookie.com/embed/BOvo-VwQ4y8?rel=0&controls=1&autoplay=1&mute=1&start=0'
+                  title="YouTube Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="card news-blogs-card-shadow">
+
+              <div className='flex items-center mt-6'>
+                <img className='h-8 w-8 ms-8' src="https://i.ibb.co/H2RFxjb/Mmentor-Img-removebg-preview.png" />
+                <h3 className='ms-8 text-2xl'>Aditya Vardhan</h3>
+              </div>
+              <p className='mx-7 mt-4 text-left'>The Long Term Mentorship program was great. I am very pleased to have Sandeep as my mentor. His advice is very to the point.</p>
+
+              <div className="card-body">
+                <iframe
+                  className="w-full h-[200px] rounded-3xl border-solid border-[#1ab79d]"
+                  src='https://www.youtube-nocookie.com/embed/-Otv_sYGlak?rel=0&controls=1&autoplay=1&mute=1&start=0'
+                  title="YouTube Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="card news-blogs-card-shadow">
+
+              <div className='flex items-center mt-6'>
+                <img className='h-8 w-8 ms-8' src="https://i.ibb.co/H2RFxjb/Mmentor-Img-removebg-preview.png" />
+                <h3 className='ms-8 text-2xl'>Lokesh</h3>
+              </div>
+              <p className='mx-7 mt-4 text-left'>Mentors at writo are amazing. They keep track of your progress through each round. Nimesh constantly advises new methods</p>
+
+              <div className="card-body">
+                <iframe
+                  className="w-full h-[200px] rounded-3xl border-solid border-[#1ab79d]"
+                  src='https://www.youtube-nocookie.com/embed/J-vJMlJHpGU?rel=0&controls=1&autoplay=1&mute=1&start=0'
+                  title="YouTube Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          </SwiperSlide>
+
+        </Swiper>
       </div>
+    </div>
+  
+
+
+
+
+
+
+
+    
+
+
       </>
   );
 };
