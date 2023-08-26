@@ -30,7 +30,6 @@ const NavBar = () => {
                                     </button>
                                 </div>
                                 <div>
-                                    <li><a>Scholarship</a></li>
                                     <li><a>Community</a></li>
                                     <li>
                                         <a>Courses</a>
@@ -40,8 +39,10 @@ const NavBar = () => {
                                             <li onClick={() => setToggle(!toggle)}><NavLink to="/analytics" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Analytics and data science</NavLink></li>
                                             <li onClick={() => setToggle(!toggle)}><NavLink to="/mern" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>MERN stack Development</NavLink></li>
                                             <li onClick={() => setToggle(!toggle)}><NavLink to="/dsa" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Data structures and algorithms</NavLink></li>
+                                            <li onClick={() => setToggle(!toggle)}><NavLink to="/machineLearning" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Machine Learning</NavLink></li>
                                         </ul></li>
                                     <li onClick={() => setToggle(!toggle)}><NavLink to="/mentorship" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Mentorship</NavLink></li>
+                                    <li onClick={() => setToggle(!toggle)}><NavLink to="/entrepreneurship" className={({ isActive }) => (isActive ? 'bg-[#1ab79d]' : '')}>Entrepreneurship</NavLink></li>
                                 </div>
                             </div>
                         </ul>
