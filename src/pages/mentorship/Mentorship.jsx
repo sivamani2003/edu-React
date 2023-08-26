@@ -67,7 +67,7 @@ function Mentorship() {
 
       {/*       
       <div className=" md:inline-grid md:gap-2 md:grid-row-2 md:grid-flow-col-5 lg:inline-grid mb-8 lg:gap-4 lg:grid-cols-2 lg:grid-rows-2  xxs:flex xxs:flex-col"> */}
-      {/* <Carousel
+      <Carousel
         responsive={responsive}
         arrows={false}
         showDots={true}
@@ -107,8 +107,8 @@ function Mentorship() {
           para="Mentors at writo are amazing. They keep track of your progress through each round. Nimesh constantly advises new methods and adds to your knowledge. During the mock interview, he is quite professional and takes notes of my performance. I'm highly satisfied with Nimesh's technique of interviewing and his detailed feedback."
           video=""
         />
-      </Carousel> */}
-      <StudentReviews></StudentReviews>
+      </Carousel>
+      {/* <StudentReviews></StudentReviews> */}
 
       <Steps />
       <Mentors />
