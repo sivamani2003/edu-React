@@ -1,7 +1,8 @@
 .banner-bg {
-    background-image: url(.././../../../assets/home/hero-bg.svg);
+    /* background-image: url(.././../../../assets/home/hero-bg.svg); */
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #eef6f5;
 }
 
 .home-banner-right {
