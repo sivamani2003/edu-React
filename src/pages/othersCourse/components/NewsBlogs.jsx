@@ -34,7 +34,7 @@ const NewsBlogs = () => {
                             <img src="https://contentstatic.techgig.com/photo/77313069/top-20-programming-languages-used-for-web-development.jpg?119426" />
                         </figure>
                         <div className='relative'>
-                            <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-red-500 absolute bottom-0 flex items-center justify-center gap-x-4'>
+                            <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-[#1ab79d] absolute bottom-0 flex items-center justify-center gap-x-4'>
                                 <FaFolder size={30}></FaFolder>
                                 <p>Web Development</p>
                             </div>
@@ -67,7 +67,7 @@ const NewsBlogs = () => {
                             <img src="https://www.freecodecamp.org/news/content/images/2022/08/A6125B75-DB79-4448-94C9-E6ABD3E0E3E9.jpeg" />
                         </figure>
                         <div className='relative'>
-                            <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-red-500 absolute bottom-0 flex items-center justify-center gap-x-4'>
+                            <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-[#1ab79d] absolute bottom-0 flex items-center justify-center gap-x-4'>
                                 <FaFolder size={30}></FaFolder>
                                 <p>Machine Learning</p>
                             </div>
@@ -100,7 +100,7 @@ const NewsBlogs = () => {
                             <img src="https://d1y8sb8igg2f8e.cloudfront.net/images/Internship_Inequity.2e16d0ba.fill-1200x630.jpg" />
                         </figure>
                         <div className='relative'>
-                            <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-red-500 absolute bottom-0 flex items-center justify-center gap-x-4'>
+                            <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-[#1ab79d] absolute bottom-0 flex items-center justify-center gap-x-4'>
                                 <FaFolder size={30}></FaFolder>
                                 <p>Python</p>
                             </div>
@@ -134,7 +134,7 @@ const NewsBlogs = () => {
                             <img src="https://blog.coursify.me/wp-content/uploads/2014/12/e-learning-platform-coursifyme.jpg" />
                         </figure>
                         <div className='relative'>
-                            <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-red-500 absolute bottom-0 flex items-center justify-center gap-x-4'>
+                            <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-[#1ab79d] absolute bottom-0 flex items-center justify-center gap-x-4'>
                                 <FaFolder size={30}></FaFolder>
                                 <p>Data structure</p>
                             </div>
@@ -168,7 +168,7 @@ const NewsBlogs = () => {
                             <img src="https://erticonetwork.com/wp-content/uploads/2017/12/Fotolia_113148748_L-1280x640.jpg" />
                         </figure>
                         <div className='relative'>
-                            <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-red-500 absolute bottom-0 flex items-center justify-center gap-x-4'>
+                            <div className='w-full p-2 rounded-t-[20px] text-white font-bold bg-[#1ab79d] absolute bottom-0 flex items-center justify-center gap-x-4'>
                                 <FaFolder size={30}></FaFolder>
                                 <p>Mern stack</p>
                             </div>
