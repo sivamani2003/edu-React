@@ -54,7 +54,7 @@ const FAQS = () => {
         const minus = <>
                 <FaMinus></FaMinus></>
         return (
-                <div>
+                <div className='mt-20 md:pb-20'>
                         <div>
                                 <h1 className='text-xl md:text-5xl xs:text-2xl  text-blue font-bold flex justify-center mb-6 mt-8'>Frequently Asked <span className='text-pink ml-2 xs:ml-1'>Questions</span></h1>
                         </div>
